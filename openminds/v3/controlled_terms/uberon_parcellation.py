@@ -119,6 +119,84 @@ class UBERONParcellation(LinkedMetadata):
         return cls._instance_lookup[name]
 
 
+UBERONParcellation.a10_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A10DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036005)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036005#a10-dopaminergic-cell-group"),
+    name="A10 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036005"),
+)
+UBERONParcellation.a11_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A11DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036006)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036006#a11-dopaminergic-cell-group"),
+    name="A11 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036006"),
+)
+UBERONParcellation.a12_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A12DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036009)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036009#a12-dopaminergic-cell-group"),
+    name="A12 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036009"),
+)
+UBERONParcellation.a13_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A13DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. Is part of the zona incerta. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036007) ('is_a' and 'relationship')]",
+    description="A group of cells that fluoresce for dopamine and are distributed in clusters that, in the primate, are ventral and medial to the mammillothalamic tract of the hypothalamus; a few extend into the reuniens nucleus of the thalamus (Felten-1983). In the mouse A13 is located ventral to the mammillothalamic tract of the thalamus in the zona incerta (adapted from Brain Info) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036007)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036007#a13-dopaminergic-cell-group"),
+    name="A13 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036007"),
+)
+UBERONParcellation.a14_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A14DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036001)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036001#a14-dopaminergic-cell-group"),
+    name="A14 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036001"),
+)
+UBERONParcellation.a15_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A15DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036002)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036002#a15-dopaminergic-cell-group"),
+    name="A15 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036002"),
+)
+UBERONParcellation.a16_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A16DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036008)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036008#a16-dopaminergic-cell-group"),
+    name="A16 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036008"),
+)
+UBERONParcellation.a17_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A17DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036004)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036004#a17-dopaminergic-cell-group"),
+    name="A17 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036004"),
+)
+UBERONParcellation.a8_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A8DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036000)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036000#a8-dopaminergic-cell-group"),
+    name="A8 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036000"),
+)
+UBERONParcellation.a9_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/A9DopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036003)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036003#a9-dopaminergic-cell-group"),
+    name="A9 dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036003"),
+)
+UBERONParcellation.aaq_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/AaqDopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036010)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036010#aaq-dopaminergic-cell-group"),
+    name="Aaq dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036010"),
+)
 UBERONParcellation.abducens_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/abducensNucleus",
     definition="'Abducens nucleus' is a cranial nerve nucleus, brainstem nucleus and hindbrain nucleus. It is part of the pons.",
@@ -15096,6 +15174,13 @@ UBERONParcellation.tela_choroidea_of_third_ventricle = UBERONParcellation(
         "tela choroidea third ventricle",
         "tela choroidea ventriculi tertii",
     ],
+)
+UBERONParcellation.telencephalic_dopaminergic_cell_group = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/telencephalicDopaminergicCellGroup",
+    definition="Is a dopaminergic cell groups. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0036011)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0036011#telencephalic-dopaminergic-cell-group"),
+    name="telencephalic dopaminergic cell group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036011"),
 )
 UBERONParcellation.telencephalic_tracts = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/telencephalicTracts",
