@@ -133,8 +133,10 @@ SoftwareFeature.augmented_reality = SoftwareFeature(
 )
 SoftwareFeature.commandline_interface = SoftwareFeature(
     id="https://openminds.om-i.org/instances/softwareFeature/commandlineInterface",
+    definition="A text-based system that enables users to interact with a computer or software by entering commands, allowing them to perform specific tasks or operations.",
     name="commandline interface",
     preferred_ontology_identifier=IRI("https://www.wikidata.org/wiki/Q189053"),
+    synonyms=["CLI"],
 )
 SoftwareFeature.control = SoftwareFeature(
     id="https://openminds.om-i.org/instances/softwareFeature/control",
