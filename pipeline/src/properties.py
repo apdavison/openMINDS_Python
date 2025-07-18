@@ -113,7 +113,10 @@ class Property:
                 if not isinstance(value, (list, tuple)):
                     value = [value]
                 for item in value:
-                    if not isinstance(item, self.types):
+                    if not (
+                        isinstance(item, self.types)
+                        or (isinstance(item, Link) and item.allowed_types == self.types)
+                    ):
                         if "type" not in ignore:
                             failures["type"].append(
                                 f"{self.name}: Expected {', '.join(t.__name__ for t in self.types)}, "
@@ -145,7 +148,10 @@ class Property:
                     failures["multiplicity"].append(
                         f"{self.name} does not accept multiple values, but contains {len(value)}"
                     )
-            elif not isinstance(value, self.types):
+            elif not (
+                isinstance(value, self.types)
+                or (isinstance(value, Link) and value.allowed_types == self.types)
+            ):
                 if "type" not in ignore:
                     failures["type"].append(
                         f"{self.name}: Expected {', '.join(t.__name__ for t in self.types)}, "
@@ -163,7 +169,6 @@ class Property:
         Args:
             data: the JSON-LD data
         """
-
         # todo: check data type
         def deserialize_item(item):
             if self.types == (str,):
@@ -190,7 +195,7 @@ class Property:
                         if cls.type_ == item["@type"]:
                             return cls.from_jsonld(item)
                 else:
-                    return Link(item["@id"])
+                    return Link(item["@id"], allowed_types=self.types)
             else:
                 raise NotImplementedError()
 
