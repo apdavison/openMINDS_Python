@@ -21,7 +21,7 @@ def register_class(target_class: Registry):
     """Add a class to the registry"""
     if hasattr(target_class, "schema_version"):
         version = target_class.schema_version.split(".")[0]  # e.g. 'v3' or 'latest'
-        if "openminds" in target_class.__module__:
+        if target_class.__module__.startswith("openminds"):
             parts = target_class.__module__.split(".")
             name = ".".join(parts[0:3] + [target_class.__name__])  # e.g. openminds.latest.core.Dataset
             # taking the first 3 parts is artbitrary, should add an attribute to each class
@@ -86,6 +86,8 @@ class Registry(type):
 
     def _get_doc(cls) -> str:
         """Dynamically generate docstrings"""
+        # todo: consider generating the docstring in the build pipeline,
+        #       avoiding all this run-time messing about
         field_docs = []
         if hasattr(cls, "properties"):
 
