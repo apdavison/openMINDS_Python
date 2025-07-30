@@ -10,7 +10,7 @@ from numbers import Real
 from typing import Optional, Union, Iterable
 
 from .registry import lookup
-from .base import Node, IRI, Link, Node
+from .base import Node, IRI, Link
 
 
 class Property:
@@ -88,6 +88,10 @@ class Property:
             self._types = tuple([lookup(obj) if isinstance(obj, str) else obj for obj in self._types])
             self._resolved_types = True
         return self._types
+
+    @property
+    def is_link(self) -> bool:
+        return issubclass(self.types[0], Node)
 
     def validate(self, value, ignore=None):
         """
@@ -170,6 +174,8 @@ class Property:
             data: the JSON-LD data
         """
         # todo: check data type
+        link_keys = set(("@id", "@type"))
+
         def deserialize_item(item):
             if self.types == (str,):
                 if self.formatting != "text/plain":
@@ -193,7 +199,16 @@ class Property:
                 if "@type" in item:
                     for cls in self.types:
                         if cls.type_ == item["@type"]:
-                            return cls.from_jsonld(item)
+                            if set(item.keys()) == link_keys:
+                                # if we only have @id and @type, it's a Link
+                                return Link(item["@id"], allowed_types=[cls])
+                            else:
+                                # otherwise it's a Node
+                                return cls.from_jsonld(item)
+                    raise TypeError(
+                        f"Mismatched types. Data has '{item['@type']}' "
+                        f"but property only allows {[cls.type_ for cls in self.types]}"
+                    )
                 else:
                     return Link(item["@id"], allowed_types=self.types)
             else:
