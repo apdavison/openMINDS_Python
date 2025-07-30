@@ -92,6 +92,17 @@ class Node(metaclass=Registry):
                             )
                             for item in value
                         ]
+                elif isinstance(value, (tuple, list)):
+                    # if property.multiple is False, then this means the node does not validate,
+                    # but we should try to serialize it anyway
+                    data[property.path] = [
+                        value_to_jsonld(
+                            item,
+                            include_empty_properties=include_empty_properties,
+                            embed_linked_nodes=embed_linked_nodes,
+                        )
+                        for item in value
+                    ]
                 else:
                     data[property.path] = value_to_jsonld(
                         value,

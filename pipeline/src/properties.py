@@ -194,7 +194,7 @@ class Property:
             else:
                 raise NotImplementedError()
 
-        if self.multiple and isinstance(data, (tuple, list)):
+        if isinstance(data, (tuple, list)):
             return [deserialize_item(item) for item in data]
         else:
             return deserialize_item(data)
