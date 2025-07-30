@@ -13,6 +13,13 @@ from .registry import lookup
 from .base import Node, IRI, Link
 
 
+def _could_be_instance(value, types):
+    """
+    True if a Link's allowed types are consistent with the given types
+    """
+    return isinstance(value, Link) and value.allowed_types and set(value.allowed_types).issubset(types)
+
+
 class Property:
     """
     Representation of an openMINDS property (a metadata field).
@@ -117,10 +124,7 @@ class Property:
                 if not isinstance(value, (list, tuple)):
                     value = [value]
                 for item in value:
-                    if not (
-                        isinstance(item, self.types)
-                        or (isinstance(item, Link) and item.allowed_types == self.types)
-                    ):
+                    if not (isinstance(item, self.types) or _could_be_instance(item, self.types)):
                         if "type" not in ignore:
                             failures["type"].append(
                                 f"{self.name}: Expected {', '.join(t.__name__ for t in self.types)}, "
@@ -152,10 +156,7 @@ class Property:
                     failures["multiplicity"].append(
                         f"{self.name} does not accept multiple values, but contains {len(value)}"
                     )
-            elif not (
-                isinstance(value, self.types)
-                or (isinstance(value, Link) and value.allowed_types == self.types)
-            ):
+            elif not (isinstance(value, self.types) or _could_be_instance(value, self.types)):
                 if "type" not in ignore:
                     failures["type"].append(
                         f"{self.name}: Expected {', '.join(t.__name__ for t in self.types)}, "

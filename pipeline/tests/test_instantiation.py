@@ -4,7 +4,7 @@ Tests for openMINDS Python module
 
 import pytest
 
-from openminds.base import Node, IRI
+from openminds.base import Node, IRI, Link
 from openminds.latest import (
     chemicals,
     computation,
@@ -33,7 +33,9 @@ all_modules = (
 
 def classes_in_module(module):
     contents = [getattr(module, name) for name in dir(module)]
-    return [item for item in contents if isinstance(item, type) and issubclass(item, Node)]
+    return [
+        item for item in contents if isinstance(item, type) and issubclass(item, Node)
+    ]
 
 
 def test_instantiation_random_data():
@@ -55,7 +57,10 @@ def test_json_roundtrip():
 
 
 def test_IRI():
-    valid_iris = ["https://example.com/path/to/my/file.txt", "file:///path/to/my/file.txt"]
+    valid_iris = [
+        "https://example.com/path/to/my/file.txt",
+        "file:///path/to/my/file.txt",
+    ]
     for value in valid_iris:
         iri = IRI(value)
         assert iri.value == value
@@ -69,3 +74,43 @@ def test_IRI():
         with pytest.raises(ValueError) as exc_info:
             iri = IRI(value)
         assert exc_info.value.args[0] == "Invalid IRI"
+
+
+def test_link():
+    from openminds.v4.controlled_terms import Species
+    from openminds.v4.core import DatasetVersion
+
+    maybe_mouse = Link("https://openminds.om-i.org/instances/species/musMusculus")
+
+    definitely_mouse = Link(
+        "https://openminds.om-i.org/instances/species/musMusculus",
+        allowed_types=[Species],
+    )
+
+    my_dsv1 = DatasetVersion(study_targets=[maybe_mouse])
+    failures1 = my_dsv1.validate(ignore=["required"])
+    assert len(failures1["type"]) == 1
+    assert "study_targets" in failures1["type"][0]
+
+    my_dsv2 = DatasetVersion(study_targets=[definitely_mouse])
+    failures2 = my_dsv2.validate(ignore=["required"])
+    assert len(failures2) == 0
+
+    expected = {
+        "@context": {
+            "@vocab": "https://openminds.om-i.org/props/",
+        },
+        "@type": "https://openminds.om-i.org/types/DatasetVersion",
+        "studyTarget": [
+            {
+                "@id": "https://openminds.om-i.org/instances/species/musMusculus",
+            },
+        ],
+    }
+    assert my_dsv1.to_jsonld(
+        include_empty_properties=False,
+        embed_linked_nodes=False
+    ) == my_dsv2.to_jsonld(
+        include_empty_properties=False,
+        embed_linked_nodes=False
+    ) == expected
