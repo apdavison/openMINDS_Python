@@ -25,6 +25,6 @@ jobs:
 
     - name: Test built package
       run: |
-        pip install pytest
+        pip install pytest pytest-cov
         pip install ./target
-        pytest -v pipeline/tests
+        pytest -v --cov=openminds --cov-report term pipeline/tests
