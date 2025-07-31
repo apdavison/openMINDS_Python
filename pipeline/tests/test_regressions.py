@@ -235,3 +235,22 @@ def test_issue0023():
     assert len(dv_again.custodians[0].affiliations) == 2
     assert dv_again.custodians[0].affiliations[0].member_of.full_name == "University of This Place"
     assert dv_again.custodians[0].affiliations[1].member_of.full_name == "University of That Place"
+
+
+def test_issue0056():
+    # https://github.com/openMetadataInitiative/openMINDS_Python/issues/56
+    # Since we are permissive on object creation, serialization to JSON-LD should work
+    # even if the object gives validation failures.
+    # However, under some circumstances, to_jsonld() produces a data structure
+    # that cannot be saved as a JSON string.
+    dataset = omcore.Dataset(
+        digital_identifier=[
+            omcore.DOI(identifier="abc"),
+            omcore.DOI(identifier="def")
+        ]
+    )
+    failures = dataset.validate(ignore=["required"])
+    assert len(failures) == 1
+    assert failures["multiplicity"] == ['digital_identifier does not accept multiple values, but contains 2']
+    data = dataset.to_jsonld()
+    json.dumps(data)  # this should not raise an Exception
