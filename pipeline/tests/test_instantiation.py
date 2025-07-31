@@ -2,33 +2,38 @@
 Tests for openMINDS Python module
 """
 
+from importlib import import_module
+import sys
+
 import pytest
 
 from openminds.base import Node, IRI, Link
-from openminds.latest import (
-    chemicals,
-    computation,
-    controlled_terms,
-    core,
-    ephys,
-    publications,
-    sands,
-    specimen_prep,
-    stimulation,
-)
 from utils import build_fake_node
 
-all_modules = (
-    chemicals,
-    computation,
-    controlled_terms,
-    core,
-    ephys,
-    publications,
-    sands,
-    specimen_prep,
-    stimulation,
+module_names = (
+    "chemicals",
+    "computation",
+    "controlled_terms",
+    "core",
+    "ephys",
+    "publications",
+    "sands",
+    "specimen_prep",
+    "stimulation",
 )
+versions = ("v3", "v4", "latest")  # "v1" and "v2" currently produce errors
+
+all_modules = []
+for version in versions:
+    for module_name in module_names:
+        path = f"openminds.{version}.{module_name}"
+        try:
+            module = import_module(path)
+        except ModuleNotFoundError:
+            continue
+        else:
+            sys.modules[path] = module
+            all_modules.append(module)
 
 
 def classes_in_module(module):
