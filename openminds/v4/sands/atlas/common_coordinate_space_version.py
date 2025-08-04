@@ -870,7 +870,7 @@ CommonCoordinateSpaceVersion.swanson_srb_v1992 = CommonCoordinateSpaceVersion(
     full_documentation={"@id": "https://larrywswanson.com/?page_id=164"},
     full_name="Swanson's Stereotactic Brain of the Sprague Dawley Rat",
     how_to_cite="Swanson, L.W. (1992) 'Coordinate Systems' Brain maps: structure of the rat brain, 1st edition.",
-    license={"@id": "https://openminds.om-i.org/instances/licenses/ccByNc4.0"},
+    license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-4.0"},
     native_unit={"@id": "https://openminds.om-i.org/instances/unitOfMeasurement/millimeter"},
     release_date="1992-12-24",
     short_name="Swanson's Stereotactic Rat Brain",
