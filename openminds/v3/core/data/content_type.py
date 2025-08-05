@@ -885,6 +885,14 @@ ContentType.application_vnd_ilastik_projectplushdf5 = ContentType(
     name="application/vnd.ilastik.project+hdf5",
     synonyms=["ilastik project", "ilastik project file", "ILP"],
 )
+ContentType.application_vnd_illumina_annotated_sequenceplusfastq = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.illumina.annotated-sequence+fastq",
+    description="A text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores with a systematic identifier assigned by the Illumina software.",
+    file_extensions=[".fg", ".fg.gz"],
+    name="application/vnd.illumina.annotated-sequence+fastq",
+    specification=IRI("https://en.wikipedia.org/wiki/FASTQ_format"),
+    synonyms=["FASTQ Format", "Illumina FASTQ Format"],
+)
 ContentType.application_vnd_imacon = ContentType(
     id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.imacon",
     file_extensions=[".fff"],
@@ -1739,6 +1747,20 @@ ContentType.application_vnd_seiko = ContentType(
     name="application/vnd.seiko",
     synonyms=["Seiko"],
 )
+ContentType.application_vnd_sequencereadarchive_annotated_sequenceplusfastq = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.sequencereadarchive.annotated-sequence+fastq",
+    description="A text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores often including a description added by the Sequence Read Archive.",
+    file_extensions=[".fg", ".fg.gz"],
+    name="application/vnd.sequencereadarchive.annotated-sequence+fastq",
+    specification=IRI("https://en.wikipedia.org/wiki/FASTQ_format"),
+    synonyms=[
+        "FASTQ Format",
+        "International Nucleotide Sequence Database Collaboration Sequence Read Archive FASTQ Format",
+        "INSDC Sequence Read Archive FASTQ Format",
+        "International Nucleotide Sequence Database Collaboration SRA FASTQ Format",
+        "INSDC SRA FASTQ Format",
+    ],
+)
 ContentType.application_vnd_siemens_ecat7 = ContentType(
     id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.siemens.ecat7",
     file_extensions=[".v"],
@@ -2496,6 +2518,14 @@ ContentType.text_x_cmlplusxml = ContentType(
     file_extensions=[".cml"],
     name="text/x-cml+xml",
     specification=IRI("http://www.xml-cml.org/schema/schema3/schema.xsd"),
+)
+ContentType.text_x_fastq = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/text_x-fastq",
+    description="A text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores.",
+    file_extensions=[".fg", ".fg.gz"],
+    name="text/x-fastq",
+    specification=IRI("https://en.wikipedia.org/wiki/FASTQ_format"),
+    synonyms=["FASTQ Format"],
 )
 ContentType.text_x_matlab = ContentType(
     id="https://openminds.ebrains.eu/instances/contentTypes/text_x-matlab",
