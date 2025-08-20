@@ -1079,6 +1079,15 @@ ContentType.application_vnd_localizoom_lz = ContentType(
     name="application/vnd.localizoom.lz",
     synonyms=["LZ file"],
 )
+ContentType.application_vnd_locareplusjson = ContentType(
+    id="https://openminds.om-i.org/instances/contentTypes/application_vnd.locare+json",
+    description="A text-based format for representing structured data based on JavaScript object syntax following the [LocareJSON schema specification](https://github.com/blixilla/LocareJSON).",
+    file_extensions=[".locare.json", ".json"],
+    name="application/vnd.locare+json",
+    related_media_type=IRI("https://www.iana.org/assignments/media-types/application/json"),
+    specification=IRI("https://github.com/blixilla/LocareJSON"),
+    synonyms=["LocareJSON", "Locare JavaScript Object Notation"],
+)
 ContentType.application_vnd_ls_dyna = ContentType(
     id="https://openminds.om-i.org/instances/contentTypes/application_vnd.ls-dyna",
     file_extensions=[".d3plot"],
