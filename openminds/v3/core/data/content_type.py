@@ -2236,6 +2236,31 @@ ContentType.application_zip = ContentType(
     specification=IRI("https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT"),
     synonyms=["ZIP", "ZIP file", "zipfile"],
 )
+ContentType.chemical_vnd_wwpdb_pdb_v3_30plusplain = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/chemical_vnd.wwpdb.pdb-v3.30+plain",
+    description="A textual file format describing the three-dimensional structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/).",
+    file_extensions=[".brk", ".ent", ".pdb"],
+    name="chemical/vnd.wwpdb.pdb-v3.30+plain",
+    specification=IRI("https://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html"),
+    synonyms=["chemical/pdb", "chemical/x-pdb", "Legacy PDB File Format", "Legacy Protein Data Bank File Format"],
+)
+ContentType.chemical_vnd_wwpdb_pdbml_v5plusxml = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/chemical_vnd.wwpdb.pdbml.v5+xml",
+    description="A XML serialization of the wwPDB’s PDBx/mmCIF data model, using tags from the PDBx/mmCIF dictionary to represent and distribute macromolecular structure data.",
+    file_extensions=[".xml"],
+    name="chemical/vnd.wwpdb.pdbml.v5+xml",
+    related_media_type=IRI("https://www.iana.org/assignments/media-types/text/xml"),
+    specification=IRI("https://pdbml.wwpdb.org/"),
+    synonyms=["Protein Data Bank Markup Language", "PDB Markup Language", "PDBML"],
+)
+ContentType.chemical_vnd_wwpdb_pdbx_mmcif_v5plusplain = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/chemical_vnd.wwpdb.pdbx-mmcif.v5+plain",
+    description="A standard text file format for representing macromolecular structure data, developed by the International Union of Crystallography (IUCr) and the Protein Data Bank (PDB). [adapted from [Wikipedia](https://en.wikipedia.org/wiki/Macromolecular_Crystallographic_Information_File)]",
+    file_extensions=[".mmcif"],
+    name="chemical/vnd.wwpdb.pdbx-mmcif.v5+plain",
+    specification=IRI("https://mmcif.wwpdb.org/docs/user-guide/guide.html"),
+    synonyms=["chemical/x-mmcif", "Macromolecular Crystallographic Information File Format", "mmCIF", "PDBx/mmCIF"],
+)
 ContentType.image_bmp = ContentType(
     id="https://openminds.ebrains.eu/instances/contentTypes/image_bmp",
     file_extensions=[".bmp"],
