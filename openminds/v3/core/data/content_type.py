@@ -1816,6 +1816,18 @@ ContentType.application_vnd_spikeglx_system = ContentType(
     name="application/vnd.spikeglx.system",
     synonyms=["SpikeGLX system"],
 )
+ContentType.application_vnd_spikeinterface_probeinterfaceplusjson = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.spikeinterface.probeinterface+json",
+    description="Validatable JSON file describing one or more probes by encoding each probe’s geometry (2D/3D and units), contact positions and shapes (with size params), optional shanks/contour, device-channel mapping, and annotations like manufacturer/model and version.",
+    display_label="probeinterface JSON",
+    file_extensions=[".json"],
+    name="application/vnd.spikeinterface.probeinterface+json",
+    related_media_type=IRI("https://www.iana.org/assignments/media-types/application/json"),
+    specification=IRI(
+        "https://raw.githubusercontent.com/SpikeInterface/probeinterface/main/src/probeinterface/schema/probe.json.schema"
+    ),
+    synonyms=["probeinterface JSON", "JSON-based probeinterface Format"],
+)
 ContentType.application_vnd_spm = ContentType(
     id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.spm",
     file_extensions=[".mat"],
