@@ -1256,6 +1256,24 @@ ContentType.application_vnd_nest = ContentType(
     file_extensions=[".gdf", ".dat"],
     name="application/vnd.nest",
 )
+ContentType.application_vnd_nest_desktop_model_v4plusjson = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.nest-desktop.model.v4+json",
+    description="A JSON file containing a computational model specification (version 4) for NEST Desktop",
+    display_label="NEST Desktop model (v4)",
+    file_extensions=[".json"],
+    name="application/vnd.nest-desktop.model.v4+json",
+    related_media_type=IRI("https://www.iana.org/assignments/media-types/application/json"),
+    synonyms=["NEST Desktop model specification version 4"],
+)
+ContentType.application_vnd_nest_desktop_project_v4plusjson = ContentType(
+    id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.nest-desktop.project.v4+json",
+    description="A JSON file containing a project configuration (version 4) for NEST Desktop",
+    display_label="NEST Desktop project configuration (v4)",
+    file_extensions=[".json"],
+    name="application/vnd.nest-desktop.project.v4+json",
+    related_media_type=IRI("https://www.iana.org/assignments/media-types/application/json"),
+    synonyms=["NEST Desktop project specification version 4"],
+)
 ContentType.application_vnd_nest_simulator_modelpluspython = ContentType(
     id="https://openminds.ebrains.eu/instances/contentTypes/application_vnd.nest-simulator.model+python",
     file_extensions=[".py"],
