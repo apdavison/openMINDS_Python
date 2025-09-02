@@ -2919,6 +2919,13 @@ UBERONParcellation.central_oculomotor_nucleus = UBERONParcellation(
         "perlia nucleus of oculomotor nerve",
     ],
 )
+UBERONParcellation.central_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/centralRetina",
+    definition="Is a regional part of nervous system. Is part of the retina. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_8000004) ('is_a' and 'relationship')]",
+    description="Region of retina around the fovea that extends approximately for 6 mm. Central retina is considerably thick due to increased density of photoreceptors, particularly cones and their associated bipolar and ganglion cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_8000004)]",
+    name="central retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_8000004"),
+)
 UBERONParcellation.central_sulcus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/centralSulcus",
     definition="Is a sulcus of brain. Is part of the cerebral cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002916) ('is_a' and 'relationship')]",
@@ -4073,6 +4080,14 @@ UBERONParcellation.claustrum_of_brain = UBERONParcellation(
         "dorsal portion of claustrum",
         "insular claustrum",
     ],
+)
+UBERONParcellation.clivus_of_fovea_centralis = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/clivusOfFoveaCentralis",
+    definition="Is an anatomical entity. Is part of the fovea centralis. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002823) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002823#clivus-of-fovea-centralis-1"),
+    name="clivus of fovea centralis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002823"),
+    synonyms=["clivus of macula lutea", "fovea centralis clivus"],
 )
 UBERONParcellation.cochlear_ganglion = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cochlearGanglion",
@@ -5778,6 +5793,20 @@ UBERONParcellation.emboliform_nucleus = UBERONParcellation(
         "nucleus interpositus anterior cerebelli",
     ],
 )
+UBERONParcellation.embryonic_intraretinal_space = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/embryonicIntraretinalSpace",
+    definition="Is an anatomical entity. Is part of the retina. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006253) ('is_a' and 'relationship')]",
+    description="The space separating the outer pigment epithelium and the inner neural retina of the optic cup and of the retina. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006253)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006253#embryonic-intraretinal-space"),
+    name="embryonic intraretinal space",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006253"),
+    synonyms=[
+        "intraretinal space",
+        "intraretinal space of optic cup",
+        "intraretinal space of retina",
+        "retina intraretinal space",
+    ],
+)
 UBERONParcellation.endohypothalamic_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/endohypothalamicTract",
     definition="Is a white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2005343)]",
@@ -6426,6 +6455,23 @@ UBERONParcellation.fourth_ventricle_median_aperture = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003991"),
     synonyms=["apertura mediana", "foramen of Magendie", "foramen of Majendie", "median aperture of fourth ventricle"],
 )
+UBERONParcellation.fovea_centralis = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/foveaCentralis",
+    definition="Is part of the macula lutea. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001786)]",
+    description="A depression in the inner retinal surface within the macula lutea, the photoreceptor layer of which is entirely cones and which is specialized for maximum visual acuity. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001786)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001786#fovea"),
+    name="fovea centralis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001786"),
+    synonyms=["centre of macula", "fovea centralis in macula"],
+)
+UBERONParcellation.foveola_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/foveolaOfRetina",
+    definition="Is part of the fovea centralis. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018107)]",
+    description="A region of the fovea centralis that lies in the center of the fovea and contains only cone cells, and a cone-shaped zone of Müller cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018107)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0018107#foveola-of-retina"),
+    name="foveola of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0018107"),
+)
 UBERONParcellation.frontal_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/frontalCortex",
     definition="Is a cortex of cerebral lobe. Is part of the frontal lobe. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001870) ('is_a' and 'relationship')]",
@@ -6619,6 +6665,24 @@ UBERONParcellation.ganglionic_eminence = UBERONParcellation(
         "embryonic/fetal subventricular zone",
         "fetal subventricular zone",
         "subependymal layer",
+    ],
+)
+UBERONParcellation.ganglionic_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/ganglionicLayerOfRetina",
+    definition="Is a layer of retina. Is part of the retinal neural layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001792) ('is_a' and 'relationship')]",
+    description="Cytoarchitectural layer of retina that contains somata of retinal ganglion cells, bounded by the stratum opticum and the inner plexiform layer. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001792)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001792#ganglionic-layer-of-retina"),
+    name="ganglionic layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001792"),
+    synonyms=[
+        "ganglionic cell layer of retina",
+        "GCL layer",
+        "retina ganglion cell layer",
+        "retina ganglion layer",
+        "retinal ganglion cell layer",
+        "retinal ganglion layer",
+        "RGC layer",
+        "stratum ganglionicum (retina)",
     ],
 )
 UBERONParcellation.gasserian_ganglion = UBERONParcellation(
@@ -7822,6 +7886,49 @@ UBERONParcellation.infundibular_recess_of3rd_ventricle = UBERONParcellation(
         "recessus infundibularis",
         "recessus infundibuli",
     ],
+)
+UBERONParcellation.inner_limiting_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/innerLimitingLayerOfRetina",
+    definition="Is a limiting membrane of retina. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001794)]",
+    description="The row of fused Muller cell processes and astrocytes that separates the retinal nerve fiber layer from the vitreous. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001794)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001794#inner-limiting-layer-of-retina"),
+    name="inner limiting layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001794"),
+    synonyms=[
+        "inner limiting membrane",
+        "inner limiting membrane of retina",
+        "internal limiting lamina of retina",
+        "internal limiting membrane of retina",
+        "retina inner limiting membrane",
+        "retina internal limiting lamina",
+        "stratum limitans internum retinae",
+    ],
+)
+UBERONParcellation.inner_nuclear_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/innerNuclearLayerOfRetina",
+    definition="Is a layer of retina. Is part of the retinal neural layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001791) ('is_a' and 'relationship')]",
+    description="Cytoarchitectural layer of retina containing closely packed cell bodies, the majority of which are bipolar cells (adapted from Wikipedia). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001791)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001791#inner-nuclear-layer-of-retina"),
+    name="inner nuclear layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001791"),
+    synonyms=[
+        "inner nuclear layer",
+        "intermediate cell layer",
+        "neural retina inner nuclear layer",
+        "retina inner nuclear layer",
+        "retinal inner nuclear layer",
+        "stratum nucleare internum",
+        "stratum nucleare internum retinae",
+    ],
+)
+UBERONParcellation.inner_plexiform_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/innerPlexiformLayerOfRetina",
+    definition="Is a layer of retina. Is part of the retinal neural layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001795) ('is_a' and 'relationship')]",
+    description="Cytoarchitectural layer of the retina that is made up of a dense reticulum of fibrils formed by interlaced dendrites of retinal ganglion cells and cells of the inner nuclear layer (adapted from Wikipedia) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001795)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001795#inner-plexiform-layer-of-retina"),
+    name="inner plexiform layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001795"),
+    synonyms=["retina inner plexiform layer", "retinal inner plexiform layer", "stratum plexiforme internum"],
 )
 UBERONParcellation.insect_protocerebrum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/insectProtocerebrum",
@@ -9352,6 +9459,14 @@ UBERONParcellation.limitans_nucleus = UBERONParcellation(
         "nucleus limitans opticus (Hassler)",
         "nucleus limitans thalami",
     ],
+)
+UBERONParcellation.limiting_membrane_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/limitingMembraneOfRetina",
+    definition="Is a layer of retina. Is part of the retinal neural layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007619) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0007619#limiting-membrane-of-retina"),
+    name="limiting membrane of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007619"),
+    synonyms=["retina lamina"],
 )
 UBERONParcellation.linear_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/linearNucleus",
@@ -12193,6 +12308,55 @@ UBERONParcellation.otolith_organ = UBERONParcellation(
     name="otolith organ",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002518"),
 )
+UBERONParcellation.outer_limiting_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/outerLimitingLayerOfRetina",
+    definition="Is a limiting membrane of retina. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001788)]",
+    description="The row of jucntional complexes between the plasma membranes of rod segments and the Muller glia cells; this barrier separates the layer of inner and outer segments of the rods and cones from the outer nuclear layer and forms a blood-retina barrier. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001788)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001788#outer-limiting-layer-of-retina"),
+    name="outer limiting layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001788"),
+    synonyms=[
+        "external limiting lamina of retina",
+        "external limiting membrane",
+        "external limiting membrane of retina",
+        "outer limiting membrane",
+        "outer limiting membrane of retina",
+        "retina external limiting lamina",
+        "retina outer limiting membrane",
+        "stratum limitans externum (retina)",
+        "stratum limitans externum retinae",
+    ],
+)
+UBERONParcellation.outer_nuclear_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/outerNuclearLayerOfRetina",
+    definition="Is a layer of retina. Is part of the retinal neural layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001789) ('is_a' and 'relationship')]",
+    description="The layer within the retina where the photoreceptor cell bodies reside. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001789)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001789#outer-nuclear-layer-of-retina"),
+    name="outer nuclear layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001789"),
+    synonyms=[
+        "neural retina outer nuclear layer",
+        "retina outer nuclear layer",
+        "retinal outer nuclear layer",
+        "stratum nucleare externum (retina)",
+        "stratum nucleare externum retinae",
+    ],
+)
+UBERONParcellation.outer_plexiform_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/outerPlexiformLayerOfRetina",
+    definition="Is a layer of retina. Is part of the retinal neural layer. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001790) ('is_a' and 'relationship')]",
+    description="The layer within the retina where the bipolar cells synapse with the photoreceptor cells. Between the inner and outer nuclear layers, the outer plexiform layer (OPL) contains connections between the photoreceptors and bipolar and horizontal cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001790)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001790#outer-plexiform-layer-of-retina"),
+    name="outer plexiform layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001790"),
+    synonyms=[
+        "outer plexiform layer",
+        "retina outer plexiform layer",
+        "retinal outer plexiform layer",
+        "stratum plexiforme externum",
+        "stratum plexiforme externum retinae",
+    ],
+)
 UBERONParcellation.oval_nucleus_of_stria_terminalis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/ovalNucleusOfStriaTerminalis",
     definition="'Oval nucleus of stria terminalis' is a telencephalic nucleus. It is part of the anterior division of bed nuclei of stria terminalis.",
@@ -12400,6 +12564,14 @@ UBERONParcellation.paraflocculus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005351#paraflocculus"),
     name="paraflocculus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005351"),
+)
+UBERONParcellation.parafoveal_part_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parafovealPartOfRetina",
+    definition="Is part of the macula lutea. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018104)]",
+    description="The intermediate belt surrounding the fovea centralis. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018104)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0018104#parafoveal-part-of-retina"),
+    name="parafoveal part of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0018104"),
 )
 UBERONParcellation.parahippocampal_gyrus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parahippocampalGyrus",
@@ -13271,6 +13443,14 @@ UBERONParcellation.pericentral_nucleus_of_inferior_colliculus = UBERONParcellati
         "pericentral nucleus of the inferior colliculus",
     ],
 )
+UBERONParcellation.perifoveal_part_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/perifovealPartOfRetina",
+    definition="Is part of the macula lutea. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018105)]",
+    description="The outermost region surrounding the fovea centralis. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018105)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0018105#perifoveal-part-of-retina"),
+    name="perifoveal part of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0018105"),
+)
 UBERONParcellation.periolivary_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/periolivaryNucleus",
     definition="'Periolivary nucleus' is a nucleus of superior olivary complex.",
@@ -13308,6 +13488,15 @@ UBERONParcellation.peripheral_nervous_system = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000010"),
     synonyms=["pars peripherica", "systema nervosum periphericum"],
 )
+UBERONParcellation.peripheral_region_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/peripheralRegionOfRetina",
+    definition="Is a regional part of nervous system. Is part of the retina. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013682) ('is_a' and 'relationship')]",
+    description="Region of retina that extends from central retina to ora serrata. Peripheral retina is dominated by rods and also has less ganglion cells and is not as thick as central retina. It is responsible for peripheral and night vision. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013682)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013682#peripheral-region-of-retina"),
+    name="peripheral region of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013682"),
+    synonyms=["peripheral retina"],
+)
 UBERONParcellation.perirhinal_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/perirhinalCortex",
     definition="Is a regional part of brain. Is part of the cerebral cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006083) ('is_a' and 'relationship')]",
@@ -13334,6 +13523,24 @@ UBERONParcellation.periventricular_white_matter = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014932#periventricular-white-matter"),
     name="periventricular white matter",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014932"),
+)
+UBERONParcellation.pigmented_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pigmentedLayerOfRetina",
+    definition="Is a layer of retina. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001782)]",
+    description="A monolayer of pigmented epithelium covering the neural retina; develops from the outer of the two layers of the optic cup. the pigmented cell layer just outside the neurosensory retina that nourishes retinal visual cells, and is firmly attached to the underlying choroid and overlying retinal visual cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001782)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001782#pigmented-layer-of-retina"),
+    name="pigmented layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001782"),
+    synonyms=[
+        "outer pigmented layer of retina",
+        "pigment epithelium of retina",
+        "pigmented retina epithelium",
+        "pigmented retinal epithelium",
+        "retinal pigment epithelium",
+        "retinal pigmented epithelium",
+        "stratum pigmentosum (retina)",
+        "stratum pigmentosum retinae",
+    ],
 )
 UBERONParcellation.pineal_body = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pinealBody",
@@ -15110,6 +15317,38 @@ UBERONParcellation.reticulotegmental_nucleus = UBERONParcellation(
         "reticulotegmental pontine nucleus",
         "tegmental reticular nucleus",
     ],
+)
+UBERONParcellation.retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/retina",
+    definition="Is a photoreceptor array. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000966)]",
+    description="The retina is the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000966)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000966#retina-1"),
+    name="retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000966"),
+    synonyms=["inner layer of eyeball", "retina of camera-type eye", "tunica interna of eyeball"],
+)
+UBERONParcellation.retinal_neural_layer = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/retinalNeuralLayer",
+    definition="Is a layer of retina. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003902)]",
+    description="The part of the retina that contains neurons and photoreceptor cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003902)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003902#retinal-neural-layer"),
+    name="retinal neural layer",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003902"),
+    synonyms=[
+        "neural layer of retina",
+        "neural retina",
+        "neuroretina",
+        "stratum nervosum (retina)",
+        "stratum nervosum retinae",
+    ],
+)
+UBERONParcellation.retinal_tapetum_lucidum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/retinalTapetumLucidum",
+    definition="Is part of the retina. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010245)]",
+    description="A tapetum lucidum that is part of the retina, within the cytoplasm of the retinal epithelium. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010245)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010245#retinal-tapetum-lucidum"),
+    name="retinal tapetum lucidum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010245"),
 )
 UBERONParcellation.retrochiasmatic_area = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/retrochiasmaticArea",
@@ -17094,6 +17333,13 @@ UBERONParcellation.substantia_nigra_pars_reticulata = UBERONParcellation(
         "substantia nigra",
         "substantia nigra reticular part",
     ],
+)
+UBERONParcellation.substratum_of_layer_of_retina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/substratumOfLayerOfRetina",
+    definition="Is a nervous system cell part layer. Is part of the retina. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008921) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008921#substratum-of-layer-of-retina"),
+    name="substratum of layer of retina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008921"),
 )
 UBERONParcellation.sulcus_limitans_of_fourth_ventricle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/sulcusLimitansOfFourthVentricle",
