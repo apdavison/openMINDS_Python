@@ -1431,6 +1431,15 @@ UBERONParcellation.arachnoid_barrier_layer = UBERONParcellation(
     name="arachnoid barrier layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000437"),
 )
+UBERONParcellation.arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/arachnoidMater",
+    definition="Is a leptomeninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002362)]",
+    description="A think avascular meningeal layer, between the pia mater and the dural mater. It is separated from the pia mater by the subarachnoid space. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002362)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002362#arachnoid-mater"),
+    name="arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002362"),
+    synonyms=["arachnoid", "arachnoid mater of neuraxis", "arachnoid membrane"],
+)
 UBERONParcellation.archicortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/archicortex",
     definition="Is an allocortex. Is part of the limbic lobe. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002961) ('is_a' and 'relationship')]",
@@ -1986,6 +1995,20 @@ UBERONParcellation.brachium_of_superior_colliculus = UBERONParcellation(
         "superior quadrigeminal brachium",
     ],
 )
+UBERONParcellation.brain_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/brainArachnoidMater",
+    definition="Is an arachnoid mater and brain meninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005397)]",
+    description="An arachnoid mater that surrounds a brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005397)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005397#brain-arachnoid-mater"),
+    name="brain arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005397"),
+    synonyms=[
+        "arachnoidea mater cranialis",
+        "arachnoidea mater encephali",
+        "brain arachnoid matter",
+        "cranial arachnoid mater",
+    ],
+)
 UBERONParcellation.brain_blood_vessel = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/brainBloodVessel",
     definition="Is part of the vasculature of brain. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003499)]",
@@ -2011,6 +2034,15 @@ UBERONParcellation.brain_coronal_sulcus = UBERONParcellation(
     name="brain coronal sulcus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013596"),
     synonyms=["coronal sulcus of brain"],
+)
+UBERONParcellation.brain_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/brainDuraMater",
+    definition="Is a dura mater and brain meninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002092)]",
+    description="The fibrous membrane forming the outer of the three coverings that surrounds the brain within the cranial cavity; consists of two layers including the periosteal layer and the meningeal layer. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002092)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002092#brain-dura-mater"),
+    name="brain dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002092"),
+    synonyms=["cranial dura mater", "dura mater cranialis", "dura mater encephali", "dura mater of brain"],
 )
 UBERONParcellation.brain_endothelium = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/brainEndothelium",
@@ -2054,6 +2086,15 @@ UBERONParcellation.brain_meninx = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003547#brain-meninx"),
     name="brain meninx",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003547"),
+)
+UBERONParcellation.brain_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/brainPiaMater",
+    definition="Is a pia mater and brain meninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003549)]",
+    description="The fibrous membrane forming the innermost of the three coverings that surrounds the brain within the cranial cavity that is firmly attached to the glial capsule. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003549)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003549#brain-pia-mater"),
+    name="brain pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003549"),
+    synonyms=["brain pia mater of neuraxis", "pia mater of brain", "pia mater of neuraxis of brain"],
 )
 UBERONParcellation.brain_ventricle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/brainVentricle",
@@ -5009,6 +5050,64 @@ UBERONParcellation.diencephalon = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001894"),
     synonyms=["between brain", "interbrain", "mature diencephalon", "thalamencephalon"],
 )
+UBERONParcellation.diencephalon_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonArachnoidMater",
+    definition="Is a meninx of diencephalon and forebrain arachnoid mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003558)]",
+    description="An arachnoid mater that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003558)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003558#diencephalon-arachnoid-mater"),
+    name="diencephalon arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003558"),
+    synonyms=[
+        "arachnoid mater of between brain",
+        "arachnoid mater of diencephalon",
+        "arachnoid mater of interbrain",
+        "arachnoid mater of mature diencephalon",
+        "arachnoid mater of neuraxis of between brain",
+        "arachnoid mater of neuraxis of diencephalon",
+        "arachnoid mater of neuraxis of interbrain",
+        "arachnoid mater of neuraxis of mature diencephalon",
+        "arachnoid of between brain",
+        "arachnoid of diencephalon",
+        "arachnoid of interbrain",
+        "arachnoid of mature diencephalon",
+        "between brain arachnoid",
+        "between brain arachnoid mater",
+        "between brain arachnoid mater of neuraxis",
+        "diencephalon arachnoid",
+        "diencephalon arachnoid mater of neuraxis",
+        "interbrain arachnoid",
+        "interbrain arachnoid mater",
+        "interbrain arachnoid mater of neuraxis",
+        "mature diencephalon arachnoid",
+        "mature diencephalon arachnoid mater",
+        "mature diencephalon arachnoid mater of neuraxis",
+    ],
+)
+UBERONParcellation.diencephalon_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonDuraMater",
+    definition="Is a meninx of diencephalon and forebrain dura mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003564)]",
+    description="A dura mater that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003564)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003564#diencephalon-dura-mater"),
+    name="diencephalon dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003564"),
+    synonyms=[
+        "between brain dura mater",
+        "between brain dura mater of neuraxis",
+        "diencephalon dura mater of neuraxis",
+        "dura mater of between brain",
+        "dura mater of diencephalon",
+        "dura mater of interbrain",
+        "dura mater of mature diencephalon",
+        "dura mater of neuraxis of between brain",
+        "dura mater of neuraxis of diencephalon",
+        "dura mater of neuraxis of interbrain",
+        "dura mater of neuraxis of mature diencephalon",
+        "interbrain dura mater",
+        "interbrain dura mater of neuraxis",
+        "mature diencephalon dura mater",
+        "mature diencephalon dura mater of neuraxis",
+    ],
+)
 UBERONParcellation.diencephalon_mantle_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonMantleLayer",
     definition="Is a neural tube mantle layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009580)]",
@@ -5016,6 +5115,31 @@ UBERONParcellation.diencephalon_mantle_layer = UBERONParcellation(
     name="diencephalon mantle layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009580"),
     synonyms=["diencephalon lateral wall mantle layer", "mantle layer lateral wall diencephalon"],
+)
+UBERONParcellation.diencephalon_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonPiaMater",
+    definition="Is a meninx of diencephalon and forebrain pia mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003553)]",
+    description="A pia mater that is part of a diencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003553)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003553#diencephalon-pia-mater"),
+    name="diencephalon pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003553"),
+    synonyms=[
+        "between brain pia mater",
+        "between brain pia mater of neuraxis",
+        "diencephalon pia mater of neuraxis",
+        "interbrain pia mater",
+        "interbrain pia mater of neuraxis",
+        "mature diencephalon pia mater",
+        "mature diencephalon pia mater of neuraxis",
+        "pia mater of between brain",
+        "pia mater of diencephalon",
+        "pia mater of interbrain",
+        "pia mater of mature diencephalon",
+        "pia mater of neuraxis of between brain",
+        "pia mater of neuraxis of diencephalon",
+        "pia mater of neuraxis of interbrain",
+        "pia mater of neuraxis of mature diencephalon",
+    ],
 )
 UBERONParcellation.diencephalon_subarachnoid_space = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/diencephalonSubarachnoidSpace",
@@ -5712,6 +5836,15 @@ UBERONParcellation.dorsomedial_nucleus_of_hypothalamus = UBERONParcellation(
         "nucleus hypothalamicus dorsomedialis",
     ],
 )
+UBERONParcellation.dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/duraMater",
+    definition="Is a meninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002363)]",
+    description="Thick, fibrous meningeal covering surrounding the brain and spinal cord. It is the outermost of the three meningeal coverings. It consists of two layers: the periosteal dura linking the inner surface of the skull and the meningeal dura that lies above the arachnoid dural membrane. The meningeal layer draws away from the periosteal layer and certain locations to form the dural reflections. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002363)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002363#dura-mater-1"),
+    name="dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002363"),
+    synonyms=["dura mater of neuraxis", "pachymeninges"],
+)
 UBERONParcellation.dura_mater_lymph_vessel = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/duraMaterLymphVessel",
     definition="Is part of the meningeal cluster. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035608)]",
@@ -6285,12 +6418,45 @@ UBERONParcellation.forebrain = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001890"),
     synonyms=["FB", "prosencephalon"],
 )
+UBERONParcellation.forebrain_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainArachnoidMater",
+    definition="Is an arachnoid mater and forebrain meninges. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003556)]",
+    description="An arachnoid mater that is part of a forebrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003556)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003556#forebrain-arachnoid-mater"),
+    name="forebrain arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003556"),
+    synonyms=[
+        "arachnoid mater of forebrain",
+        "arachnoid mater of neuraxis of forebrain",
+        "arachnoid of forebrain",
+        "forebrain arachnoid",
+        "forebrain arachnoid mater of neuraxis",
+    ],
+)
+UBERONParcellation.forebrain_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainDuraMater",
+    definition="Is a brain dura mater and forebrain meninges. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003561)]",
+    description="A dura mater that is part of a forebrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003561)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003561#forebrain-dura-mater"),
+    name="forebrain dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003561"),
+    synonyms=["dura mater of forebrain", "dura mater of neuraxis of forebrain", "forebrain dura mater of neuraxis"],
+)
 UBERONParcellation.forebrain_ipsilateral_fiber_tracts = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainIpsilateralFiberTracts",
     definition="Is a fasciculus of brain. Is part of the white matter of forebrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022247) ('is_a' and 'relationship')]",
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022247#forebrain-ipsilateral-fiber-tracts"),
     name="forebrain ipsilateral fiber tracts",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022247"),
+)
+UBERONParcellation.forebrain_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainPiaMater",
+    definition="Is a forebrain meninges and brain pia mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003550)]",
+    description="A pia mater that is part of a forebrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003550)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003550#forebrain-pia-mater"),
+    name="forebrain pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003550"),
+    synonyms=["forebrain pia mater of neuraxis", "pia mater of forebrain", "pia mater of neuraxis of forebrain"],
 )
 UBERONParcellation.forebrain_ventricular_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/forebrainVentricularLayer",
@@ -7188,6 +7354,21 @@ UBERONParcellation.hindbrain = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002028"),
     synonyms=["rhombencephalon"],
 )
+UBERONParcellation.hindbrain_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainArachnoidMater",
+    definition="Is an arachnoid mater and meninx of hindbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003559)]",
+    description="An arachnoid mater that is part of a hindbrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003559)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003559#hindbrain-arachnoid-mater"),
+    name="hindbrain arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003559"),
+    synonyms=[
+        "arachnoid mater of hindbrain",
+        "arachnoid mater of neuraxis of hindbrain",
+        "arachnoid of hindbrain",
+        "hindbrain arachnoid",
+        "hindbrain arachnoid mater of neuraxis",
+    ],
+)
 UBERONParcellation.hindbrain_commissure = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainCommissure",
     definition="Is a brain commissure. Is part of the hindbrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034763) ('is_a' and 'relationship')]",
@@ -7206,6 +7387,15 @@ UBERONParcellation.hindbrain_cortical_intermediate_zone = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034994"),
     synonyms=["hindbrain mantle layer"],
 )
+UBERONParcellation.hindbrain_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainDuraMater",
+    definition="Is a brain dura mater and meninx of hindbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003565)]",
+    description="A dura mater that is part of a hindbrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003565)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003565#hindbrain-dura-mater"),
+    name="hindbrain dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003565"),
+    synonyms=["dura mater of hindbrain", "dura mater of neuraxis of hindbrain", "hindbrain dura mater of neuraxis"],
+)
 UBERONParcellation.hindbrain_marginal_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainMarginalLayer",
     definition="Is a central nervous system cell part cluster. Is part of the hindbrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034709) ('is_a' and 'relationship')]",
@@ -7223,6 +7413,15 @@ UBERONParcellation.hindbrain_nucleus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009662#hindbrain-nucleus"),
     name="hindbrain nucleus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009662"),
+)
+UBERONParcellation.hindbrain_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainPiaMater",
+    definition="Is a meninx of hindbrain and brain pia mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003554)]",
+    description="A pia mater that is part of a hindbrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003554)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003554#hindbrain-pia-mater"),
+    name="hindbrain pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003554"),
+    synonyms=["hindbrain pia mater of neuraxis", "pia mater of hindbrain", "pia mater of neuraxis of hindbrain"],
 )
 UBERONParcellation.hindbrain_subarachnoid_space = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hindbrainSubarachnoidSpace",
@@ -10772,6 +10971,15 @@ UBERONParcellation.medullary_reticular_formation = UBERONParcellation(
         "rhombencephalic reticular formation",
     ],
 )
+UBERONParcellation.meningeal_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/meningealDuraMater",
+    definition="Is a layer of dura mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010506)]",
+    description="The inner layer of the dura mater surrounding the brain. It is mostly fused with the outer layer, the endocranium that is adherent to the inner aspect of the cranial bones. These two layers form the dura mater. The latter covers and protects the brain and the spinal cord. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010506)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010506#meningeal-dura-mater"),
+    name="meningeal dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010506"),
+    synonyms=["inner layer of dura mater", "meningeal dura", "meningeal layer of dura mater"],
+)
 UBERONParcellation.meninx_of_diencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/meninxOfDiencephalon",
     definition="Is a forebrain meninges. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003290) ('is_a' and 'relationship')]",
@@ -10918,6 +11126,21 @@ UBERONParcellation.midbrain = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001891"),
     synonyms=["MB", "Mesencephalon"],
 )
+UBERONParcellation.midbrain_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainArachnoidMater",
+    definition="Is an arachnoid mater and meninx of midbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003557)]",
+    description="An arachnoid mater that is part of a midbrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003557)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003557#midbrain-arachnoid-mater"),
+    name="midbrain arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003557"),
+    synonyms=[
+        "arachnoid mater of midbrain",
+        "arachnoid mater of neuraxis of midbrain",
+        "arachnoid of midbrain",
+        "midbrain arachnoid",
+        "midbrain arachnoid mater of neuraxis",
+    ],
+)
 UBERONParcellation.midbrain_cerebral_aqueduct = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainCerebralAqueduct",
     definition="'Midbrain cerebral aqueduct' is a brain ventricle. It is part of the midbrain.",
@@ -10946,6 +11169,15 @@ UBERONParcellation.midbrain_cerebral_aqueduct = UBERONParcellation(
         "tectal ventricle",
     ],
 )
+UBERONParcellation.midbrain_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainDuraMater",
+    definition="Is a brain dura mater and meninx of midbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003562)]",
+    description="A dura mater that is part of a midbrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003562)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003562#midbrain-dura-mater"),
+    name="midbrain dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003562"),
+    synonyms=["dura mater of midbrain", "dura mater of neuraxis of midbrain", "midbrain dura mater of neuraxis"],
+)
 UBERONParcellation.midbrain_mantle_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainMantleLayer",
     definition="Is a neural tube mantle layer. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009581)]",
@@ -10953,6 +11185,15 @@ UBERONParcellation.midbrain_mantle_layer = UBERONParcellation(
     name="midbrain mantle layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009581"),
     synonyms=["mantle layer lateral wall midbrain", "midbrain lateral wall mantle layer"],
+)
+UBERONParcellation.midbrain_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainPiaMater",
+    definition="Is a meninx of midbrain and brain pia mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003551)]",
+    description="A pia mater that is part of a midbrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003551)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003551#midbrain-pia-mater"),
+    name="midbrain pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003551"),
+    synonyms=["midbrain pia mater of neuraxis", "pia mater of midbrain", "pia mater of neuraxis of midbrain"],
 )
 UBERONParcellation.midbrain_raphe_nuclei = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/midbrainRapheNuclei",
@@ -13470,6 +13711,20 @@ UBERONParcellation.periolivary_nucleus = UBERONParcellation(
         "superior olivary complex periolivary region",
     ],
 )
+UBERONParcellation.periosteal_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/periostealDuraMater",
+    definition="Is a layer of dura mater. Is part of the brain dura mater. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010505) ('is_a' and 'relationship')]",
+    description="The outermost of the two layers of the cranial dura mater which normally always adheres to the periosteum of the bones of the cranial vault. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010505)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010505#periosteal-dura-mater"),
+    name="periosteal dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010505"),
+    synonyms=[
+        "outer layer of dura mater",
+        "outer periosteal layer of dura mater",
+        "periosteal dura",
+        "periosteal layer of dura mater",
+    ],
+)
 UBERONParcellation.peripeduncular_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/peripeduncularNucleus",
     definition="'Peripeduncular nucleus' is a brainstem nucleus, nucleus of midbrain tegmentum and midbrain nucleus. It is part of the midbrain tegmentum.",
@@ -13523,6 +13778,15 @@ UBERONParcellation.periventricular_white_matter = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014932#periventricular-white-matter"),
     name="periventricular white matter",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014932"),
+)
+UBERONParcellation.pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/piaMater",
+    definition="Is a leptomeninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002361)]",
+    description="The innermost layer of the leptomeninges, consisting of a delicate membrane closely covering the surface of the brain and spinal cord,and lying under the arachnoid membrane. The pia, unlike the arachnoid, extends into the sulci in gyrencephalic animals. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002361)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002361#pia-mater"),
+    name="pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002361"),
+    synonyms=["pia mater of neuraxis", "pial membrane"],
 )
 UBERONParcellation.pigmented_layer_of_retina = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pigmentedLayerOfRetina",
@@ -16463,6 +16727,21 @@ UBERONParcellation.sommers_sector = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023932"),
     synonyms=["sommer's sector", "sommers sector"],
 )
+UBERONParcellation.spinal_cord_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/spinalCordArachnoidMater",
+    definition="Is an arachnoid mater and meninx of spinal cord. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003560)]",
+    description="An arachnoid mater that is part of a spinal cord. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003560)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003560#spinal-cord-arachnoid-mater"),
+    name="spinal cord arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003560"),
+    synonyms=[
+        "arachnoid mater of neuraxis of spinal cord",
+        "arachnoid mater of spinal cord",
+        "arachnoid of spinal cord",
+        "spinal cord arachnoid",
+        "spinal cord arachnoid mater of neuraxis",
+    ],
+)
 UBERONParcellation.spinal_cord_mantle_layer = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/spinalCordMantleLayer",
     definition="Is a neural tube mantle layer. Is part of the future spinal cord. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009583) ('is_a' and 'relationship')]",
@@ -16470,6 +16749,15 @@ UBERONParcellation.spinal_cord_mantle_layer = UBERONParcellation(
     name="spinal cord mantle layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009583"),
     synonyms=["mantle layer lateral wall spinal cord", "spinal cord lateral wall mantle layer"],
+)
+UBERONParcellation.spinal_cord_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/spinalCordPiaMater",
+    definition="Is a pia mater and meninx of spinal cord. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003555)]",
+    description="A pia mater that is part of a spinal cord. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003555)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003555#spinal-cord-pia-mater"),
+    name="spinal cord pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003555"),
+    synonyms=["pia mater of neuraxis of spinal cord", "pia mater of spinal cord", "spinal cord pia mater of neuraxis"],
 )
 UBERONParcellation.spinal_cord_sulcus_limitans = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/spinalCordSulcusLimitans",
@@ -16487,6 +16775,20 @@ UBERONParcellation.spinal_cord_ventricular_layer = UBERONParcellation(
     name="spinal cord ventricular layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034710"),
     synonyms=["spinal cord lateral wall ventricular layer"],
+)
+UBERONParcellation.spinal_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/spinalDuraMater",
+    definition="Is a dura mater and meninx of spinal cord. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002093)]",
+    description="A dura mater that is part of a spinal cord. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002093)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002093#spinal-dura-mater"),
+    name="spinal dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002093"),
+    synonyms=[
+        "dura mater of neuraxis of spinal cord",
+        "dura mater of spinal cord",
+        "spinal cord dura mater",
+        "spinal cord dura mater of neuraxis",
+    ],
 )
 UBERONParcellation.spinal_trigeminal_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/spinalTrigeminalTract",
@@ -18123,6 +18425,41 @@ UBERONParcellation.telencephalon = UBERONParcellation(
     name="telencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001893"),
     synonyms=["cerebrum", "endbrain"],
+)
+UBERONParcellation.telencephalon_arachnoid_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/telencephalonArachnoidMater",
+    definition="Is a meninx of telencephalon and forebrain arachnoid mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005400)]",
+    description="An arachnoid mater that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005400)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005400#telencephalon-arachnoid-mater"),
+    name="telencephalon arachnoid mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005400"),
+    synonyms=["telencephalon arachnoid matter"],
+)
+UBERONParcellation.telencephalon_dura_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/telencephalonDuraMater",
+    definition="Is a meninx of telencephalon and forebrain dura mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003563)]",
+    description="A dura mater that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003563)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003563#telencephalon-dura-mater"),
+    name="telencephalon dura mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003563"),
+    synonyms=[
+        "dura mater of neuraxis of telencephalon",
+        "dura mater of telencephalon",
+        "telencephalon dura mater of neuraxis",
+    ],
+)
+UBERONParcellation.telencephalon_pia_mater = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/telencephalonPiaMater",
+    definition="Is a meninx of telencephalon and forebrain pia mater. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003552)]",
+    description="A pia mater that is part of a telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003552)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003552#telencephalon-pia-mater"),
+    name="telencephalon pia mater",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003552"),
+    synonyms=[
+        "pia mater of neuraxis of telencephalon",
+        "pia mater of telencephalon",
+        "telencephalon pia mater of neuraxis",
+    ],
 )
 UBERONParcellation.telodiencephalic_fissure = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/telodiencephalicFissure",
