@@ -1,5 +1,3 @@
-from .digital_identifier import DigitalIdentifier
-from .digital_identifier_schema import DigitalIdentifierSchema
 from .doi import DOI
 from .funding import Funding
 from .gridid import GRIDID

@@ -5,7 +5,6 @@ from .data import (
     Copyright,
     File,
     FileBundle,
-    FileInstance,
     FilePathPattern,
     FileRepository,
     FileRepositoryStructure,
@@ -15,8 +14,6 @@ from .data import (
 )
 from .miscellaneous import (
     DOI,
-    DigitalIdentifier,
-    DigitalIdentifierSchema,
     Funding,
     GRIDID,
     ISBN,
@@ -42,7 +39,6 @@ from .research import (
     BehavioralTask,
     NumericalParameter,
     ParameterSet,
-    ParameterSetting,
     Protocol,
     ProtocolExecution,
     StringParameter,

@@ -1,7 +1,6 @@
 from .behavioral_task import BehavioralTask
 from .numerical_parameter import NumericalParameter
 from .parameter_set import ParameterSet
-from .parameter_setting import ParameterSetting
 from .protocol import Protocol
 from .protocol_execution import ProtocolExecution
 from .string_parameter import StringParameter
