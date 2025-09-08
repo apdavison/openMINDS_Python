@@ -1196,7 +1196,6 @@ MolecularEntity.monosodium_phosphate = MolecularEntity(
         "sodium dihydrogen phosphate",
         "MSP",
         "monobasic sodium phosphate",
-        "sodium dihydrogen phosphate",
         "sodium biphosphate",
         "NaH2PO4",
         "phosphoric acid, monosodium salt",
