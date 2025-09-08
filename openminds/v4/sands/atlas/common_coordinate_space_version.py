@@ -702,7 +702,7 @@ CommonCoordinateSpaceVersion.mni_icbm152_linear_2001_sym = CommonCoordinateSpace
     id="https://openminds.om-i.org/instances/commonCoordinateSpaceVersion/MNI-ICBM152_linear-2001-sym",
     abbreviation="ICBM152",
     full_name="MNI ICBM152 Average Brain Stereotaxic Registration Model",
-    homepage={"@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152lin"},
+    homepage=IRI("https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152lin"),
     native_unit={"@id": "https://openminds.om-i.org/instances/unitOfMeasurement/millimeter"},
     release_date="2009-07-01",
     short_name="MNI ICBM152",
@@ -712,9 +712,9 @@ CommonCoordinateSpaceVersion.mni_icbm152_nonlinear_2009a_asym = CommonCoordinate
     id="https://openminds.om-i.org/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009a-asym",
     abbreviation="ICBM152",
     full_name="MNI ICBM152 Average Brain Stereotaxic Registration Model",
-    homepage={
-        "@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152-non-linear-2009"
-    },
+    homepage=IRI(
+        "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152-non-linear-2009"
+    ),
     native_unit={"@id": "https://openminds.om-i.org/instances/unitOfMeasurement/millimeter"},
     release_date="2009-07-01",
     short_name="MNI ICBM152",
@@ -724,9 +724,9 @@ CommonCoordinateSpaceVersion.mni_icbm152_nonlinear_2009a_sym = CommonCoordinateS
     id="https://openminds.om-i.org/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009a-sym",
     abbreviation="ICBM152",
     full_name="MNI ICBM152 Average Brain Stereotaxic Registration Model",
-    homepage={
-        "@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152-non-linear-2009"
-    },
+    homepage=IRI(
+        "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152-non-linear-2009"
+    ),
     native_unit={"@id": "https://openminds.om-i.org/instances/unitOfMeasurement/millimeter"},
     release_date="2009-07-01",
     short_name="MNI ICBM152",
