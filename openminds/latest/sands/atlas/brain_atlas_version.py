@@ -537,7 +537,7 @@ BrainAtlasVersion.amba_cc_fv3_2015 = BrainAtlasVersion(
     coordinate_space={"@id": "https://openminds.om-i.org/instances/commonCoordinateSpace/AMB-CCF_v3"},
     full_name="Allen Mouse Brain Atlas",
     has_terminology={
-        "@type": "https://openminds.om-i.org/types/ParcellationTerminology",
+        "@type": "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "dataLocation": None,
         "hasEntity": [
             {"@id": "https://openminds.om-i.org/instances/parcellationEntityVersion/AMBA_CCFv3-2015_root"},
@@ -4053,7 +4053,7 @@ BrainAtlasVersion.amba_cc_fv3_2017 = BrainAtlasVersion(
     coordinate_space={"@id": "https://openminds.om-i.org/instances/commonCoordinateSpace/AMB-CCF_v3"},
     full_name="Allen Mouse Brain Atlas",
     has_terminology={
-        "@type": "https://openminds.om-i.org/types/ParcellationTerminology",
+        "@type": "https://openminds.om-i.org/types/ParcellationTerminologyVersion",
         "dataLocation": None,
         "hasEntity": [
             {"@id": "https://openminds.om-i.org/instances/parcellationEntityVersion/AMBA_CCFv3-2017_root"},
