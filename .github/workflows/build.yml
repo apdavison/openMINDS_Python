@@ -45,7 +45,7 @@ jobs:
     - name: Push to main
       if: ${{  matrix.python-version == 3.12 }}
       run: |
-        cp -R target/* main
+        rsync -a --delete --exclude '.git/' target/ main/
         cd main
         rm -rf build openMINDS.egg-info
         git config --global user.email "openminds@ebrains.eu"
