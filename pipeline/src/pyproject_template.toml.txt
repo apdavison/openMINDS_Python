@@ -7,11 +7,11 @@ authors = [
     { name="Andrew P. Davison", email="andrew.davison@cnrs.fr" },
     { name="Lyuba Zehl", email="lyuba.zehl@ebrains.eu" },
     { name="Louisa Köhnen" },
-    { name="Peyman Najafi", email="peyman.najafi@cnrs.fr" }
-
+    { name="Peyman Najafi", email="peyman.najafi@cnrs.fr" },
+    { name="Raphaël Gazzotti" }
 ]
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
