@@ -45,7 +45,7 @@ jobs:
     - name: Push to development
       if: ${{  matrix.python-version == 3.12 }}
       run: |
-        rsync -a --delete --exclude '.git/' target/ development/
+        rsync -a --delete --exclude '.git/' --exclude 'img/' target/ development/
         cd development
         rm -rf build openMINDS.egg-info
         git config --global user.email "openminds@ebrains.eu"
