@@ -10,7 +10,7 @@ authors = [
     { name="Peyman Najafi", email="peyman.najafi@cnrs.fr" },
     { name="Raphaël Gazzotti" }
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = "MIT"
 classifiers = [
     "Development Status :: 4 - Beta",
