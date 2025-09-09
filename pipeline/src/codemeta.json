@@ -46,6 +46,12 @@
         "@type": "Person",
         "givenName": "Louisa",
         "familyName": "Köhnen"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5618-9776",
+        "givenName": "Raphaël",
+        "familyName": "Gazzotti"
       }
     ]
   }
