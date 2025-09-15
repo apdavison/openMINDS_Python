@@ -126,6 +126,14 @@ Species.berghia_stephanieae = Species(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_1287507"),
     synonyms=["aeolidiella stephanieae"],
 )
+Species.bos_taurus = Species(
+    id="https://openminds.ebrains.eu/instances/species/bosTaurus",
+    definition="Cattle (Bos taurus) are large, domesticated, bovid ungulates widely kept as livestock.",
+    interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101393"),
+    name="Bos taurus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_9913"),
+    synonyms=["bovine", "ox", "cow", "dairy cow", "domestic cattle", "domestic cow"],
+)
 Species.callithrix_jacchus = Species(
     id="https://openminds.ebrains.eu/instances/species/callithrixJacchus",
     definition="The species *Callithrix jacchus* (common marmoset) belongs to the family of *callitrichidae* (new world monkeys).",
