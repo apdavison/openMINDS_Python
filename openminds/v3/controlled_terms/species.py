@@ -182,6 +182,14 @@ Species.chlorocebus_pygerythrus = Species(
         "vervet monkey",
     ],
 )
+Species.cricetulus_griseus = Species(
+    id="https://openminds.ebrains.eu/instances/species/cricetulusGriseus",
+    definition="The Chinese hamster (Cricetulus griseus or Cricetulus aureus) is a rodent in the genus Cricetulus of the subfamily Cricetidae.",
+    interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102635"),
+    name="Cricetulus griseus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_10029"),
+    synonyms=["Cricetulus aureus", "Chinese hamster"],
+)
 Species.danio_rerio = Species(
     id="https://openminds.ebrains.eu/instances/species/danioRerio",
     definition="The species *Danio rerio* (zebrafish) belongs to the family of *cyprinidae* (cyprinids, freshwater fish).",
