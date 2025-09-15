@@ -242,6 +242,13 @@ Species.macaca_mulatta = Species(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_9544"),
     synonyms=["rhesus macaque", "rhesus monkey"],
 )
+Species.meriones_unguiculatus = Species(
+    id="https://openminds.om-i.org/instances/species/merionesUnguiculatus",
+    definition="The Mongolian gerbil, also referred to as the Mongolian jird (Meriones unguiculatus), is a rodent belonging to the subfamily Gerbillinae. [Wikipedia]",
+    name="Meriones unguiculatus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_10047"),
+    synonyms=["Mongolian gerbil", "Mongolian jird"],
+)
 Species.monodelphis_domestica = Species(
     id="https://openminds.om-i.org/instances/species/monodelphisDomestica",
     definition="The species *Monodelphis domestica* (gray short-tailed opossum) belongs to the family of *didelphidae* (American possums).",
