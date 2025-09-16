@@ -112,7 +112,7 @@ for version, module_list in openminds_modules.items():
 
 env = Environment(loader=FileSystemLoader(os.path.dirname(os.path.realpath(__file__))), autoescape=select_autoescape())
 context = {
-    "version": "0.3.0",
+    "version": "0.3.1",
 }
 if args.branch == "development":
     context["version"] += ".dev"
@@ -130,6 +130,7 @@ shutil.copy("pipeline/src/registry.py", "target/openminds/registry.py")
 shutil.copy("pipeline/src/collection.py", "target/openminds/collection.py")
 shutil.copy("pipeline/src/README.md", "target/README.md")
 shutil.copy("./LICENSE", "target/LICENSE")
+shutil.copy("./CHANGELOG.md", "target/CHANGELOG.md")
 
 # If we have a PyPI release for the current version, complete the codemeta.json template
 try:

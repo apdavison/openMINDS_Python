@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.8", "3.12"]
+        python-version: ["3.9", "3.13"]
     steps:
 
     - name: Checkout Repository
@@ -40,12 +40,12 @@ jobs:
         ref: development
         path: development
         token: ${{ secrets.GITHUB_TOKEN }}
-      if: ${{  matrix.python-version == 3.12 }}
+      if: ${{  matrix.python-version == 3.13 }}
 
     - name: Push to development
-      if: ${{  matrix.python-version == 3.12 }}
+      if: ${{  matrix.python-version == 3.13 }}
       run: |
-        cp -R target/* development
+        rsync -a --delete --exclude '.git/' --exclude 'img/' target/ development/
         cd development
         rm -rf build openMINDS.egg-info
         git config --global user.email "openminds@ebrains.eu"

@@ -53,3 +53,16 @@ For more detail see #29.
 
 - Added release candidate for openMINDS v4
 - Nodes in a collection are now sorted by ID.
+
+## Release 0.3.1 (2025-09-09)
+
+- includes fixes and additions to instance library, including:
+    - replacement of MRAcquisitionType by MRSpatialEncoding
+    - the addition of a Marmoset brain atlas, and some other new instances
+    - improved consistency of @id paths, spelling corrections, improved term definitions
+- more reliable export as JSON-LD: specifically when a property which expects a single value
+  has a list/tuple as a value, this would break JSON-LD export.
+  Now, although it is marked as a validation failure, this does not prevent export.
+- addition of a `Link` class, to allow making reference to remote graph nodes defined by their `@id`
+  that are not present locally.
+- improved CI testing: we now test v3 and v4, as well as "latest".

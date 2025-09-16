@@ -18,7 +18,7 @@
     "programmingLanguage": ["Python"],
     "operatingSystem": ["Linux", "Windows", "macOS"],
     "softwareRequirements": [
-      "Python (version >=3.8)"
+      "Python (version >=3.9)"
     ],
     "relatedLink": [
       "https://openminds-documentation.readthedocs.io"
@@ -46,6 +46,12 @@
         "@type": "Person",
         "givenName": "Louisa",
         "familyName": "Köhnen"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5618-9776",
+        "givenName": "Raphaël",
+        "familyName": "Gazzotti"
       }
     ]
   }
