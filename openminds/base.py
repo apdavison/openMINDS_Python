@@ -184,7 +184,7 @@ class Node(metaclass=Registry):
         for property in self.__class__.properties:
             value = getattr(self, property.name)
             if isinstance(value, Link):
-                resolved_value = node_lookup[value.identifier]
+                resolved_value = node_lookup.get(value.identifier, value)
                 setattr(self, property.name, resolved_value)
             elif hasattr(value, "_resolve_links"):
                 value._resolve_links(node_lookup)
