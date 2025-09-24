@@ -209,6 +209,14 @@ Species.danio_rerio = Species(
         "zebrafish",
     ],
 )
+Species.drosophila_melanogaster = Species(
+    id="https://openminds.ebrains.eu/instances/species/drosophilaMelanogaster",
+    definition="The species *Drosophila melanogaster* (fruit fly) belongs to the family of *Drosophilidae*.",
+    interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103567"),
+    name="Drosophila melanogaster",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_7227"),
+    synonyms=["fruit fly"],
+)
 Species.felis_catus = Species(
     id="https://openminds.ebrains.eu/instances/species/felisCatus",
     definition="The species *Felis catus* (domestic cat) belongs to the family of *Felidae*, subfamily *Felinae*.",
