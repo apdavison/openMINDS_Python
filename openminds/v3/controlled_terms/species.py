@@ -258,6 +258,20 @@ Species.macaca_mulatta = Species(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_9544"),
     synonyms=["rhesus macaque", "rhesus monkey"],
 )
+Species.macaca_nemestrina = Species(
+    id="https://openminds.ebrains.eu/instances/species/macacaNemestrina",
+    definition="The species *Macaca nemestrina* (southern pig-tailed macaque) belongs to the family of *cercopithecidae* (old world monkeys).",
+    name="Macaca nemestrina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/NCBITaxon_9545"),
+    synonyms=[
+        "pig-tailed macaque",
+        "pigtail monkey",
+        "pigtail macaque",
+        "Sundaland pig-tailed macaque",
+        "Sunda pig-tailed macaque",
+        "beruk",
+    ],
+)
 Species.meriones_unguiculatus = Species(
     id="https://openminds.ebrains.eu/instances/species/merionesUnguiculatus",
     definition="The Mongolian gerbil, also referred to as the Mongolian jird (Meriones unguiculatus), is a rodent belonging to the subfamily Gerbillinae. [Wikipedia]",
