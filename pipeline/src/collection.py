@@ -234,8 +234,7 @@ class Collection:
         for node_id in unsorted:
             if len(self.nodes[node_id].links) == 0:
                 sorted.append(node_id)
-        for node_id in sorted:
-            unsorted.remove(node_id)
+        unsorted -= set(sorted)
         # now iteratively add nodes to `sorted` if all their children are already in `sorted`
         while len(unsorted) > 0:
             newly_sorted = []
@@ -244,6 +243,6 @@ class Collection:
                 if not child_ids.difference(sorted):
                     sorted.append(node_id)
                     newly_sorted.append(node_id)
-            for node_id in newly_sorted:
-                unsorted.remove(node_id)
+            unsorted -= set(newly_sorted)
         return [self.nodes[node_id] for node_id in sorted]
+        
