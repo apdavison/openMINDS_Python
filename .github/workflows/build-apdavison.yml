@@ -1,0 +1,59 @@
+# MIT licensed
+name: openMINDS_Python_build_pipeline
+
+on:
+  push:
+    branches:
+      - fairgraph-compat
+
+jobs:
+  build:
+    if: github.repository == 'apdavison/openMINDS_Python'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.13"]
+    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Run build
+      run: |
+        pip install -r requirements.txt
+        python build.py
+
+    - name: Test built package
+      run: |
+        pip install pytest
+        pip install ./target
+        pytest -v pipeline/tests
+
+    - name: Checkout "custom" branch
+      uses: actions/checkout@v4
+      with:
+        ref: custom
+        path: custom
+        token: ${{ secrets.GITHUB_TOKEN }}
+      if: ${{  matrix.python-version == 3.13 }}
+
+    - name: Push to custom
+      if: ${{  matrix.python-version == 3.13 }}
+      run: |
+        rsync -a --delete --exclude '.git/' --exclude 'img/' target/ custom/
+        cd custom
+        rm -rf build openMINDS.egg-info
+        git config --global user.email "openminds@ebrains.eu"
+        git config --global user.name "openMINDS pipeline"
+        if [[ $(git add . --dry-run | wc -l) -gt 0 ]]; then
+            git add .
+            git commit -m "build triggered by ${{ github.event_name }}"
+            git push -f
+        else
+            echo "Nothing to commit"
+        fi
