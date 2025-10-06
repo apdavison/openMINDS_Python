@@ -200,12 +200,24 @@ class Property:
             elif datetime in self.types:
                 return datetime.fromisoformat(item)
             elif date in self.types:
-                return date.fromisoformat(item)
+                try:
+                    return date.fromisoformat(item)
+                except ValueError as err:
+                    # if a datetime string has been provided
+                    # take the date part.
+                    try:
+                        return datetime.fromisoformat(item).date()
+                    except ValueError:
+                        raise err
             elif all(issubclass(t, Node) for t in self.types):
                 # use data["@type"] to figure out class to use
                 if "@type" in item:
+                    if isinstance(item["@type"], list) and len(item["@type"]) == 1:
+                        item_type = item["@type"][0]
+                    else:
+                        item_type = item["@type"]
                     for cls in self.types:
-                        if cls.type_ == item["@type"]:
+                        if cls.type_ == item_type:
                             if set(item.keys()) == link_keys:
                                 # if we only have @id and @type, it's a Link
                                 return Link(item["@id"], allowed_types=[cls])
@@ -213,8 +225,8 @@ class Property:
                                 # otherwise it's a Node
                                 return cls.from_jsonld(item)
                     raise TypeError(
-                        f"Mismatched types. Data has '{item['@type']}' "
-                        f"but property only allows {[cls.type_ for cls in self.types]}"
+                        f"Mismatched types. Data has '{item_type}' "
+                        f"but property only allows one of {[cls.type_ for cls in self.types]}"
                     )
                 else:
                     return Link(item["@id"], allowed_types=self.types)

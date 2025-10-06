@@ -103,7 +103,7 @@ class Model(LinkedMetadata):
             instructions="Enter the preferred citation text for this research product. Leave blank if citation text can be extracted from the assigned digital identifier.",
         ),
         Property(
-            "scope",
+            "model_scope",
             "openminds.v4.controlled_terms.ModelScope",
             "scope",
             required=True,
@@ -173,7 +173,7 @@ class Model(LinkedMetadata):
         has_versions=None,
         homepage=None,
         how_to_cite=None,
-        scope=None,
+        model_scope=None,
         short_name=None,
         study_targets=None,
     ):
@@ -188,7 +188,7 @@ class Model(LinkedMetadata):
             has_versions=has_versions,
             homepage=homepage,
             how_to_cite=how_to_cite,
-            scope=scope,
+            model_scope=model_scope,
             short_name=short_name,
             study_targets=study_targets,
         )
