@@ -1892,6 +1892,14 @@ UBERONParcellation.banks_of_superior_temporal_sulcus = UBERONParcellation(
     name="banks of superior temporal sulcus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0028622"),
 )
+UBERONParcellation.barbel_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/barbelTasteBud",
+    definition="Is an integumental taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034718)]",
+    description="A taste bud that is located on a barbel. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034718)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034718#barbel-taste-bud"),
+    name="barbel taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034718"),
+)
 UBERONParcellation.baroreceptor = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/baroreceptor",
     definition="Is an interoceptor. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004019)]",
@@ -6741,6 +6749,14 @@ UBERONParcellation.epithalamus_ventricular_layer = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013160"),
     synonyms=["ventricular layer epithalamus", "ventricular layer of epithalamus"],
 )
+UBERONParcellation.esophageal_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/esophagealTasteBud",
+    definition="Is a taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034724)]",
+    description="A taste bud that is located in the esophagus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034724)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034724#esophageal-taste-bud"),
+    name="esophageal taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034724"),
+)
 UBERONParcellation.external_capsule_of_telencephalon = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/externalCapsuleOfTelencephalon",
     definition="Is a cerebral hemisphere white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004545)]",
@@ -6967,6 +6983,14 @@ UBERONParcellation.fifth_thoracic_dorsal_root_ganglion = UBERONParcellation(
     name="fifth thoracic dorsal root ganglion",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002848"),
     synonyms=["fifth thoracic spinal ganglion"],
+)
+UBERONParcellation.fin_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/finTasteBud",
+    definition="Is a taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034723)]",
+    description="A taste bud that is located on a fin. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034723)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034723#fin-taste-bud"),
+    name="fin taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034723"),
 )
 UBERONParcellation.first_cervical_dorsal_root_ganglion = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/firstCervicalDorsalRootGanglion",
@@ -8129,6 +8153,14 @@ UBERONParcellation.head_sensillum = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000963#head-sensillum"),
     name="head sensillum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000963"),
+)
+UBERONParcellation.head_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/headTasteBud",
+    definition="Is an integumental taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034720)]",
+    description="A taste bud that is located on the skin of the head. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034720)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034720#head-taste-bud"),
+    name="head taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034720"),
 )
 UBERONParcellation.hemisphere_part_of_cerebellar_anterior_lobe = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/hemispherePartOfCerebellarAnteriorLobe",
@@ -9364,6 +9396,14 @@ UBERONParcellation.insular_cortex = UBERONParcellation(
     name="insular cortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034891"),
     synonyms=["cortex of insula", "insular neocortex"],
+)
+UBERONParcellation.integumental_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/integumentalTasteBud",
+    definition="Is a taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034717)]",
+    description="A taste bud that is located external to the digestive tube, on the head or body, as found in species such as goldfish. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034717)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034717#integumental-taste-bud"),
+    name="integumental taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034717"),
 )
 UBERONParcellation.interanterodorsal_nucleus_of_the_thalamus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/interanterodorsalNucleusOfTheThalamus",
@@ -11034,6 +11074,14 @@ UBERONParcellation.lingual_nerve = UBERONParcellation(
         "trigeminal nerve lingual branch",
         "trigeminal V nerve lingual branch",
     ],
+)
+UBERONParcellation.lip_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/lipTasteBud",
+    definition="Is an integumental taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034719)]",
+    description="A taste bud that is located on a lip. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034719)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034719#lip-taste-bud"),
+    name="lip taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034719"),
 )
 UBERONParcellation.lobe_of_cerebral_hemisphere = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/lobeOfCerebralHemisphere",
@@ -13049,6 +13097,14 @@ UBERONParcellation.motor_system = UBERONParcellation(
     name="motor system",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0025525"),
 )
+UBERONParcellation.mouth_roof_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/mouthRoofTasteBud",
+    definition="Is a taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034722)]",
+    description="A taste bud that is located on the roof of the mouth. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034722)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034722#mouth-roof-taste-bud"),
+    name="mouth roof taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034722"),
+)
 UBERONParcellation.musculocutaneous_nerve = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/musculocutaneousNerve",
     definition="Is a nerve. Is part of the brachial nerve plexus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003724) ('is_a' and 'relationship')]",
@@ -14301,6 +14357,15 @@ UBERONParcellation.paired_venous_dural_sinus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0017635"),
     synonyms=["paired dural venous sinus"],
 )
+UBERONParcellation.palatal_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/palatalTasteBud",
+    definition="Is a mouth roof taste bud. Is part of the gustatory epithelium of palate. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034670) ('is_a' and 'relationship')]",
+    description="A taste bud that is located on the soft palate, in the roof of the mouth. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034670)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034670#palatal-taste-bud"),
+    name="palatal taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034670"),
+    synonyms=["taste bud of palate"],
+)
 UBERONParcellation.paleocortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/paleocortex",
     definition="Is an allocortex. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014735)]",
@@ -15421,6 +15486,14 @@ UBERONParcellation.periventricular_white_matter = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014932#periventricular-white-matter"),
     name="periventricular white matter",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014932"),
+)
+UBERONParcellation.pharyngeal_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pharyngealTasteBud",
+    definition="Is a taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034721)]",
+    description="A taste bud that is located in the pharynx. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034721)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034721#pharyngeal-taste-bud"),
+    name="pharyngeal taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034721"),
 )
 UBERONParcellation.photoreceptor_array = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/photoreceptorArray",
@@ -20367,6 +20440,15 @@ UBERONParcellation.thoracic_ganglion = UBERONParcellation(
         "thorax ganglion",
     ],
 )
+UBERONParcellation.tongue_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/tongueTasteBud",
+    definition="Is a taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014451)]",
+    description="A taste bud that is located on the tongue, situated on a gustatory papilla. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014451)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014451#tongue-taste-bud"),
+    name="tongue taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014451"),
+    synonyms=["gustatory papilla taste bud", "gustatory papillae taste bud"],
+)
 UBERONParcellation.tract_of_brain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/tractOfBrain",
     definition="Is an axon tract. Is part of the brain and the white matter. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007702) ('is_a' and 'relationship')]",
@@ -20557,6 +20639,14 @@ UBERONParcellation.trunk_ganglion = UBERONParcellation(
     name="trunk ganglion",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007134"),
     synonyms=["body ganglion"],
+)
+UBERONParcellation.trunk_taste_bud = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/trunkTasteBud",
+    definition="Is an integumental taste bud. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034726)]",
+    description="A taste bud that is located on the skin of the trunk. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034726)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034726#trunk-taste-bud"),
+    name="trunk taste bud",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034726"),
 )
 UBERONParcellation.tuber_cinereum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/tuberCinereum",
