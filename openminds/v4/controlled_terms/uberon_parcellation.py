@@ -2852,6 +2852,14 @@ UBERONParcellation.carotid_sinus_nerve = UBERONParcellation(
         "sinus nerve of Hering",
     ],
 )
+UBERONParcellation.cauda_equina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/caudaEquina",
+    definition="Is an anatomical entity. Is part of the spinal nerve root. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0012337) ('is_a' and 'relationship')]",
+    description="The cauda equina is a structure within the lower end of the spinal column of most vertebrates, that consists of nerve roots and rootlets from above. The space in which the cerebrospinal fluid is present is actually an extension of the subarachnoid space. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0012337)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0012337#cauda-equina"),
+    name="cauda equina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0012337"),
+)
 UBERONParcellation.caudal_anterior_cingulate_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/caudalAnteriorCingulateCortex",
     definition="Is a regional part of brain. Is part of the anterior cingulate cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0028715) ('is_a' and 'relationship')]",
@@ -2913,6 +2921,14 @@ UBERONParcellation.caudal_ganglionic_eminence = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004026#caudal-ganglionic-eminence"),
     name="caudal ganglionic eminence",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004026"),
+)
+UBERONParcellation.caudal_intralaminar_nuclear_group = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/caudalIntralaminarNuclearGroup",
+    definition="Is a nucleus of dorsal thalamus. Is part of the intralaminar nuclear group. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0019295) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0019295#caudal-intralaminar-nuclear-group"),
+    name="caudal intralaminar nuclear group",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0019295"),
+    synonyms=["caudal group of intralaminar nuclei", "posterior group of intralaminar nuclei"],
 )
 UBERONParcellation.caudal_mesencephalo_cerebellar_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/caudalMesencephaloCerebellarTract",
@@ -3024,6 +3040,13 @@ UBERONParcellation.caudal_part_of_ventral_posterolateral_nucleus_of_thalamus = U
         "VPLC",
     ],
 )
+UBERONParcellation.caudal_periventricular_hypothalamus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/caudalPeriventricularHypothalamus",
+    definition="Is a hypothalamic nucleus. Is part of the caudal zone of median tuberal portion of hypothalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000324) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000324#caudal-periventricular-hypothalamus"),
+    name="caudal periventricular hypothalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000324"),
+)
 UBERONParcellation.caudal_pontine_reticular_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/caudalPontineReticularNucleus",
     definition="'Caudal pontine reticular nucleus' is a nucleus of pontine reticular formation.",
@@ -3048,6 +3071,23 @@ UBERONParcellation.caudal_root_of_abducens_nerve = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009908"),
     synonyms=["radix caudalis nervi abducentis"],
 )
+UBERONParcellation.caudal_tuberculum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/caudalTuberculum",
+    definition="Is a regional part of brain. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000633) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000633#caudal-tuberculum"),
+    name="caudal tuberculum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000633"),
+    synonyms=["posterior tubercle", "posterior tuberculum"],
+)
+UBERONParcellation.caudal_zone_of_median_tuberal_portion_of_hypothalamus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/caudalZoneOfMedianTuberalPortionOfHypothalamus",
+    definition="Is a regional part of brain. Is part of the median tuberal portion. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000634) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:2000634#caudal-zone-of-median-tuberal-portion-of-hypothalamus"
+    ),
+    name="caudal zone of median tuberal portion of hypothalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000634"),
+)
 UBERONParcellation.caudate_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/caudateNucleus",
     definition="'Caudate nucleus' is a telencephalic nucleus. It is part of the caudate-putamen.",
@@ -3058,23 +3098,36 @@ UBERONParcellation.caudate_nucleus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001873"),
     synonyms=["Ammon horn fields", "Caudate", "caudatum", "caudatus", "Cd", "nucleus caudatus"],
 )
-UBERONParcellation.caudateputamen = UBERONParcellation(
-    id="https://openminds.om-i.org/instances/UBERONParcellation/caudateputamen",
-    definition="'Caudate-putamen' is a central nervous system cell part cluster. It is part of the dorsal striatum.",
-    description="Regional part of telencephalon in some species, e.g., rodent, equivalent to the dorsal striatum (caudate nucleus and putamen).  Unlike the dorsal striatum of primates, for example, the caudoputamen is not split into separate nuclei by the fibers of the internal capsule.  Rather, the internal capsule splits into fiber bundles which course through the structure.",
+UBERONParcellation.caudate_putamen = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/caudatePutamen",
+    definition="Is a central nervous system cell part cluster. Is part of the dorsal striatum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005383) ('is_a' and 'relationship')]",
+    description="Regional part of telencephalon in some species, e.g., rodent, equivalent to the dorsal striatum (caudate nucleus and putamen). Unlike the dorsal striatum of primates, for example, the caudoputamen is not split into separate nuclei by the fibers of the internal capsule. Rather, the internal capsule splits into fiber bundles which course through the structure. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005383)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101739"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005383#caudoputamen"),
     name="caudate-putamen",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005383"),
+    synonyms=["caudate putamen", "caudateputamen", "caudoputamen"],
+)
+UBERONParcellation.cavernous_sinus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cavernousSinus",
+    definition="Is a venous dural sinus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003712)]",
+    description="The cavernous sinus (or lateral sellar compartment), within the human head, is a large collection of thin-walled veins creating a cavity bordered by the temporal bone of the skull and the sphenoid bone, lateral to the sella turcica. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003712)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003712#cavernous-sinus"),
+    name="cavernous sinus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003712"),
+)
+UBERONParcellation.cavum_septum_pellucidum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cavumSeptumPellucidum",
+    definition="Is an anatomical entity. Is part of the septum pellucidum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009857) ('is_a' and 'relationship')]",
+    description="A space enclosed within the laminae of the septum pelludicum, the membranous partition that separates the frontal horns of the ventricle. contains cerebrospinal fluid (CSF) that filters from the ventricles through the septal laminae. bounded anteriorly by the genu of the corpus callosum; superiorly by the body of the corpus callosum; posteriorly by the anterior limb and pillars of the fornix; inferiorly by the anterior commissure and the rostrum of the corpus callosum; and laterally by the leaflets of the septum pellucidum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009857)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009857#cavum-septum-pellucidum"),
+    name="cavum septum pellucidum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009857"),
     synonyms=[
-        "caudate putamen",
-        "caudate putamen (striatum)",
-        "Caudate-putamen",
-        "caudateputamen",
-        "caudoputamen",
-        "dorsal striatum",
-        "neostriatum",
-        "striatum",
+        "cave of septum pellucidum",
+        "cavum of septum pellucidum",
+        "septum pellucidum cave",
+        "ventriculus septi pellucidi",
     ],
 )
 UBERONParcellation.celiac_ganglion = UBERONParcellation(
@@ -3157,76 +3210,51 @@ UBERONParcellation.central_dorsal_nucleus_of_thalamus = UBERONParcellation(
         "nucleus circularis",
     ],
 )
+UBERONParcellation.central_gray_substance = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/centralGraySubstance",
+    definition="Is a gray matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035011)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035011#central-gray-substance"),
+    name="central gray substance",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035011"),
+    synonyms=["central grey substance", "substantia grisea centralis"],
+)
 UBERONParcellation.central_gray_substance_of_medulla = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/centralGraySubstanceOfMedulla",
-    definition="'Central gray substance of medulla' is a gray matter of hindbrain and central gray substance. It is part of the medulla oblongata.",
-    description="",
+    definition="Is a gray matter of hindbrain and central gray substance. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002867) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101892"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002867#central-gray-substance-of-medulla-1"),
     name="central gray substance of medulla",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002867"),
-    synonyms=[
-        "central gray matter",
-        "central gray of the medulla",
-        "central gray substance of the medulla",
-        "CGM",
-        "griseum periventriculare",
-        "medullary central gray substance",
-    ],
+    synonyms=["central gray matter", "medullary central gray substance"],
 )
 UBERONParcellation.central_gray_substance_of_midbrain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/centralGraySubstanceOfMidbrain",
-    definition="'Central gray substance of midbrain' is a gray matter of midbrain and central gray substance. It is part of the midbrain tegmentum.",
-    description="Periaqueductal gray (PAG; also called the 'central gray') is the gray matter located around the cerebral aqueduct within the midbrain. It plays a role in the descending modulation of pain and in defensive behaviour. The ascending pain and temperature fibers of the spinothalamic tract also send information to the PAG via the spinomesencephalic tract. The spinomesencephalic tract is so-named because the fibers originate in the spine and terminate in the mesencephalon, another name for the midbrain, the part of the brain in which the PAG resides. [WP,unvetted].",
+    definition="Is a gray matter of midbrain and central gray substance. Is part of the midbrain tegmentum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003040) ('is_a' and 'relationship')]",
+    description="Periaqueductal gray (PAG; also called the 'central gray') is the gray matter located around the cerebral aqueduct within the midbrain. It plays a role in the descending modulation of pain and in defensive behaviour. The ascending pain and temperature fibers of the spinothalamic tract also send information to the PAG via the spinomesencephalic tract. The spinomesencephalic tract is so-named because the fibers originate in the spine and terminate in the mesencephalon, another name for the midbrain, the part of the brain in which the PAG resides. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003040)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108717"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003040#central-gray-substance-of-midbrain-1"),
     name="central gray substance of midbrain",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003040"),
     synonyms=[
-        "anulus aquaeductus",
-        "anulus aqueductus cerebri",
         "anulus of cerebral aqueduct",
         "central (periaqueductal) gray",
-        "central gray",
-        "central gray of the midbrain",
-        "central gray substance of the midbrain",
-        "Central gray,Central grey substance of midbrain",
-        "central grey",
-        "central grey substance of midbrain",
-        "CGMB",
-        "griseum centrale",
-        "griseum centrale mesencephali",
-        "griseum periventriculare mesencephali",
         "midbrain periaqueductal grey",
-        "pAG",
-        "periaquectuctal grey",
         "periaqueductal gray",
         "periaqueductal gray matter",
         "periaqueductal gray of tegmentum",
         "periaqueductal grey",
         "periaqueductal grey matter",
         "periaqueductal grey substance",
-        "proper",
-        "s. grisea centralis",
-        "substantia grisea centralis",
-        "substantia grisea centralis mesencephali",
     ],
 )
 UBERONParcellation.central_gray_substance_of_pons = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/centralGraySubstanceOfPons",
-    definition="'Central gray substance of pons' is a gray matter of hindbrain and central gray substance. It is part of the pontine reticular formation.",
-    description="",
+    definition="Is a gray matter of hindbrain and central gray substance. Is part of the pontine reticular formation. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002968) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101893"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002968#central-gray-substance-of-pons-1"),
     name="central gray substance of pons",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002968"),
-    synonyms=[
-        "central gray of pons",
-        "central gray of the pons",
-        "CGPn",
-        "griseum centrale pontis",
-        "pontine central gray",
-    ],
+    synonyms=["central gray of pons", "griseum centrale pontis", "pontine central gray"],
 )
 UBERONParcellation.central_lateral_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/centralLateralNucleus",
@@ -3277,6 +3305,21 @@ UBERONParcellation.central_medial_nucleus = UBERONParcellation(
         "CM",
         "nucleus centralis medialis",
         "nucleus centralis medialis thalami",
+    ],
+)
+UBERONParcellation.central_medullary_reticular_nuclear_complex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/centralMedullaryReticularNuclearComplex",
+    definition="Is a nuclear complex of neuraxis and gray matter of hindbrain. Is part of the medullary reticular formation. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035940) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0035940#central-medullary-reticular-nuclear-complex"
+    ),
+    name="central medullary reticular nuclear complex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035940"),
+    synonyms=[
+        "central group (medullary reticular formation)",
+        "central medullary reticular complex",
+        "central medullary reticular group",
+        "nuclei centrales myelencephali",
     ],
 )
 UBERONParcellation.central_nervous_system = UBERONParcellation(
@@ -3365,6 +3408,13 @@ UBERONParcellation.central_oculomotor_nucleus = UBERONParcellation(
         "nucleus nervi oculomotorii centralis",
         "perlia nucleus of oculomotor nerve",
     ],
+)
+UBERONParcellation.central_pretectum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/centralPretectum",
+    definition="Is a regional part of brain. Is part of the pretectal region. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000183) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000183#central-pretectum"),
+    name="central pretectum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000183"),
 )
 UBERONParcellation.central_retina = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/centralRetina",
@@ -3458,6 +3508,20 @@ UBERONParcellation.centromedian_nucleus_of_thalamus = UBERONParcellation(
         "nucleus centromedianus",
         "nucleus centromedianus thalami",
         "nucleus centrum medianum",
+    ],
+)
+UBERONParcellation.centrum_semiovale = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/centrumSemiovale",
+    definition="Is a cerebral hemisphere white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008967)]",
+    description="The semioval center is the white matter found underneath the grey matter on the surface of the cerebrum. The term is synonymous with cerebral white matter. The white matter, located in each hemisphere between the cerebral cortex and nuclei, as a whole has a semioval shape. It consists of cortical projection fibers, association fibers and cortical fibers. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0008967)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0008967#centrum-semiovale"),
+    name="centrum semiovale",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008967"),
+    synonyms=[
+        "centrum ovale",
+        "corpus medullare cerebri",
+        "medullary center",
+        "substantia centralis medullaris cerebri",
     ],
 )
 UBERONParcellation.cephalopod_optic_lobe = UBERONParcellation(
@@ -3613,6 +3677,23 @@ UBERONParcellation.cerebellar_vermis = UBERONParcellation(
         "vermis of cerebellum",
         "vermis of cerebellum [I-X]",
     ],
+)
+UBERONParcellation.cerebellomedullary_cistern = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellomedullaryCistern",
+    definition="Is a subarachnoid cistern. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004049)]",
+    description="The largest of the subarachnoid cisterns between the cerebellum and the medulla oblongata; it is divided into a posterior cerebellomedullary cistern located between the cerebellum and the posterior surface of the medulla (also called cisterna magna), and a lateral cerebellomedullary cistern located between the cerebellum and the lateral aspect of the medulla. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004049)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004049#cerebellomedullary-cistern"),
+    name="cerebellomedullary cistern",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004049"),
+    synonyms=["great cistern"],
+)
+UBERONParcellation.cerebellopontine_angle = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellopontineAngle",
+    definition="Is a regional part of brain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014908)]",
+    description="Junction between the cerebellum and the pons. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014908)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014908#cerebellopontine-angle"),
+    name="cerebellopontine angle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014908"),
 )
 UBERONParcellation.cerebellum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebellum",
@@ -4097,48 +4178,31 @@ UBERONParcellation.cerebral_cortex_ventricular_layer = UBERONParcellation(
 )
 UBERONParcellation.cerebral_crus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralCrus",
-    definition="'Cerebral crus' is a white matter of midbrain. It is part of the cerebral peduncle.",
-    description="The cerebral crus is the most anterior portion of the midbrain which consists of a massive band of nerve fibers originating primarily from the cerebral cortex.",
+    definition="Is a white matter of midbrain. Is part of the cerebral peduncle. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002631) ('is_a' and 'relationship')]",
+    description="The cerebral crus is the anterior portion of the cerebral peduncle which contains the motor tracts, the plural of which is cerebral crura. In some older texts, it is used as a synonym for the entire cerebral peduncle, not just the anterior portion of it. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002631)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101990"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002631#cerebral-crus-1"),
     name="cerebral crus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002631"),
-    synonyms=[
-        "basal part",
-        "base of cerebral peduncle",
-        "basis cerebri (Oertel)",
-        "basis pedunculi (Oertel)",
-        "basis pedunculi cerebri (Willis)",
-        "ccr",
-        "cerebral peduncle",
-        "cerebral peduncle (clinical definition)",
-        "crura cerebri",
-        "crus cerebri",
-        "crus of the cerebral peduncle",
-        "pars basalis",
-        "pars neo-encephalica pedunculi",
-        "pedunculus cerebri",
-        "pes pedunculi",
-        "pes pedunculi of midbrain",
-    ],
+    synonyms=["cerebral peduncle (clinical definition)", "crura cerebri", "crus cerebri"],
 )
 UBERONParcellation.cerebral_hemisphere = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralHemisphere",
-    definition="'Cerebral hemisphere' is part of the telencephalon.",
-    description="Gross division of the brain.  The term cerebrum has several definitions ranging in generality from equivalence to the term 'brain' to the sum of the left cerebral hemisphere and right hemisphere, to a composite structure consisting of the cerebral cortex and adjacent cerebral white matter. A thorough discussion of the nature and history of the different definitions is presented in Anthoney-94 (NeuroNames).",
+    definition="Is part of the telencephalon. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001869)]",
+    description="One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001869)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102003"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001869#cerebrum"),
     name="cerebral hemisphere",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001869"),
-    synonyms=[
-        "cerebrum",
-        "hemisphere",
-        "hemispheric regions",
-        "hemispherium cerebri",
-        "medial amygdalar nucleus",
-        "nucleus amygdaloideus medialis",
-        "nucleus medialis amygdalae",
-    ],
+)
+UBERONParcellation.cerebral_hemisphere_gray_matter = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralHemisphereGrayMatter",
+    definition="Is a gray matter of telencephalon. Is part of the cerebral hemisphere. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005401) ('is_a' and 'relationship')]",
+    description="A gray matter that is part of a cerebral hemisphere. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005401)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005401#cerebral-hemisphere-gray-matter"),
+    name="cerebral hemisphere gray matter",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005401"),
+    synonyms=["cerebral gray matter", "cerebral grey matter", "cerebral hemisphere grey matter"],
 )
 UBERONParcellation.cerebral_hemisphere_white_matter = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralHemisphereWhiteMatter",
@@ -4166,23 +4230,13 @@ UBERONParcellation.cerebral_nerve_fasciculus = UBERONParcellation(
 )
 UBERONParcellation.cerebral_peduncle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralPeduncle",
-    definition="'Cerebral peduncle' is a peduncle of neuraxis and white matter of midbrain.",
-    description="Synonym for macrodissected adult human tegmentum (Vicq d'Azyr, 1784; Swanson, 2000); pp. 555-556. Later used thus by for example His (1893b, p. 178), Herrick (1915, p. 160), Strong & Elwyn (1943, p. 17), Carpenter (1976, p. 367), Williams & Warwick (1980, p. 935).",
+    definition="Is a peduncle of neuraxis and white matter of midbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002623)]",
+    description="Synonym for macrodissected adult human tegmentum (Vicq d'Azyr, 1784; Swanson, 2000); pp. 555-556. Later used thus by for example His (1893b, p. 178), Herrick (1915, p. 160), Strong & Elwyn (1943, p. 17), Carpenter (1976, p. 367), Williams & Warwick (1980, p. 935). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002623)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101996"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002623#cerebral-peduncle-1"),
     name="cerebral peduncle",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002623"),
-    synonyms=[
-        "cerebal peduncle",
-        "cerebral peduncle",
-        "cerebral peduncle (archaic)",
-        "CP",
-        "peduncle of midbrain",
-        "pedunculi cerebri",
-        "pedunculus cerebralis",
-        "pedunculus cerebri",
-        "tegmentum",
-    ],
+    synonyms=["peduncle of midbrain", "pedunculus cerebri"],
 )
 UBERONParcellation.cerebral_subcortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cerebralSubcortex",
@@ -4210,6 +4264,15 @@ UBERONParcellation.cerebrocerebellum = UBERONParcellation(
     name="cerebrocerebellum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014644"),
     synonyms=["cerebellum lateral hemisphere", "cerebellum lateral zone", "neocerebellum", "pontocerebellum"],
+)
+UBERONParcellation.cervical_division_of_cord_spinal_central_canal = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cervicalDivisionOfCordSpinalCentralCanal",
+    definition="Is a subdivision of spinal cord central canal. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014542)]",
+    description="Part of central canal contained within the cervical spinal cord. It is continuous caudally with the thoracic spinal cord central canal and rostrally with the fourth ventricle of the brain via the obex. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014542)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014542#cervical-spinal-cord-central-canal"),
+    name="cervical division of cord spinal central canal",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014542"),
+    synonyms=["cervical spinal cord central canal"],
 )
 UBERONParcellation.cervical_dorsal_root_ganglion = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cervicalDorsalRootGanglion",
@@ -4311,6 +4374,15 @@ UBERONParcellation.chest_nerve = UBERONParcellation(
         "nerve of front of thorax",
     ],
 )
+UBERONParcellation.chiasmatic_cistern = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/chiasmaticCistern",
+    definition="Is a subarachnoid cistern. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002898)]",
+    description="The region of the subarachnoid space that is located below and anterior to the optic chiasm. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002898)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002898#chiasmatic-cistern-1"),
+    name="chiasmatic cistern",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002898"),
+    synonyms=["cisterna chiasmatica", "cisterna chiasmatis"],
+)
 UBERONParcellation.cholinergic_enteric_nerve = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cholinergicEntericNerve",
     definition="Is an enteric nerve. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010406)]",
@@ -4335,25 +4407,18 @@ UBERONParcellation.chorda_tympani_branch_of_facial_nerve = UBERONParcellation(
 )
 UBERONParcellation.choroid_plexus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/choroidPlexus",
-    definition="'Choroid plexus' is a brain ventricle/choroid plexus and vasculature of central nervous system. It is part of the brain ventricle and tela choroidea.",
-    description="A structure consisting of modified ependymal cells in the ventricles of the brain responsible for the production of cerebral spinal fluid (CSFF).",
+    definition="Is a brain ventricle/choroid plexus and vasculature of central nervous system. Is part of the brain ventricle and the tela choroidea. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001886) ('is_a' and 'relationship')]",
+    description="A network formed by blood vessels and the tela choroidea which secretes CSF into the ventricular spaces. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001886)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102142"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001886#choroid-plexus-1"),
     name="choroid plexus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001886"),
-    synonyms=[
-        "chorioid plexus",
-        "choroid plexus",
-        "choroid plexus of cerebral hemisphere",
-        "CP",
-        "plexus choroideus",
-        "ventricular choroid plexus",
-    ],
+    synonyms=["chorioid plexus", "plexus choroideus"],
 )
 UBERONParcellation.choroid_plexus_corpora_arenacea = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/choroidPlexusCorporaArenacea",
-    definition="'Choroid plexus corpora arenacea' is a calcified structure of brain. It is part of the choroid plexus.",
-    description="A calcified structure of brain that is part of a choroid plexus.",
+    definition="Is a calcified structure of brain. Is part of the choroid plexus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017633) ('is_a' and 'relationship')]",
+    description="A calcified structure of brain that is part of a choroid plexus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017633)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0728330"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0017633#choroid-plexus-corpora-arenacea"),
     name="choroid plexus corpora arenacea",
@@ -4361,12 +4426,18 @@ UBERONParcellation.choroid_plexus_corpora_arenacea = UBERONParcellation(
 )
 UBERONParcellation.choroid_plexus_epithelium = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/choroidPlexusEpithelium",
-    definition="'Choroid plexus epithelium' is part of the choroid plexus.",
-    description="The epithelial component of the choroid plexus. Consists of cuboidal epithelial cells surrounding a core of capillaries and loose connective tissue.",
+    definition="Is part of the choroid plexus. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003911)]",
+    description="The epithelial component of the choroid plexus. Consists of cuboidal epithelial cells surrounding a core of capillaries and loose connective tissue. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003911)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0726675"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003911#choroid-plexus-epithelium"),
     name="choroid plexus epithelium",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003911"),
+    synonyms=[
+        "choroid plexus epithelial tissue",
+        "epithelial tissue of chorioid plexus of cerebral hemisphere",
+        "epithelial tissue of choroid plexus",
+        "epithelium of choroid plexus",
+    ],
 )
 UBERONParcellation.choroid_plexus_of_fourth_ventricle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/choroidPlexusOfFourthVentricle",
@@ -4428,12 +4499,31 @@ UBERONParcellation.choroid_plexus_of_third_ventricle = UBERONParcellation(
 )
 UBERONParcellation.choroid_plexus_stroma = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/choroidPlexusStroma",
-    definition="'Choroid plexus stroma' is part of the choroid plexus.",
-    description="Stromal matrix surrounding blood vessels within the choroid plexus.",
+    definition="Is part of the choroid plexus. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005206)]",
+    description="Stromal matrix surrounding blood vessels within the choroid plexus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005206)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0726217"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005206#choroid-plexus-stroma"),
     name="choroid plexus stroma",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005206"),
+    synonyms=["choroid plexus stromal matrix"],
+)
+UBERONParcellation.choroid_plexus_vascular_circuit = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/choroidPlexusVascularCircuit",
+    definition="Is a vasculature of brain. Is part of the choroid plexus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2005219) ('is_a' and 'relationship')]",
+    description="Cranial vasculature where the posterior cerebral veins and the trans-choroid plexus branch form a circuit around the 4th ventricle choroid plexus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2005219)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2005219#choroid-plexus-vascular-circuit"),
+    name="choroid plexus vascular circuit",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2005219"),
+    synonyms=["CVC"],
+)
+UBERONParcellation.ciliary_marginal_zone = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/ciliaryMarginalZone",
+    definition="Is part of the retina. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003065)]",
+    description="Region at the periphery of the retina where retinal stem cells are located. After 60 hpf, the CMZ is the source of most retinal growth. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003065)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003065#ciliary-marginal-zone"),
+    name="ciliary marginal zone",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003065"),
+    synonyms=["peripheral growth zone", "retinal ciliary marginal zone"],
 )
 UBERONParcellation.cingulate_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cingulateCortex",
@@ -4487,12 +4577,13 @@ UBERONParcellation.cingulate_sulcus = UBERONParcellation(
 )
 UBERONParcellation.cingulum_of_brain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cingulumOfBrain",
-    definition="'Cingulum of brain' is a tract of brain. It is part of the brain white matter.",
-    description="The white matter fiber bundle that projects from the cingulate gyrus to the entorhinal cortex in the brain.",
+    definition="Is a tract of brain. Is part of the brain white matter. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003961) ('is_a' and 'relationship')]",
+    description="The white matter fiber bundle that projects from the cingulate gyrus to the entorhinal cortex in the brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003961)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0736017"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003961#cingulum-of-brain"),
     name="cingulum of brain",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003961"),
+    synonyms=["cingulum bundle"],
 )
 UBERONParcellation.circuit_part_of_central_nervous_system = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/circuitPartOfCentralNervousSystem",
@@ -4581,6 +4672,14 @@ UBERONParcellation.circumventricular_organ = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005408"),
     synonyms=["circumventricular organ of neuraxis", "CVO"],
 )
+UBERONParcellation.cistern_of_lamina_terminalis = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cisternOfLaminaTerminalis",
+    definition="Is a subarachnoid cistern. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002897)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002897#cistern-of-lamina-terminalis-1"),
+    name="cistern of lamina terminalis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002897"),
+    synonyms=["cisterna lamina terminalis", "lamina terminalis cistern"],
+)
 UBERONParcellation.claustral_amygdaloid_area = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/claustralAmygdaloidArea",
     definition="Is a cerebral hemisphere gray matter. Is part of the amygdala and the basal nuclear complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002729) ('is_a' and 'relationship')]",
@@ -4592,20 +4691,21 @@ UBERONParcellation.claustral_amygdaloid_area = UBERONParcellation(
 )
 UBERONParcellation.claustrum_of_brain = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/claustrumOfBrain",
-    definition="'Claustrum of brain' is a basal ganglion and cerebral hemisphere gray matter. It is part of the pallium and basal nuclear complex.",
-    description="Lamina of gray matter in the forebrain separated from the cortex in most species by the extreme capsule. (Brodal, Neurological Anatomy, 3rd Ed., 1981, pg 225).",
+    definition="Is a basal ganglion and cerebral hemisphere gray matter. Is part of the pallium and the basal nuclear complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002023) ('is_a' and 'relationship')]",
+    description="One of the four basal ganglia in each cerebral hemisphere that consists of a thin lamina of gray matter between the lentiform nucleus and the insula. The claustrum, which is suspected to be present in all mammals, is a fairly thin (fraction of 1 mm to multiple mms) vertical curved sheet of subcortical gray matter oriented sagittally between the white matter tracts of the external capsule and extreme capsule. The claustrum is lateral to the putamen and medial to the insular cortex and is considered by some sources to be part of the basal ganglia. There are lateral and medial tracts connecting to many cortices and perhaps to the hippocampus, the amygdala, and the caudate nucleus (connections with subcortical centers are a matter of debate). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002023)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102230"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002023#claustrum"),
     name="claustrum of brain",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002023"),
-    synonyms=[
-        "Cl",
-        "claustrum",
-        "claustrum (Burdach)",
-        "dorsal claustrum",
-        "dorsal portion of claustrum",
-        "insular claustrum",
-    ],
+    synonyms=["claustrum", "dorsal claustrum", "dorsal portion of claustrum"],
+)
+UBERONParcellation.climbing_fiber = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/climbingFiber",
+    definition="Is part of the corpus cerebelli and the valvula cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002185)]",
+    description="Portion of tissue that consists of afferent axons from the inferior olive and synapsing with Purkinje cells within the molecular layer of the valvula cerebelli and corpus cerebelli. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002185)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2002185#climbing-fiber"),
+    name="climbing fiber",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2002185"),
 )
 UBERONParcellation.clivus_of_fovea_centralis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/clivusOfFoveaCentralis",
@@ -4664,13 +4764,13 @@ UBERONParcellation.cochlear_nerve = UBERONParcellation(
 )
 UBERONParcellation.cochlear_nuclear_complex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cochlearNuclearComplex",
-    definition="'Cochlear nuclear complex' is a gray matter of hindbrain. It is part of the medulla oblongata.",
-    description="The cochlear nuclei consist of: (a) the dorsal cochlear nucleus, corresponding to the tuberculum acusticum on the dorso-lateral surface of the inferior peduncle; and (b) the ventral or accessory cochlear nucleus, placed between the two divisions of the nerve, on the ventral aspect of the inferior peduncle. [WP,unvetted].",
+    definition="Is a gray matter of hindbrain. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002610) ('is_a' and 'relationship')]",
+    description="The cochlear nuclei consist of: (a) the dorsal cochlear nucleus, corresponding to the tuberculum acusticum on the dorso-lateral surface of the inferior peduncle; and (b) the ventral or accessory cochlear nucleus, placed between the two divisions of the nerve, on the ventral aspect of the inferior peduncle. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002610)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102309"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002610#cochlear-nuclear-complex-1"),
     name="cochlear nuclear complex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002610"),
-    synonyms=["cochlear nuclei", "cochlear nucleus", "nuclei cochleares"],
+    synonyms=["cochlear nuclei"],
 )
 UBERONParcellation.collar_nerve_cord = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/collarNerveCord",
@@ -4692,11 +4792,13 @@ UBERONParcellation.collateral_sulcus = UBERONParcellation(
 )
 UBERONParcellation.collection_of_basal_ganglia = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/collectionOfBasalGanglia",
-    definition="'Collection of basal ganglia' is an aggregate regional part of brain. It is part of the cerebral subcortex.",
-    description="Subcortical masses of gray matter in the forebrain and midbrain that are richly interconnected and so viewed as a functional system. The nuclei usually included are the caudate nucleus (caudoputamen in rodents), putamen, globus pallidus, substantia nigra (pars compacta and pars reticulata) and the subthalamic nucleus. Some also include the nucleus accumbens and ventral pallidum.",
+    definition="Is an aggregate regional part of brain. Is part of the cerebral subcortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010011) ('is_a' and 'relationship')]",
+    description="Subcortical masses of gray matter in the forebrain and midbrain that are richly interconnected and so viewed as a functional system. The nuclei usually included are the caudate nucleus (caudoputamen in rodents), putamen, globus pallidus, substantia nigra (pars compacta and pars reticulata) and the subthalamic nucleus. Some also include the nucleus accumbens and ventral pallidum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0010011)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0101102"),
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0010011#basal-ganglia"),
     name="collection of basal ganglia",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0010011"),
+    synonyms=["basal ganglia", "basal ganglia set", "basal nuclei (basal ganglia)", "set of basal ganglia"],
 )
 UBERONParcellation.commissura_rostral_pars_dorsalis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/commissuraRostralParsDorsalis",
@@ -4826,15 +4928,22 @@ UBERONParcellation.composite_part_spanning_multiple_base_regional_parts_of_brain
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022776"),
     synonyms=["composite part spanning multiple base regional parts of brain"],
 )
+UBERONParcellation.conus_medullaris = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/conusMedullaris",
+    definition="Is a spinal cord segment. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005437)]",
+    description="The conus medullaris is the terminal end of the spinal cord. It occurs near lumbar vertebral levels 1 (L1) and 2 (L2). After the spinal cord tapers out, the spinal nerves continue as dangling nerve roots called cauda equina. This terminal nerve root tail is referred to as the filum terminale. The upper end of the conus medullaris is usually not well defined. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005437)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005437#conus-medullaris"),
+    name="conus medullaris",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005437"),
+    synonyms=["medullary cone"],
+)
 UBERONParcellation.copula_pyramidis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/copulaPyramidis",
-    definition="'Copula pyramidis' is a cerebellum hemisphere lobule.",
-    description="A part of the cerebellar hemisphere in the mouse ( Paxinos-2001 ) and the rat ( Swanson-1998 ) that corresponds laterally to the pyramis of the vermis of the cerebellum. It is regarded as the rodent homolog of the 'lateral belly' of the the biventer lobule of the human (Voogd-1990) (Adapted from NeuroNames:  http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID",
+    definition="Is a cerebellum hemisphere lobule. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005347)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102555"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005347#copula-pyramidis"),
     name="copula pyramidis",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005347"),
-    synonyms=["copula of the pyramis"],
 )
 UBERONParcellation.core_of_nucleus_accumbens = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/coreOfNucleusAccumbens",
@@ -4857,28 +4966,52 @@ UBERONParcellation.core_of_nucleus_accumbens = UBERONParcellation(
 )
 UBERONParcellation.corona_radiata_of_neuraxis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/coronaRadiataOfNeuraxis",
-    definition="'Corona radiata of neuraxis' is a cerebral hemisphere white matter.",
-    description="Fan shaped white matter mass comprised of afferent and efferent fibers from the cerebral cortex arranged in radially arrayed bundles, converging towards the internal capsule (Carpenter, Core Text of Neuroanatomy, 3rd ed, 1985, pg. 30;  Heimer, The Human Brain and Spinal Cord, 2nd ed., 1995, pg 84).",
+    definition="Is a cerebral hemisphere white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004682)]",
+    description="Fan shaped white matter mass comprised of afferent and efferent fibers from the cerebral cortex arranged in radially arrayed bundles, converging towards the internal capsule (Carpenter, Core Text of Neuroanatomy, 3rd ed, 1985, pg. 30; Heimer, The Human Brain and Spinal Cord, 2nd ed., 1995, pg 84). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004682)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102560"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004682#corona-radiata"),
     name="corona radiata of neuraxis",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004682"),
     synonyms=["corona radiata"],
 )
+UBERONParcellation.corpora_quadrigemina = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/corporaQuadrigemina",
+    definition="Is part of the midbrain tectum. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002259)]",
+    description="Either of the two pairs of colliculi on the dorsal surface of the midbrain composed of white matter externally and gray matter within, the superior pair containing correlation centers for optic reflexes and the inferior pair containing correlation centers for auditory reflexes. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002259)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002259#corpora-quadrigemina"),
+    name="corpora quadrigemina",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002259"),
+    synonyms=["colliculi", "quadrigeminal body"],
+)
 UBERONParcellation.corpus_callosum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corpusCallosum",
-    definition="",
-    description="The 'corpus callosum' is a white matter structure containing massive numbers of commissural fibers connecting cortical areas in the two cerebral hemispheres.",
+    definition="Is an intercerebral commissure and dorsal telencephalic commissure. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002336)]",
+    description="W. Ite matter structure containing massive numbers of commissural fibers connecting cortical areas in the two cerebral hemispheres. It is subdivided into a genu, a rostrum, a body, and a splenium. (MM) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002336)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102562"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002336#corpus-callosum"),
     name="corpus callosum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002336"),
-    synonyms=["cc"],
+)
+UBERONParcellation.corpus_cardiacum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/corpusCardiacum",
+    definition="Is an arthropod neurohemal organ. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001056)]",
+    description="One of a pair of neurohemal organs located on the walls of the aorta just behind the brain. The corpora cardiaca release their store of PTTH only after they receive a signal from neurosecretory cells in the brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001056)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001056#corpus-cardiacum"),
+    name="corpus cardiacum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001056"),
+)
+UBERONParcellation.corpus_cerebelli = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/corpusCerebelli",
+    definition="Is a regional part of brain. Is part of the cerebellum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000188) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000188#corpus-cerebelli"),
+    name="corpus cerebelli",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000188"),
+    synonyms=["cerebellar corpus", "corpus cerebellum"],
 )
 UBERONParcellation.corpus_striatum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corpusStriatum",
-    definition="'Corpus striatum' is a regional part of brain. It is part of the basal ganglion.",
-    description="The corpus striatum (striated body) is a compound structure consisting of the caudate nucleus and the lentiform nucleus, which consists of the putamen and the globus pallidus[WP].",
+    definition="Is a regional part of brain. Is part of the basal ganglion. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000369) ('is_a' and 'relationship')]",
+    description="The corpus striatum (striated body) is a compound structure consisting of the caudate nucleus and the lentiform nucleus, which consists of the putamen and the globus pallidus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000369)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0729722"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000369#corpus-striatum"),
     name="corpus striatum",
@@ -5220,6 +5353,14 @@ UBERONParcellation.cranial_nerve_nucleus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000126"),
     synonyms=["cranial neural nucleus", "nucleus of cranial nerve"],
 )
+UBERONParcellation.cranial_neuron_projection_bundle = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cranialNeuronProjectionBundle",
+    definition="Is a neuron projection bundle. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034713)]",
+    description="Any of the cranial nerves, or their central nervous system analogs (the optic tract, the epiphyseal tract). These analogs are not true nerves, and are instead evaginated sensory afferents emanating from the brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034713)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034713#cranial-neuron-projection-bundle"),
+    name="cranial neuron projection bundle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034713"),
+)
 UBERONParcellation.cranial_sensory_ganglion = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cranialSensoryGanglion",
     definition="Is a cranial ganglion and sensory ganglion. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009992)]",
@@ -5233,6 +5374,48 @@ UBERONParcellation.cranial_sensory_ganglion = UBERONParcellation(
         "ganglion sensorium nervi cranialis",
         "sensory ganglion of cranial nerve",
     ],
+)
+UBERONParcellation.crista_ampullaris_neuroepithelium = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cristaAmpullarisNeuroepithelium",
+    definition="Is a vestibular epithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006935)]",
+    description="An epithelium that is part of a crista ampullaris. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006935)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006935#crista-ampullaris-neuroepithelium"),
+    name="crista ampullaris neuroepithelium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006935"),
+    synonyms=["epithelium of crista of ampulla of semicircular duct of membranous labyrinth"],
+)
+UBERONParcellation.crista_of_ampulla_of_anterior_semicircular_duct_of_membranous_laybrinth = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cristaOfAmpullaOfAnteriorSemicircularDuctOfMembranousLaybrinth",
+    definition="Is a crista ampullaris neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007274)]",
+    description="A crista ampullaris neuroepithelium that is part of a anterior semicircular duct. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007274)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0007274#crista-of-ampulla-of-anterior-semicircular-duct-of-membranous-laybrinth"
+    ),
+    name="crista of ampulla of anterior semicircular duct of membranous laybrinth",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007274"),
+    synonyms=["anterior crista ampullaris", "anterior semicircular canal sensory patch", "rostral crista"],
+)
+UBERONParcellation.crista_of_ampulla_of_lateral_semicircular_duct_of_membranous_laybrinth = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cristaOfAmpullaOfLateralSemicircularDuctOfMembranousLaybrinth",
+    definition="Is a crista ampullaris neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007276)]",
+    description="A crista ampullaris neuroepithelium that is part of a lateral semicircular duct. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007276)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0007276#crista-of-ampulla-of-lateral-semicircular-duct-of-membranous-laybrinth"
+    ),
+    name="crista of ampulla of lateral semicircular duct of membranous laybrinth",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007276"),
+    synonyms=["lateral crista ampullaris", "lateral semicircular canal sensory patch"],
+)
+UBERONParcellation.crista_of_ampulla_of_posterior_semicircular_duct_of_membranous_laybrinth = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cristaOfAmpullaOfPosteriorSemicircularDuctOfMembranousLaybrinth",
+    definition="Is a crista ampullaris neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007275)]",
+    description="A crista ampullaris neuroepithelium that is part of a posterior semicircular duct. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007275)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0007275#crista-of-ampulla-of-posterior-semicircular-duct-of-membranous-laybrinth"
+    ),
+    name="crista of ampulla of posterior semicircular duct of membranous laybrinth",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007275"),
+    synonyms=["caudal crista", "posterior crista ampullaris", "posterior semicircular canal sensory patch"],
 )
 UBERONParcellation.crossed_tecto_bulbar_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/crossedTectoBulbarTract",
@@ -5248,6 +5431,23 @@ UBERONParcellation.cruciate_sulcus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013590#cruciate-sulcus"),
     name="cruciate sulcus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013590"),
+)
+UBERONParcellation.crus_commune_epithelium = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/crusCommuneEpithelium",
+    definition="Is a vestibular epithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005657)]",
+    description="An epithelium that is part of a crus commune. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005657)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005657#crus-commune-epithelium"),
+    name="crus commune epithelium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005657"),
+)
+UBERONParcellation.cuneate_fasciculus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/cuneateFasciculus",
+    definition="Is an axon tract and nerve fasciculus. Is part of the dorsal column-medial lemniscus pathway. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005832) ('is_a' and 'relationship')]",
+    description="An axon tract in the spinal cord and medulla which primarily transmits information from the forelimb and trunk. It is part of the dorsal column-medial lemniscus pathway. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005832)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005832#cuneate-fasciculus"),
+    name="cuneate fasciculus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005832"),
+    synonyms=["cuneatus tract"],
 )
 UBERONParcellation.cuneate_fasciculus_of_medulla = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/cuneateFasciculusOfMedulla",
