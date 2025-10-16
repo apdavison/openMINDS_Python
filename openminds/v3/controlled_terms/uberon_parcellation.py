@@ -5451,13 +5451,13 @@ UBERONParcellation.cuneate_fasciculus = UBERONParcellation(
 )
 UBERONParcellation.cuneate_fasciculus_of_medulla = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/cuneateFasciculusOfMedulla",
-    definition="'Cuneate fasciculus of medulla' is a cuneate fasciculus, fasciculus of brain and tract of brain. It is part of the medulla oblongata.",
-    description="Part of cuneate fasciculus found in the medulla",
+    definition="Is a cuneate fasciculus, fasciculus of brain and tract of brain. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002642) ('is_a' and 'relationship')]",
+    description="Part of cuneate fasciculus found in the medulla. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002642)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0102667"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002642#cuneate-fasciculus-of-medulla-1"),
     name="cuneate fasciculus of medulla",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002642"),
-    synonyms=["cu", "fasciculus cuneatus (myelencephali)", "nucleus pulvinaris oromedialis (Hassler)"],
+    synonyms=["fasciculus cuneatus (myelencephali)"],
 )
 UBERONParcellation.cuneiform_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/cuneiformNucleus",
@@ -5523,6 +5523,22 @@ UBERONParcellation.decussation_of_diencephalon = UBERONParcellation(
     name="decussation of diencephalon",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007425"),
     synonyms=["diencephalon decussation"],
+)
+UBERONParcellation.decussation_of_medial_lemniscus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/decussationOfMedialLemniscus",
+    definition="Is a neural decussation. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002643) ('is_a' and 'relationship')]",
+    description="The sensory decussation or decussation of the lemniscus is a decussation or cross over of axons from the gracile nucleus and cuneate nucleus. The fibres of this decussation are called the internal arcuate fibres and are found at the superior aspect of the closed medulla superior to the motor decussation. It is part of the second neuron in the Posterior column-medial lemniscus pathway. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002643)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002643#decussation-of-medial-lemniscus-1"),
+    name="decussation of medial lemniscus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002643"),
+    synonyms=[
+        "decussation of lemnisci",
+        "decussation of lemniscus",
+        "decussation of medial lemnisci",
+        "medial lemniscus decussation",
+        "medullary sensory decussation",
+        "sensory decussation",
+    ],
 )
 UBERONParcellation.decussation_of_superior_cerebellar_peduncle = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/decussationOfSuperiorCerebellarPeduncle",
@@ -5775,35 +5791,30 @@ UBERONParcellation.descending_branch_of_the_vagus_nerve = UBERONParcellation(
     name="descending branch of the vagus nerve",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010750"),
 )
+UBERONParcellation.developing_neuroepithelium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/developingNeuroepithelium",
+    definition="Is an anatomical entity. Is part of the nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034705) ('is_a' and 'relationship')]",
+    description="An embryonic or larval epithelium that is committed to form part of the nervous system. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034705)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034705#developing-neuroepithelium"),
+    name="developing neuroepithelium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034705"),
+    synonyms=["embryonic neuroepithelium", "neuroepithelium"],
+)
 UBERONParcellation.diagonal_band_of_broca = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/diagonalBandOfBroca",
-    definition="'Diagonal band of Broca' is a neuron projection bundle and central nervous system cell part cluster. It is part of the cerebral hemisphere white matter.",
-    description="A white fibre bundle descending in the precommissural septum toward the base of the forebrain, immediately rostral to the lamina terminalis; at the base, the bundle turns in the caudolateral direction; traveling through the ventral substantia innominata alongside the optic tract, it fades before reaching the amygdala. (Mondofacto:  http://www.mondofacto.com/facts/dictionary?Broca%27s%20diagonal%20band)",
+    definition="Is a neuron projection bundle and central nervous system cell part cluster. Is part of the cerebral hemisphere white matter. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002741) ('is_a' and 'relationship')]",
+    description="A white fibre bundle descending in the precommissural septum toward the base of the forebrain, immediately rostral to the lamina terminalis; at the base, the bundle turns in the caudolateral direction; traveling through the ventral substantia innominata alongside the optic tract, it fades before reaching the amygdala. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002741)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103188"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002741#diagonal-band"),
     name="diagonal band of Broca",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002741"),
     synonyms=[
-        "band of Broca",
-        "bandaletta diagonalis (Broca)",
-        "bandeletta diagonalis",
-        "Broca's diagonal band",
-        "Broca's diagonal gyrus",
+        "broca's diagonal band",
+        "broca's diagonal gyrus",
         "diagonal band",
-        "diagonal band of Broca",
-        "diagonal band(Broca)",
         "diagonal gyrus",
-        "fasciculus diagonalis Brocae",
-        "fasciculus olfactorius",
-        "fasciculus olfactorius (hippocampi)",
-        "fasciculus olfactorius cornu Ammonis",
-        "fasciculus septo-amygdalicus",
-        "gyrus diagonalis",
-        "gyrus diagonalis rhinencephli",
         "olfactory fasciculus",
-        "Olfactory radiations of Zuckerkandl",
-        "stria diagonalis",
-        "stria diagonalis (Broca)",
+        "olfactory radiations of Zuckerkandl",
     ],
 )
 UBERONParcellation.diagonal_sulcus = UBERONParcellation(
@@ -5812,6 +5823,24 @@ UBERONParcellation.diagonal_sulcus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002675#diagonal-sulcus-1"),
     name="diagonal sulcus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002675"),
+)
+UBERONParcellation.diaphragma_sellae = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/diaphragmaSellae",
+    definition="Is part of the meningeal dura mater. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035416)]",
+    description="The diaphragma sellae or sellar diaphragm is the circular fold of dura mater that almost completely roofs the fossa hypophyseos in the sphenoid bone of the skull. It retains the pituitary gland in the fossa hypophyseos, with only the infundibulum of the pituitary gland passing through it. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035416)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035416#diaphragma-sellae"),
+    name="diaphragma sellae",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035416"),
+    synonyms=["sellar diaphragm"],
+)
+UBERONParcellation.diencephalic_part_of_interventricular_foramen = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/diencephalicPartOfInterventricularForamen",
+    definition="Is part of the third ventricle and the interventricular foramen of CNS. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006220)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0006220#diencephalic-part-of-interventricular-foramen"
+    ),
+    name="diencephalic part of interventricular foramen",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006220"),
 )
 UBERONParcellation.diencephalic_white_matter = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/diencephalicWhiteMatter",
@@ -5938,6 +5967,14 @@ UBERONParcellation.diencephalon_subarachnoid_space = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005218"),
     synonyms=["subarachnoid space diencephalon"],
 )
+UBERONParcellation.differentiating_neuroepithelium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/differentiatingNeuroepithelium",
+    definition="Is a developing neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034707)]",
+    description="A neuroepithelium some of whose cells are undergoing terminal differentiation to become neuronal cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034707)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034707#differentiating-neuroepithelium"),
+    name="differentiating neuroepithelium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034707"),
+)
 UBERONParcellation.diffuse_reticular_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/diffuseReticularNucleus",
     definition="'Diffuse reticular nucleus' is a parabrachial nucleus.",
@@ -6023,19 +6060,13 @@ UBERONParcellation.dorsal_accessory_inferior_olivary_nucleus = UBERONParcellatio
 )
 UBERONParcellation.dorsal_acoustic_stria = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalAcousticStria",
-    definition="'Dorsal acoustic stria' is a stria of neuraxis and white matter of pontine tegmentum.",
-    description="White matter structure containing fibers arising from the cochlear nuclear complex",
+    definition="Is a stria of neuraxis and white matter of pontine tegmentum. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002790)]",
+    description="White matter structure containing fibers arising from the cochlear nuclear complex. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002790)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103411"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002790#dorsal-acoustic-stria-1"),
     name="dorsal acoustic stria",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002790"),
-    synonyms=[
-        "das",
-        "dorsal acoustic stria (Monakow)",
-        "posterior acoustic stria",
-        "stria cochlearis posterior",
-        "striae acusticae dorsalis",
-    ],
+    synonyms=["posterior acoustic stria", "stria cochlearis posterior"],
 )
 UBERONParcellation.dorsal_anterior_lateral_line_ganglion = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalAnteriorLateralLineGanglion",
@@ -6069,8 +6100,7 @@ UBERONParcellation.dorsal_auditory_area_layer4 = UBERONParcellation(
 )
 UBERONParcellation.dorsal_cap_of_kooy = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalCapOfKooy",
-    definition="'Dorsal cap of Kooy' is a regional part of brain. It is part of the inferior olivary complex.",
-    description="",
+    definition="Is a regional part of brain. Is part of the inferior olivary complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014286) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103421"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014286#dorsal-cap-of-kooy-1"),
     name="dorsal cap of Kooy",
@@ -6103,6 +6133,14 @@ UBERONParcellation.dorsal_cochlear_nucleus = UBERONParcellation(
         "tuberculum acousticum",
     ],
 )
+UBERONParcellation.dorsal_column_medial_lemniscus_pathway = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalColumnMedialLemniscusPathway",
+    definition="Is a neuron projection bundle. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018237)]",
+    description="A sensory tract originating in the spinal cord responsible for transmitting fine touch, vibration and conscious proprioceptive information from the body to the cerebral cortex. The components include the fasciculus gracilis and fasciculus cuneatus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018237)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0018237#dorsal-column-medial-lemniscus-pathway"),
+    name="dorsal column-medial lemniscus pathway",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0018237"),
+)
 UBERONParcellation.dorsal_column_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalColumnNucleus",
     definition="'Dorsal column nucleus' is a nucleus of medulla oblongata. It is part of the dorsal column-medial lemniscus pathway.",
@@ -6115,21 +6153,16 @@ UBERONParcellation.dorsal_column_nucleus = UBERONParcellation(
 )
 UBERONParcellation.dorsal_external_arcuate_fiber_bundle = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalExternalArcuateFiberBundle",
-    definition="'Dorsal external arcuate fiber bundle' is a neuron projection bundle and central nervous system cell part cluster. It is part of the medulla oblongata.",
-    description="",
+    definition="Is a neuron projection bundle and central nervous system cell part cluster. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006089) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103433"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006089#dorsal-external-arcuate-fiber-bundle-1"),
     name="dorsal external arcuate fiber bundle",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006089"),
     synonyms=[
-        "dorsal external arcuate fiber bundle",
         "dorsal external arcuate fibers",
         "dorsal external arcuate tract",
         "dorsal superficial arcuate fibers",
-        "ear",
         "external arcuate fibers",
-        "fibrae arcuatae externae dorsales",
-        "fibrae arcuatae externae posteriores",
     ],
 )
 UBERONParcellation.dorsal_hypothalamic_area = UBERONParcellation(
@@ -6152,48 +6185,34 @@ UBERONParcellation.dorsal_lateral_ganglionic_eminence = UBERONParcellation(
 )
 UBERONParcellation.dorsal_longitudinal_fasciculus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalLongitudinalFasciculus",
-    definition="'Dorsal longitudinal fasciculus' is a fasciculus of brain.",
-    description="A fiber bundle containing fibers from nuclei of the hypothalamus that project to the dorsal tegmental nucleus and other regions of the midbrain and the pons, as well as fibers originating in the pontine reticular formation and the medullary reticular formation that project to the thalamus and other regions of the forebrain (Carpenter-83). In NeuroNames it is a composite structure consisting of the dorsal longitudinal fasciculus of hypothalamus, the dorsal longitudinal fasciculus of midbrain, the dorsal longitudinal fasciculus of pons and the dorsal longitudinal fasciculus of medulla. (NeuroNames)]]",
+    definition="Is a fasciculus of brain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003045)]",
+    description="A fiber bundle containing fibers from nuclei of the hypothalamus that project to the dorsal tegmental nucleus and other regions of the midbrain and the pons, as well as fibers originating in the pontine reticular formation and the medullary reticular formation that project to the thalamus and other regions of the forebrain (Carpenter-83). In NeuroNames it is a composite structure consisting of the dorsal longitudinal fasciculus of hypothalamus, the dorsal longitudinal fasciculus of midbrain, the dorsal longitudinal fasciculus of pons and the dorsal longitudinal fasciculus of medulla. (NeuroNames) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003045)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103442"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003045#dorsal-longitudinal-fasciculus-1"),
     name="dorsal longitudinal fasciculus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003045"),
     synonyms=[
-        "accessory cochlear nucleus",
         "bundle of Schutz",
-        "dlf",
-        "dorsal longitudinal fascicle",
-        "fasciculus longitudinalis dorsalis",
         "fasciculus longitudinalis posterior",
         "fasciculus of Schutz",
-        "nucleus acustici accessorici",
-        "nucleus cochlearis anterior",
-        "nucleus cochlearis ventralis",
         "posterior longitudinal fasciculus",
-        "ventral cochlear nuclei",
-        "ventral division of cochlear nucleus",
     ],
 )
 UBERONParcellation.dorsal_longitudinal_fasciculus_of_hypothalamus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalLongitudinalFasciculusOfHypothalamus",
-    definition="'Dorsal longitudinal fasciculus of hypothalamus' is a fasciculus of brain. It is part of the lateral hypothalamic area and dorsal longitudinal fasciculus.",
-    description="Part of dorsal longitudinal fasciculus located within the hypothalamus",
+    definition="Is a fasciculus of brain. Is part of the lateral hypothalamic area and the dorsal longitudinal fasciculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003008) ('is_a' and 'relationship')]",
+    description="Part of dorsal longitudinal fasciculus located within the hypothalamus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003008)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103443"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0003008#dorsal-longitudinal-fasciculus-of-hypothalamus-1"
     ),
     name="dorsal longitudinal fasciculus of hypothalamus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003008"),
-    synonyms=[
-        "dlfh",
-        "dorsal longitudinal fasciculus of the hypothalamus",
-        "fasciculus longitudinalis dorsalis (hypothalami)",
-    ],
 )
 UBERONParcellation.dorsal_longitudinal_fasciculus_of_medulla = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalLongitudinalFasciculusOfMedulla",
-    definition="'Dorsal longitudinal fasciculus of medulla' is a fasciculus of brain. It is part of the medulla oblongata.",
-    description="Part of dorsal longitudinal fasciculus located in the medulla",
+    definition="Is a fasciculus of brain. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002646) ('is_a' and 'relationship')]",
+    description="Part of dorsal longitudinal fasciculus located in the medulla. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002646)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103444"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0002646#dorsal-longitudinal-fasciculus-of-medulla-1"
@@ -6202,8 +6221,6 @@ UBERONParcellation.dorsal_longitudinal_fasciculus_of_medulla = UBERONParcellatio
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002646"),
     synonyms=[
         "bundle of Schutz of medulla",
-        "dorsal longitudinal fasciculus of the medulla",
-        "fasciculus longitudinalis dorsalis (myelencephali)",
         "fasciculus of Schutz of medulla",
         "medulla bundle of Schutz",
         "medulla dorsal longitudinal fasciculus",
@@ -6214,8 +6231,8 @@ UBERONParcellation.dorsal_longitudinal_fasciculus_of_medulla = UBERONParcellatio
 )
 UBERONParcellation.dorsal_longitudinal_fasciculus_of_midbrain = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalLongitudinalFasciculusOfMidbrain",
-    definition="'Dorsal longitudinal fasciculus of midbrain' is a fasciculus of brain. It is part of the midbrain tegmentum and dorsal longitudinal fasciculus.",
-    description="Part of dorsal longitudinal fasciculus located in the midbrain tegmentum",
+    definition="Is a fasciculus of brain. Is part of the midbrain tegmentum and the dorsal longitudinal fasciculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003005) ('is_a' and 'relationship')]",
+    description="Part of dorsal longitudinal fasciculus located in the midbrain tegmentum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003005)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103445"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0003005#dorsal-longitudinal-fasciculus-of-midbrain-1"
@@ -6224,9 +6241,6 @@ UBERONParcellation.dorsal_longitudinal_fasciculus_of_midbrain = UBERONParcellati
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003005"),
     synonyms=[
         "bundle of Schutz of midbrain",
-        "dlfmb",
-        "dorsal longitudinal fasciculus of the midbrain",
-        "fasciculus longitudinalis dorsalis (mesencephali)",
         "fasciculus of Schutz of midbrain",
         "midbrain bundle of Schutz",
         "midbrain dorsal longitudinal fasciculus",
@@ -6237,15 +6251,14 @@ UBERONParcellation.dorsal_longitudinal_fasciculus_of_midbrain = UBERONParcellati
 )
 UBERONParcellation.dorsal_longitudinal_fasciculus_of_pons = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalLongitudinalFasciculusOfPons",
-    definition="'Dorsal longitudinal fasciculus of pons' is a fasciculus of brain. It is part of the pons and dorsal longitudinal fasciculus.",
-    description="Part of dorsal longitudinal fasciculus located within the pons",
+    definition="Is a fasciculus of brain. Is part of the pons and the dorsal longitudinal fasciculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002793) ('is_a' and 'relationship')]",
+    description="Part of dorsal longitudinal fasciculus located within the pons. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002793)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103447"),
     knowledge_space_link=IRI(
         "https://knowledge-space.org/wiki/UBERON:0002793#dorsal-longitudinal-fasciculus-of-pons-1"
     ),
     name="dorsal longitudinal fasciculus of pons",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002793"),
-    synonyms=["dorsal longitudinal fasciculus of the pons", "fasciculus longitudinalis dorsalis (pontis)"],
 )
 UBERONParcellation.dorsal_longitudinal_vein = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalLongitudinalVein",
@@ -6394,6 +6407,15 @@ UBERONParcellation.dorsal_nucleus_of_trapezoid_body = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009053"),
     synonyms=["dorsal nucleus of trapezoid body", "nucleus dorsalis corporis trapezoidei"],
 )
+UBERONParcellation.dorsal_ocellus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalOcellus",
+    definition="Is a head sensillum. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003161)]",
+    description="A simple visual organ of insects. Two ocelli appear on the vertical and one on the frontal plate. The multi-tissue structure that is located on the top of the head, composed of the corneal lens, pigment cell, rhabdoms and synaptic plexus. Two evolutionary distinct ocellus types exist: dorsal ocelli (or simply 'ocelli'), found in most insects, and lateral ocelli (or stemmata), which are found in the larvae of some insect orders. They are structurally and functionally very different. Simple eyes of other animals, e.g. cnidarians may also be referred to as 'ocelli', but again the structure and anatomy of these eyes is quite distinct from those of the dorsal ocelli of insects. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003161)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003161#dorsal-ocellus"),
+    name="dorsal ocellus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003161"),
+    synonyms=["ocellus"],
+)
 UBERONParcellation.dorsal_oculomotor_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalOculomotorNucleus",
     definition="'Dorsal oculomotor nucleus' is a brainstem nucleus and midbrain nucleus. It is part of the oculomotor nuclear complex.",
@@ -6412,12 +6434,26 @@ UBERONParcellation.dorsal_oculomotor_nucleus = UBERONParcellation(
 )
 UBERONParcellation.dorsal_pallidum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalPallidum",
-    definition="'Dorsal pallidum' is a cerebral hemisphere gray matter and pallidum. It is part of the globus pallidus.",
-    description="The predominant portion of the globus pallidus in the striatopallidal system, which is defined by connectivity and neurochemical staining. The dorsal pallidum is distinguished from the ventral pallidum by a boundary that is partially defined by the anterior commissure. The remainder of the boundary is indistinct in sections stained for Nissl substance ( Heimer-1995 ).",
+    definition="Is a cerebral hemisphere gray matter and pallidum. Is part of the globus pallidus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006516) ('is_a' and 'relationship')]",
+    description="The predominant portion of the globus pallidus in the striatopallidal system, which is defined by connectivity and neurochemical staining. The dorsal pallidum is distinguished from the ventral pallidum by a boundary that is partially defined by the anterior commissure. The remainder of the boundary is indistinct in sections stained for Nissl substance ( Heimer-1995 ) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006516)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0724298"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006516#dorsal-pallidum"),
     name="dorsal pallidum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006516"),
+    synonyms=["globus pallidus dorsal part"],
+)
+UBERONParcellation.dorsal_pallium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalPallium",
+    definition="Is a regional part of brain. Is part of the pallium. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014740) ('is_a' and 'relationship')]",
+    description="Subdivision of pallium that is located dorsally. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014740)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014740#dorsal-pallium"),
+    name="dorsal pallium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014740"),
+    synonyms=[
+        "area dorsalis telencephali, zona dorsalis",
+        "dorsal zone of dorsal telencephalic area",
+        "dorsal zone of dorsal telencephalon",
+    ],
 )
 UBERONParcellation.dorsal_paramedian_reticular_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalParamedianReticularNucleus",
@@ -6440,15 +6476,22 @@ UBERONParcellation.dorsal_paramedian_reticular_nucleus = UBERONParcellation(
         "posterior paramedian nucleus",
     ],
 )
+UBERONParcellation.dorsal_periventricular_hypothalamus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalPeriventricularHypothalamus",
+    definition="Is a regional part of brain. Is part of the dorsal zone of median tuberal portion of hypothalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000199) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000199#dorsal-periventricular-hypothalamus"),
+    name="dorsal periventricular hypothalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000199"),
+)
 UBERONParcellation.dorsal_plus_ventral_thalamus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalPlusVentralThalamus",
-    definition="'Dorsal plus ventral thalamus' is a regional part of brain. It is part of the thalamic complex.",
-    description="Subcortical brain region consisting of paired gray matter bodies in the dorsal diencephalon and forming part of the lateral wall of the third ventricle of the brain. The thalamus represents the major portion of the diencephalon and is commonly divided into cellular aggregates known as nuclear groups.(MeSH).The dorsal topographic division of the interbrain. The macrodissected adult human thalamus was clearly illustrated by Vesalius in 1543 and the term as defined here was introduced by His in 1893. It includes the traditional epithalamus, dorsal thalamus, and ventral thalamus of Herrick (1910, pp. 494, 498). Also see Kuhlenbeck (1927, Ch. 9) and Jones (1985, p. 87).",
+    definition="Is a regional part of brain. Is part of the thalamic complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001897) ('is_a' and 'relationship')]",
+    description="Subcortical brain region consisting of paired gray matter bodies in the dorsal diencephalon and forming part of the lateral wall of the third ventricle of the brain. The thalamus represents the major portion of the diencephalon and is commonly divided into cellular aggregates known as nuclear groups.(MeSH). The dorsal topographic division of the interbrain. The macrodissected adult human thalamus was clearly illustrated by Vesalius in 1543 and the term as defined here was introduced by His in 1893. It includes the traditional epithalamus, dorsal thalamus, and ventral thalamus of Herrick (1910, pp. 494, 498). Also see Kuhlenbeck (1927, Ch. 9) and Jones (1985, p. 87). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001897)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0111657"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001897#thalamus"),
     name="dorsal plus ventral thalamus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001897"),
-    synonyms=["Parencephalon", "Th", "thalamencephalon", "thalami", "thalamus", "thalamus opticus", "wider thalamus"],
+    synonyms=["wider thalamus"],
 )
 UBERONParcellation.dorsal_ramus_of_spinal_nerve = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalRamusOfSpinalNerve",
@@ -6494,30 +6537,56 @@ UBERONParcellation.dorsal_septal_nucleus = UBERONParcellation(
 )
 UBERONParcellation.dorsal_striatum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalStriatum",
-    definition="'Dorsal striatum' is a gray matter of telencephalon. It is part of the striatum.",
-    description="Dorsal components of the striatum comprising the caudate nucleus and the putamen, in species that have distinct nuclei; the caudoputamen in species which don't.",
+    definition="Is a gray matter of telencephalon. Is part of the striatum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005382) ('is_a' and 'relationship')]",
+    description="Dorsal components of the striatum comprising the caudate nucleus and the putamen, in species that have distinct nuclei; the caudoputamen in species which don't. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005382)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103481"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005382#dorsal-striatum-1"),
     name="dorsal striatum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005382"),
+    synonyms=["striatum dorsal region"],
+)
+UBERONParcellation.dorsal_supraoptic_decussation = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalSupraopticDecussation",
+    definition="Is a commissure of diencephalon. Is part of the anterior hypothalamic region. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002697) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002697#dorsal-supraoptic-decussation-1"),
+    name="dorsal supraoptic decussation",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002697"),
     synonyms=[
-        "caudoputamen",
-        "corpus striatum",
-        "dorsal basal ganglia",
-        "dorsal basal ganglion",
-        "StD",
-        "striated body",
-        "striatum dorsal region",
-        "striatum dorsale",
+        "commissura supraoptica dorsalis",
+        "commissure of Meynert",
+        "dorsal supra-optic commissure",
+        "dorsal supraoptic commissure",
+        "dorsal supraoptic commissure (of ganser)",
+        "dorsal supraoptic decussation (of ganser)",
+        "dorsal supraoptic decussation (of Meynert)",
+        "dorsal supraoptic decussation of Meynert",
+        "ganser's commissure",
+        "Meynert's commissure",
+        "supraoptic commissure of Meynert",
+        "supraoptic commissures, dorsal",
     ],
+)
+UBERONParcellation.dorsal_sympathetic_chain = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalSympatheticChain",
+    definition="Is a sympathetic trunk. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010770)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010770#dorsal-sympathetic-chain"),
+    name="dorsal sympathetic chain",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010770"),
 )
 UBERONParcellation.dorsal_tegmental_decussation = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalTegmentalDecussation",
-    definition="'Dorsal tegmental decussation' is a neural decussation. It is part of the midbrain tegmentum.",
+    definition="Is a neural decussation. Is part of the midbrain tegmentum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003009) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103484"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003009#dorsal-tegmental-decussation-1"),
     name="dorsal tegmental decussation",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003009"),
+    synonyms=[
+        "decussatio tegmentalis posterior",
+        "dorsal fountain decussation",
+        "fountain decussation of Meynert",
+        "Meynert's decussation",
+        "posterior tegmental decussation",
+    ],
 )
 UBERONParcellation.dorsal_tegmental_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalTegmentalNucleus",
@@ -6584,6 +6653,14 @@ UBERONParcellation.dorsal_telencephalic_commissure = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005340"),
     synonyms=["dorsal commissure"],
 )
+UBERONParcellation.dorsal_thalamus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalThalamus",
+    definition="Is a regional part of brain. Is part of the dorsal plus ventral thalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004703) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004703#dorsal-thalamus"),
+    name="dorsal thalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004703"),
+    synonyms=["dorsal thalamus (Anthoney)", "thalamus dorsalis", "thalamus proper", "thalamus, pars dorsalis"],
+)
 UBERONParcellation.dorsal_trigeminal_tract = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalTrigeminalTract",
     definition="Is a trigeminothalamic tract and tract of brain. Is part of the pontine tegmentum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002797) ('is_a' and 'relationship')]",
@@ -6606,6 +6683,15 @@ UBERONParcellation.dorsal_trigeminal_tract = UBERONParcellation(
         "uncrossed dorsal trigeminothalamic tract",
     ],
 )
+UBERONParcellation.dorsal_ventricular_ridge_of_pallium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalVentricularRidgeOfPallium",
+    definition="Is a regional part of brain. Is part of the pallium. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014733) ('is_a' and 'relationship')]",
+    description="A large expansion of the lateral wall of the telencephalon, located in the pallium. Found in reptiles and birds. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014733)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014733#dorsal-ventricular-ridge-of-pallium"),
+    name="dorsal ventricular ridge of pallium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014733"),
+    synonyms=["dorsal ventricular ridge"],
+)
 UBERONParcellation.dorsal_zone_of_medial_entorhinal_cortex = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalZoneOfMedialEntorhinalCortex",
     definition="Is part of the medial entorhinal cortex. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0018262)]",
@@ -6616,26 +6702,40 @@ UBERONParcellation.dorsal_zone_of_medial_entorhinal_cortex = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0018262"),
     synonyms=["entorhinal area, medial part, dorsal zone"],
 )
+UBERONParcellation.dorsal_zone_of_median_tuberal_portion_of_hypothalamus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsalZoneOfMedianTuberalPortionOfHypothalamus",
+    definition="Is a regional part of brain. Is part of the median tuberal portion. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000347) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:2000347#dorsal-zone-of-median-tuberal-portion-of-hypothalamus"
+    ),
+    name="dorsal zone of median tuberal portion of hypothalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000347"),
+)
+UBERONParcellation.dorso_rostral_cluster = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsoRostralCluster",
+    definition="Is part of the telencephalon. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2007001)]",
+    description="Early-forming telencephalic neural cluster. Neurons of the dorso-rostral cluster (drc) extend axons to form the supra-optic tract (SOT) and the anterior commissure (AC). Ross et al., 1992. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2007001)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2007001#dorso-rostral-cluster"),
+    name="dorso-rostral cluster",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2007001"),
+    synonyms=["dorsorostral cluster", "drc"],
+)
 UBERONParcellation.dorsolateral_fasciculus_of_medulla = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/dorsolateralFasciculusOfMedulla",
-    definition="'Dorsolateral fasciculus of medulla' is a tract of brain. It is part of the medulla oblongata.",
-    description="Part of Lissauer's tract located in the medulla",
+    definition="Is a tract of brain. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002649) ('is_a' and 'relationship')]",
+    description="Part of Lissauer's tract located in the medulla. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002649)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0106302"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002649#dorsolateral-fasciculus"),
     name="dorsolateral fasciculus of medulla",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002649"),
     synonyms=[
         "dorsolateral fasciculus",
-        "dorsolateral fasciculus of the medulla",
         "dorsolateral tract",
-        "fasciculus dorsolateralis",
-        "Lissauer marginal zone",
         "lissauer's tract",
         "posterolateral fasciculus",
         "posterolateral tract",
         "tract of Lissauer",
         "tractus posterolateralis",
-        "zona Lissauer",
         "zone of Lissauer",
     ],
 )
@@ -6752,12 +6852,53 @@ UBERONParcellation.dura_mater_lymph_vessel = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035608"),
     synonyms=["dural lymph vessel"],
 )
+UBERONParcellation.early_mesencephalic_vesicle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/earlyMesencephalicVesicle",
+    definition="Is a future brain vesicle. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013147)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013147#early-mesencephalic-vesicle"),
+    name="early mesencephalic vesicle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013147"),
+    synonyms=["mesencephalic vesicle"],
+)
+UBERONParcellation.early_midbrain_vesicle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/earlyMidbrainVesicle",
+    definition="Is a future brain vesicle. Is part of the midbrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0013148) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013148#early-midbrain-vesicle"),
+    name="early midbrain vesicle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013148"),
+    synonyms=["midbrain vesicle"],
+)
+UBERONParcellation.early_prosencephalic_vesicle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/earlyProsencephalicVesicle",
+    definition="Is a future brain vesicle. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006284)]",
+    description="Future brain vesicle that gives rise to telencephalic ventricle/lateral ventricles and 3rd ventricle. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006284)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006284#early-prosencephalic-vesicle"),
+    name="early prosencephalic vesicle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006284"),
+    synonyms=["prosencephalic vesicle"],
+)
+UBERONParcellation.early_telencephalic_vesicle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/earlyTelencephalicVesicle",
+    definition="Is a future brain vesicle. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009676) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009676#early-telencephalic-vesicle"),
+    name="early telencephalic vesicle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009676"),
+)
 UBERONParcellation.ectocalcarine_sulcus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/ectocalcarineSulcus",
     definition="Is an occipital sulcus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0025104)]",
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0025104#ectocalcarine-sulcus-1"),
     name="ectocalcarine sulcus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0025104"),
+)
+UBERONParcellation.ectomeninx = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ectomeninx",
+    definition="Is a future meninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007647)]",
+    description="The outermost layer of the mesenchymal capsule that surrounds the developing brain, of mixed paraxial mesoderm and neural crest origin. The ectomeninx forms the dura mater (both inner layer and outer chondrogenic layer). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007647)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0007647#ectomeninx"),
+    name="ectomeninx",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007647"),
+    synonyms=["future dura mater"],
 )
 UBERONParcellation.ectosylvian_sulcus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/ectosylvianSulcus",
@@ -6790,6 +6931,16 @@ UBERONParcellation.eighth_thoracic_dorsal_root_ganglion = UBERONParcellation(
     name="eighth thoracic dorsal root ganglion",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002851"),
     synonyms=["eighth thoracic spinal ganglion"],
+)
+UBERONParcellation.electromotor_division_of_oculomotor_nuclear_complex = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/electromotorDivisionOfOculomotorNuclearComplex",
+    definition="Is a nuclear complex of neuraxis and gray matter of midbrain. Is part of the oculomotor nuclear complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014524) ('is_a' and 'relationship')]",
+    description="A division of oculomotor nuclear complex that exists in organisms with electric organs which has axons terminating in the electric organs. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014524)]",
+    knowledge_space_link=IRI(
+        "https://knowledge-space.org/wiki/UBERON:0014524#electromotor-division-of-oculomotor-nuclear-complex"
+    ),
+    name="electromotor division of oculomotor nuclear complex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014524"),
 )
 UBERONParcellation.electrosensory_lateral_line_lobe = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/electrosensoryLateralLineLobe",
@@ -6847,6 +6998,15 @@ UBERONParcellation.embryonic_intraretinal_space = UBERONParcellation(
         "retina intraretinal space",
     ],
 )
+UBERONParcellation.eminentia_granularis = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/eminentiaGranularis",
+    definition="Is a regional part of brain. Is part of the cerebellum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002106) ('is_a' and 'relationship')]",
+    description="Anatomical structure that is a subdivision of the cerebellum; it is the location of some lateral line nerve synapses. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002106)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2002106#eminentia-granularis"),
+    name="eminentia granularis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2002106"),
+    synonyms=["EG"],
+)
 UBERONParcellation.encapsulated_tactile_receptor = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/encapsulatedTactileReceptor",
     definition="Is a tactile mechanoreceptor. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035969)]",
@@ -6863,6 +7023,31 @@ UBERONParcellation.endohypothalamic_tract = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2005343#endohypothalamic-tract"),
     name="endohypothalamic tract",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2005343"),
+)
+UBERONParcellation.endomeninx = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/endomeninx",
+    definition="Is a future meninx. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007646)]",
+    description="The innermost layer of the mesenchymal capsule that surrounds the developing brain, primarily of neural crest origin. The endomeninx forms the leptomeninx. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007646)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0007646#endomeninx"),
+    name="endomeninx",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007646"),
+    synonyms=["future leptomeninges", "future leptomeninx"],
+)
+UBERONParcellation.endoneurial_fluid = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/endoneurialFluid",
+    definition="Is an anatomical entity. Is part of the endoneurium. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011893) ('is_a' and 'relationship')]",
+    description="Fluid of the ganglia and peripheral nerves that lie outside the brain and spinal cord. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011893)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0011893#endoneurial-fluid"),
+    name="endoneurial fluid",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0011893"),
+)
+UBERONParcellation.endoneurium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/endoneurium",
+    definition="Is an anatomical entity. Is part of the peripheral nervous system and the nerve fiber. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000123) ('is_a' and 'relationship')]",
+    description="The loose connective tissue within the perineurium that continues into nerve fascicles and surrounds individual fibers. (Nolte, J. The Human Brain 3rd edition) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000123)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000123#endoneurium"),
+    name="endoneurium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000123"),
 )
 UBERONParcellation.endopiriform_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/endopiriformNucleus",
@@ -6911,6 +7096,29 @@ UBERONParcellation.enteric_nervous_system = UBERONParcellation(
     name="enteric nervous system",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002005"),
     synonyms=["enteric PNS", "PNS - enteric"],
+)
+UBERONParcellation.enteric_plexus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/entericPlexus",
+    definition="Is an autonomic nerve plexus. Is part of the enteric nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000429) ('is_a' and 'relationship')]",
+    description="A plexus of autonomic nerve fibers within the wall of the digestive tube, and made up of the submucosal, myenteric, and subserosal plexuses; it contains visceral afferent fibers, sympathetic postganglionic fibers, parasympathetic preganglionic and postganglionic fibers, and parasympathetic postganglionic cell bodies. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000429)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000429#enteric-plexus"),
+    name="enteric plexus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000429"),
+    synonyms=[
+        "enteric nerve plexus",
+        "intrinsic nerve plexus",
+        "plexus entericus",
+        "plexus nervosus entericus",
+        "sympathetic enteric nerve plexus",
+    ],
+)
+UBERONParcellation.entopallium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/entopallium",
+    definition="Is a regional part of brain. Is part of the pallium. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014759) ('is_a' and 'relationship')]",
+    description="The major telecephalic thalamorecipient zone of the tectofugal visual system in Aves. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014759)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014759#entopallium"),
+    name="entopallium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014759"),
 )
 UBERONParcellation.entorhinal_cortex = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/entorhinalCortex",
@@ -6978,6 +7186,15 @@ UBERONParcellation.entorhinal_cortex_layer6 = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022329"),
     synonyms=["entorhinal cortex layer VI"],
 )
+UBERONParcellation.ependyma = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ependyma",
+    definition="Is part of the ventricle of nervous system. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004670)]",
+    description="The thin epithelium-like membrane composed of ependymal cells that lines the ventricular system of the brain and the spinal cord. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004670)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004670#ependyma"),
+    name="ependyma",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004670"),
+    synonyms=["ependyma of neuraxis", "ependymal epithelium"],
+)
 UBERONParcellation.epibranchial_ganglion = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/epibranchialGanglion",
     definition="Is a cranial ganglion. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009127)]",
@@ -6985,6 +7202,22 @@ UBERONParcellation.epibranchial_ganglion = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009127#epibranchial-ganglion"),
     name="epibranchial ganglion",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009127"),
+)
+UBERONParcellation.epibranchial_placode = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/epibranchialPlacode",
+    definition="Is part of the peripheral nervous system. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003078)]",
+    description="Focal thickenings of the embryonic ectoderm that form immediately dorsal and caudal of the clefts between the pharyngeal arches and that produce the neuroblasts that migrate and condense to form the distal cranial ganglia. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003078)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003078#epibranchial-placode"),
+    name="epibranchial placode",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003078"),
+)
+UBERONParcellation.epineurium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/epineurium",
+    definition="Is an anatomical entity. Is part of the peripheral nervous system. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000124) ('is_a' and 'relationship')]",
+    description="A loose connective tissue sheath surrounding each peripheral nerve. Composed mainly of colagen and fibroblasts, it forms a substantial covering over nerve trunks, then thins to an incomplete layer around smaller branches near their terminations. The epineurium is continuous centrally with the dura. Peripherally, it usually ends near the termination of a nerve fiber, but it may continue as the capsule of Meissner corpuscles and a few other encapsulated endings. Nolte, J. The Human Brain 3rd edition. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000124)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000124#epineurium"),
+    name="epineurium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000124"),
 )
 UBERONParcellation.epiphyseal_tract = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/epiphysealTract",
@@ -6994,15 +7227,23 @@ UBERONParcellation.epiphyseal_tract = UBERONParcellation(
     name="epiphyseal tract",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034714"),
 )
+UBERONParcellation.epiphysial_cluster = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/epiphysialCluster",
+    definition="Is part of the pineal body. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2007004)]",
+    description="Early-developing neuronal cluster of the epiphysis. By 24 hpf the pioneer axon of the dorsoventral diencephalic tract (DVDT) has arisen from the ec and grown ventrally. As this axon encounters axons of the TPOC, it makes a near-90 rostral turn and grows rostrally among axons of the TPOC growing in the opposite direction. Ross et al., 1992. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2007004)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2007004#epiphysial-cluster"),
+    name="epiphysial cluster",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2007004"),
+    synonyms=["ec"],
+)
 UBERONParcellation.epithalamus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/epithalamus",
-    definition="'Epithalamus' is a regional part of brain. It is part of the dorsal plus ventral thalamus.",
-    description="Most dorsal part of the thalamus, comprising the pineal gland and habenular nuclei in most vertebrates.  In a few vertebrates, it also includes the parietal eye. (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed, 2005, pg. 345-346.",
+    definition="Is a regional part of brain. Is part of the dorsal plus ventral thalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001899) ('is_a' and 'relationship')]",
+    description="Most dorsal part of the thalamus, comprising the pineal gland and habenular nuclei in most vertebrates. In a few vertebrates, it also includes the parietal eye. (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed, 2005, pg. 345-346. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001899)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103897"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001899#epithalamus-1"),
     name="epithalamus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001899"),
-    synonyms=["ETh", "epithalamus"],
 )
 UBERONParcellation.epithalamus_mantle_layer = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/epithalamusMantleLayer",
@@ -7019,6 +7260,69 @@ UBERONParcellation.epithalamus_ventricular_layer = UBERONParcellation(
     name="epithalamus ventricular layer",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013160"),
     synonyms=["ventricular layer epithalamus", "ventricular layer of epithalamus"],
+)
+UBERONParcellation.epithelium_of_ductus_reuniens = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/epitheliumOfDuctusReuniens",
+    definition="Is a vestibular epithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003363)]",
+    description="An epithelium that is part of a ductus reuniens. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003363)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003363#epithelium-of-ductus-reuniens"),
+    name="epithelium of ductus reuniens",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003363"),
+    synonyms=[
+        "ductus reuniens epithelial tissue",
+        "ductus reuniens epithelium",
+        "epithelial tissue of ductus reuniens",
+    ],
+)
+UBERONParcellation.epithelium_of_saccule = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/epitheliumOfSaccule",
+    definition="Is a vestibular epithelium. Is part of the saccule of membranous labyrinth. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003242) ('is_a' and 'relationship')]",
+    description="An epithelium that is part of a saccule of membranous labyrinth. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003242)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003242#epithelium-of-saccule"),
+    name="epithelium of saccule",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003242"),
+    synonyms=[
+        "epithelial tissue of membranous labyrinth saccule",
+        "epithelial tissue of saccule",
+        "epithelial tissue of saccule of membranous labyrinth",
+        "epithelial tissue of sacculus (labyrinthus vestibularis)",
+        "epithelium of membranous labyrinth saccule",
+        "epithelium of saccule of membranous labyrinth",
+        "epithelium of sacculus (labyrinthus vestibularis)",
+        "membranous labyrinth saccule epithelial tissue",
+        "membranous labyrinth saccule epithelium",
+        "saccule epithelial tissue",
+        "saccule epithelium",
+        "saccule of membranous labyrinth epithelial tissue",
+        "saccule of membranous labyrinth epithelium",
+        "sacculus (labyrinthus vestibularis) epithelial tissue",
+        "sacculus (labyrinthus vestibularis) epithelium",
+    ],
+)
+UBERONParcellation.epithelium_of_utricle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/epitheliumOfUtricle",
+    definition="Is a vestibular epithelium. Is part of the macula of utricle of membranous labyrinth. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003241) ('is_a' and 'relationship')]",
+    description="An epithelium that is part of a utricle of membranous labyrinth. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003241)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003241#epithelium-of-utricle"),
+    name="epithelium of utricle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003241"),
+    synonyms=[
+        "epithelial tissue of membranous labyrinth utricle",
+        "epithelial tissue of utricle",
+        "epithelial tissue of utricle of membranous labyrinth",
+        "epithelial tissue of utriculus (labyrinthus vestibularis)",
+        "epithelium of membranous labyrinth utricle",
+        "epithelium of utricle of membranous labyrinth",
+        "epithelium of utriculus (labyrinthus vestibularis)",
+        "membranous labyrinth utricle epithelial tissue",
+        "membranous labyrinth utricle epithelium",
+        "utricle epithelial tissue",
+        "utricle epithelium",
+        "utricle of membranous labyrinth epithelial tissue",
+        "utricle of membranous labyrinth epithelium",
+        "utriculus (labyrinthus vestibularis) epithelial tissue",
+        "utriculus (labyrinthus vestibularis) epithelium",
+    ],
 )
 UBERONParcellation.esophageal_taste_bud = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/esophagealTasteBud",
