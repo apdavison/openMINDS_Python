@@ -15060,22 +15060,31 @@ UBERONParcellation.ophthalmic_plexus = UBERONParcellation(
 )
 UBERONParcellation.optic_chiasma = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/opticChiasma",
-    definition="'Optic chiasma' is a decussation of diencephalon.",
-    description="A location within the visual system of binocular animals where axons of retinal ganglion cells cross contralaterally or remain ipsilatterally towards termination zones in the lateral geniculate nucleus.",
+    definition="Is a decussation of diencephalon. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000959)]",
+    description="A decussation of the diencephalon where the fibers of the optic nerve cross. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000959)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108069"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000959#optic-chiasm"),
     name="optic chiasma",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000959"),
-    synonyms=[
-        "chiasma",
-        "chiasma nervorum opticorum",
-        "chiasma opticum",
-        "decussation of optic nerve fibers",
-        "optic chiasm",
-        "optic chiasm (Rufus of Ephesus)",
-        "optic chiasma",
-        "ox",
-    ],
+    synonyms=["chiasma opticum", "decussation of optic nerve fibers", "optic chiasm"],
+)
+UBERONParcellation.optic_disc = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/opticDisc",
+    definition="Is part of the retina. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001783)]",
+    description="The optic disc or optic nerve head is the location where ganglion cell axons exit the eye to form the optic nerve. There are no light sensitive rods or cones to respond to a light stimulus at this point. This causes a break in the visual field called 'the blind spot' or the 'physiological blind spot'. The optic nerve head in a normal human eye carries from 1 to 1.2 million neurons from the eye towards the brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001783)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001783#optic-disc"),
+    name="optic disc",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001783"),
+    synonyms=["optic disk"],
+)
+UBERONParcellation.optic_radiation = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/opticRadiation",
+    definition="Is a radiation of cerebral hemisphere. Is part of the forebrain ipsilateral fiber tracts. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022264) ('is_a' and 'relationship')]",
+    description="The optic radiation (also known as the geniculo-calcarine tract or as the geniculostriate pathway) is a collection of axons from relay neurons in the lateral geniculate nucleus of the thalamus carrying visual information to the visual cortex (also called striate cortex) along the calcarine fissure. There is one such tract on each side of the brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022264)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022264#optic-radiation"),
+    name="optic radiation",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022264"),
+    synonyms=["Gratiolet's radiation"],
 )
 UBERONParcellation.optic_recess_of_third_ventricle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/opticRecessOfThirdVentricle",
@@ -15086,6 +15095,14 @@ UBERONParcellation.optic_recess_of_third_ventricle = UBERONParcellation(
     name="optic recess of third ventricle",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002287"),
     synonyms=["optic recess", "preoptic recess", "recessus supraopticus", "supraoptic recess"],
+)
+UBERONParcellation.optic_stalk = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/opticStalk",
+    definition="Is a developing neuroepithelium. Is part of the diencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003098) ('is_a' and 'relationship')]",
+    description="The narrow, proximal portion of the optic vesicle which connects the embryonic eye and forebrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003098)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003098#optic-stalk"),
+    name="optic stalk",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003098"),
 )
 UBERONParcellation.optic_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/opticTract",
@@ -15212,6 +15229,14 @@ UBERONParcellation.oral_pulvinar_nucleus = UBERONParcellation(
         "oral portion of pulvinar",
     ],
 )
+UBERONParcellation.oral_ramule = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/oralRamule",
+    definition="Is a ramus mandibularis externus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010794)]",
+    description="Medial branch of the ramus mandibularis externus. This ramule innervates the oral and angular lines of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010794)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010794#oral-ramule"),
+    name="oral ramule",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010794"),
+)
 UBERONParcellation.orbital_gyri_complex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/orbitalGyriComplex",
     definition="Is a regional part of brain. Is part of the frontal lobe. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022695) ('is_a' and 'relationship')]",
@@ -15227,6 +15252,14 @@ UBERONParcellation.orbital_gyrus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0007193#orbital-gyrus"),
     name="orbital gyrus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007193"),
+)
+UBERONParcellation.orbital_operculum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/orbitalOperculum",
+    definition="Is a regional part of brain. Is part of the operculum of brain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002593) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002593#orbital-operculum-1"),
+    name="orbital operculum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002593"),
+    synonyms=["operculum orbitale", "pars orbitalis of frontal operculum (Ono)"],
 )
 UBERONParcellation.orbital_part_of_inferior_frontal_gyrus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/orbitalPartOfInferiorFrontalGyrus",
@@ -15272,6 +15305,15 @@ UBERONParcellation.otic_ganglion = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003963"),
     synonyms=["Arnold's ganglion", "otic parasympathetic ganglion"],
 )
+UBERONParcellation.otolith = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/otolith",
+    definition="Is part of the otolithic part of statoconial membrane. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002280)]",
+    description="Acellular structure composed of calcium carbonate located in the otolith organ. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002280)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002280#otolith"),
+    name="otolith",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002280"),
+    synonyms=["otoconium", "statoconium"],
+)
 UBERONParcellation.otolith_organ = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/otolithOrgan",
     definition="Is a vestibular organ. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002518)]",
@@ -15279,6 +15321,15 @@ UBERONParcellation.otolith_organ = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002518#otolith-organ"),
     name="otolith organ",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002518"),
+)
+UBERONParcellation.otolithic_part_of_statoconial_membrane = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/otolithicPartOfStatoconialMembrane",
+    definition="Is part of the statoconial membrane. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002519)]",
+    description="The layer of the statoconial membrane that is composed of otoliths. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002519)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002519#otolithic-part-of-statoconial-membrane"),
+    name="otolithic part of statoconial membrane",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002519"),
+    synonyms=["otolith layer of statoconial membrane"],
 )
 UBERONParcellation.outer_limiting_layer_of_retina = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/outerLimitingLayerOfRetina",
@@ -15381,6 +15432,15 @@ UBERONParcellation.p5_area_of_pallium_myxiniformes = UBERONParcellation(
     name="P5 area of pallium (Myxiniformes)",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014755"),
 )
+UBERONParcellation.pacinian_corpuscle = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/PacinianCorpuscle",
+    definition="Is a mechanoreceptor. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003719)]",
+    description="Any of the rapidly adapting mechanoreceptors found in subcutaneous tissue beneath both hairy and glabrous skin, and which normally contain an afferent nerve fiber surrounded by a capsule with multiple concentric layers. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003719)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003719#pacinian-corpuscle"),
+    name="Pacinian corpuscle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0003719"),
+    synonyms=["corpuscle of golgi-mazzoni", "corpusculum lamellosum", "golgi-mazzoni corpuscle", "lamellar corpuscle"],
+)
 UBERONParcellation.paired_venous_dural_sinus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pairedVenousDuralSinus",
     definition="Is a venous dural sinus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017635)]",
@@ -15427,40 +15487,33 @@ UBERONParcellation.paleodentate_of_dentate_nucleus = UBERONParcellation(
 )
 UBERONParcellation.pallidotegmental_fasciculus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pallidotegmentalFasciculus",
-    definition="'Pallidotegmental fasciculus' is a tract of brain. It is part of the midbrain tegmentum.",
-    description="",
+    definition="Is a tract of brain. Is part of the midbrain tegmentum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002671) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108383"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002671#pallidotegmental-fasciculus-1"),
     name="pallidotegmental fasciculus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002671"),
-    synonyms=[
-        "fasciculus pallido-tegmentalis",
-        "fibrae pallidoolivares",
-        "pallidotegmental fascicle",
-        "pallidotegmental tract",
-        "ptf",
-    ],
+    synonyms=["pallidotegmental tract"],
 )
 UBERONParcellation.pallidum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pallidum",
-    definition="'Pallidum' is a brain gray matter. It is part of the basal ganglion.",
-    description="Part of what are called the basal ganglia of the brain which consist of the globus pallidus and the ventral pallidum.",
+    definition="Is a brain gray matter. Is part of the basal ganglion. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006514) ('is_a' and 'relationship')]",
+    description="Part of what are called the basal ganglia of the brain which consist of the globus pallidus and the ventral pallidum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006514)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0381379"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006514#pallidum"),
     name="pallidum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006514"),
+    synonyms=["neuraxis pallidum", "pallidum of neuraxis"],
 )
 UBERONParcellation.pallium = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pallium",
-    definition="'Pallium' is a regional part of brain. It is part of the telencephalon.",
-    description="The commonly used synonym of the cerebral cortex. Used first by Burdach for macrodissected adult humans (1822), and by many others since, including His (1895), and Nauta & Feirtag (1986). In Latin pallium means a mantle, cloak, or blanket",
+    definition="Is a regional part of brain. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000203) ('is_a' and 'relationship')]",
+    description="Dorsal part (roof region) of the telencephalon. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000203)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108390"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000203#pallium"),
     name="pallium",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000203"),
     synonyms=[
         "area dorsalis telencephali",
-        "Cerebral Cortex",
         "dorsal part of telencephalon",
         "dorsal telencephalic area",
         "dorsal telencephalon",
@@ -15540,11 +15593,19 @@ UBERONParcellation.paracingulate_gyrus = UBERONParcellation(
 )
 UBERONParcellation.paraflocculus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/paraflocculus",
-    description="'Paraflocculus' is a cerebellum hemisphere lobule and flocculonodular lobe, hemisphere portion.",
+    definition="Is a cerebellum hemisphere lobule and flocculonodular lobe, hemisphere portion. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005351)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0104937"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005351#paraflocculus"),
     name="paraflocculus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005351"),
+    synonyms=[
+        "cerebellar tonsil",
+        "neuraxis paraflocculus",
+        "parafloccular lobule of cerebellum",
+        "paraflocculus of cerebellum",
+        "tonsil (HXI)",
+        "tonsilla",
+    ],
 )
 UBERONParcellation.parafoveal_part_of_retina = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parafovealPartOfRetina",
@@ -15593,6 +15654,13 @@ UBERONParcellation.paralaminar_part_of_medial_dorsal_nucleus = UBERONParcellatio
         "ventral mediodorsal nucleus",
     ],
 )
+UBERONParcellation.parallel_fiber = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parallelFiber",
+    definition="Is part of the molecular layer corpus cerebelli and the molecular layer valvula cerebelli. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2002218)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2002218#parallel-fiber"),
+    name="parallel fiber",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2002218"),
+)
 UBERONParcellation.paramedian_lobule = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/paramedianLobule",
     definition="Is a cerebellum vermis lobule. Is part of the cerebellum posterior vermis. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005349) ('is_a' and 'relationship')]",
@@ -15612,6 +15680,14 @@ UBERONParcellation.paramedian_lobule = UBERONParcellation(
         "paramedian lobule [HVIIB]",
         "paramedian lobule [hVIIIb]",
     ],
+)
+UBERONParcellation.paramedian_medullary_reticular_complex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/paramedianMedullaryReticularComplex",
+    definition="Is a nuclear complex of neuraxis and gray matter of hindbrain. Is part of the medullary reticular formation. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0016826) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0016826#paramedian-medullary-reticular-complex"),
+    name="paramedian medullary reticular complex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0016826"),
+    synonyms=["paramedian group (medullary reticular formation)", "paramedian medullary reticular group"],
 )
 UBERONParcellation.paramedian_reticular_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/paramedianReticularNucleus",
@@ -15647,19 +15723,13 @@ UBERONParcellation.parasolitary_nucleus = UBERONParcellation(
 )
 UBERONParcellation.parasubiculum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parasubiculum",
-    definition="'Parasubiculum' is a regional part of brain. It is part of the hippocampal formation.",
-    description="A transitional zone between the presubiculum and the entorhinal area in the mouse (Paxinos-2001), the rat (Swanson-1998) and the primate (Zilles-1990). Defined on the basis of cytoarchitecture, it is more similar to the presubiculum than to the entorhinal area (Zilles-1990). (from Brain Info)",
+    definition="Is a regional part of brain. Is part of the hippocampal formation. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004683) ('is_a' and 'relationship')]",
+    description="A transitional zone between the presubiculum and the entorhinal area in the mouse (Paxinos-2001), the rat (Swanson-1998) and the primate (Zilles-1990). Defined on the basis of cytoarchitecture, it is more similar to the presubiculum than to the entorhinal area (Zilles-1990). (from Brain Info) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004683)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108477"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004683#parasubiculum-1"),
     name="parasubiculum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004683"),
-    synonyms=[
-        "parasubicular area",
-        "parasubicular cortex",
-        "parasubicular cortex (parasubiculum)",
-        "parasubiculum",
-        "PaS",
-    ],
+    synonyms=["parasubicular area", "parasubicular cortex (parasubiculum)"],
 )
 UBERONParcellation.parasympathetic_ganglion = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parasympatheticGanglion",
@@ -16122,6 +16192,15 @@ UBERONParcellation.parietal_lobe = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001872"),
     synonyms=["regio parietalis"],
 )
+UBERONParcellation.parietal_operculum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parietalOperculum",
+    definition="Is a regional part of brain. Is part of the operculum of brain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002911) ('is_a' and 'relationship')]",
+    description="The parietal operculum, forming the superior bank of the sylvian fissure, as studied in the cat, contains the secondary somatosensory representation, 'S-II', and a second somatotopic representation (parietal ventral, or PV). Anatomically, primate S-II receives inputs from area 3 and area 1, and projects to PV and area 7. PV has projections to area 5 and premotor areas. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002911)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002911#parietal-operculum-1"),
+    name="parietal operculum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002911"),
+    synonyms=["operculum parietale"],
+)
 UBERONParcellation.parietal_organ = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parietalOrgan",
     definition="Is part of the pineal complex. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004869)]",
@@ -16150,40 +16229,61 @@ UBERONParcellation.parieto_occipital_sulcus = UBERONParcellation(
         "sulcus parietooccipitalis",
     ],
 )
+UBERONParcellation.pars_amphibiorum = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parsAmphibiorum",
+    definition="Is part of the saccule of membranous labyrinth. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3000393)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3000393#pars-amphibiorum"),
+    name="pars amphibiorum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3000393"),
+)
+UBERONParcellation.pars_basilaris = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parsBasilaris",
+    definition="Is part of the saccule of membranous labyrinth. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3000395)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3000395#pars-basilaris"),
+    name="pars basilaris",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3000395"),
+)
 UBERONParcellation.pars_distalis_of_adenohypophysis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parsDistalisOfAdenohypophysis",
-    definition="'Pars distalis of adenohypophysis' is part of the adenohypophysis.",
-    description="The distal part of adenohypophysis: the part that makes up the main body of the gland.",
+    definition="Is part of the adenohypophysis. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006964)]",
+    description="The distal part of adenohypophysis: the part that makes up the main body of the gland. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006964)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0103335"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006964#distal-part-of-hypophysis"),
     name="pars distalis of adenohypophysis",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006964"),
     synonyms=[
-        "anterior lobe",
-        "DHP",
         "distal part of hypophysis",
-        "distal part of the hypophysis",
-        "pars anterior",
         "pars anterior of adenohypophysis",
-        "pars distalis",
         "pars distalis (glandula pituitaria)",
-        "pars distalis (hypophysis)",
-        "pars distalis adenohypophyseos",
         "pars distalis adenohypophysis",
-        "pars distalis lobi anterioris hypophyseos",
         "pars distalis of anterior lobe of pituitary gland",
-        "pars glandularis",
         "pars glandularis of adenohypophysis",
     ],
 )
 UBERONParcellation.pars_intercerebralis = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parsIntercerebralis",
-    definition="'Pars intercerebralis' is a central nervous system cell part cluster. It is part of the brain.",
-    description="A neurosecretory center of the insect brain, located along the anterior midline[wiktionary]. A medial cleft or depression dividing the left and right protocerebrum and containing numerous large and small somata of neurosecretory and neuromodulatory neurons[FBbt].",
+    definition="Is a central nervous system cell part cluster. Is part of the brain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001059) ('is_a' and 'relationship')]",
+    description="A neurosecretory center of the insect brain, located along the anterior midline. A medial cleft or depression dividing the left and right protocerebrum and containing numerous large and small somata of neurosecretory and neuromodulatory neurons. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001059)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0730302"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001059#pars-intercerebralis"),
     name="pars intercerebralis",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001059"),
+)
+UBERONParcellation.pars_intermedia_of_adenohypophysis = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parsIntermediaOfAdenohypophysis",
+    definition="Is part of the adenohypophysis. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002432)]",
+    description="The thin boundary between the adenohypophysis and neurohypophysis of the pituitary that produces melanocyte stimulating hormone (MSH); this area is small or absent in mammalian adults. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002432)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002432#pars-intermedia-of-adenohypophysis"),
+    name="pars intermedia of adenohypophysis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002432"),
+    synonyms=[
+        "intermediate lobe of adenohypophysis",
+        "intermediate lobe of pituitary",
+        "pars intermedia",
+        "pars intermedia (glandula pituitaria)",
+        "pars intermedia adenohypophysis",
+        "pars intermedia of anterior lobe of pituitary gland",
+    ],
 )
 UBERONParcellation.pars_postrema_of_ventral_lateral_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/parsPostremaOfVentralLateralNucleus",
@@ -16208,6 +16308,21 @@ UBERONParcellation.pars_postrema_of_ventral_lateral_nucleus = UBERONParcellation
         "ventrolateral preoptic nucleus",
         "VLP",
         "vLps",
+    ],
+)
+UBERONParcellation.pars_tuberalis_of_adenohypophysis = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/parsTuberalisOfAdenohypophysis",
+    definition="Is part of the adenohypophysis. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002433)]",
+    description="The pars tuberalis is part of the anterior lobe of the pituitary gland, and wraps the pituitary stalk in a highly vascularized sheath. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002433)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002433#pars-tuberalis-of-adenohypophysis"),
+    name="pars tuberalis of adenohypophysis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002433"),
+    synonyms=[
+        "pars infundibularis of adenohypophysis",
+        "pars tuberalis",
+        "pars tuberalis (glandula pituitaria)",
+        "pars tuberalis adenohypophysis",
+        "pars tuberalis of anterior lobe of pituitary gland",
     ],
 )
 UBERONParcellation.parvicellular_part_of_medial_dorsal_nucleus = UBERONParcellation(
@@ -16352,6 +16467,22 @@ UBERONParcellation.peduncle_of_diencephalon = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022235"),
     synonyms=["diencephalon peduncle"],
 )
+UBERONParcellation.peduncle_of_neuraxis = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/peduncleOfNeuraxis",
+    definition="Is a white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0007417)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0007417#peduncle-of-neuraxis"),
+    name="peduncle of neuraxis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0007417"),
+    synonyms=["neuraxis peduncle"],
+)
+UBERONParcellation.peduncle_of_thalamus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/peduncleOfThalamus",
+    definition="Is a peduncle of diencephalon. Is part of the dorsal plus ventral thalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022236) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022236#peduncle-of-thalamus"),
+    name="peduncle of thalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022236"),
+    synonyms=["thalamic peduncle"],
+)
 UBERONParcellation.pedunculopontine_tegmental_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pedunculopontineTegmentalNucleus",
     definition="The pedunculopontine nucleus (PPN) (or pedunculopontine tegmental nucleus, PPTN) is located in the brainstem, caudal to the substantia nigra and adjacent to the superior cerebellar peduncle. It is composed by a wide variety of neurochemical cell types, including cholinergic, glutamatergic and GABAergic cells. In the classical sense, the PPN is considered to be one of the main components of the reticular activating system. [WP,unvetted].",
@@ -16368,6 +16499,14 @@ UBERONParcellation.pelvic_ganglion = UBERONParcellation(
     name="pelvic ganglion",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0016508"),
     synonyms=["inferior hypogastric ganglion"],
+)
+UBERONParcellation.perforant_path = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/perforantPath",
+    definition="Is a tract of brain. Is part of the white matter of telencephalon and the forebrain ipsilateral fiber tracts. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034931) ('is_a' and 'relationship')]",
+    description="A pathway of fibers originating in the lateral part of the entorhinal area, perforating the subiculum of the hippocampus, and running into the stratum moleculare of the hippocampus, where these fibers synapse with others that go to the dentate gyrus. (Dorland, 28th ed) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034931)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034931#perforant-path"),
+    name="perforant path",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034931"),
 )
 UBERONParcellation.periallocortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/periallocortex",
@@ -16431,6 +16570,23 @@ UBERONParcellation.perifoveal_part_of_retina = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0018105#perifoveal-part-of-retina"),
     name="perifoveal part of retina",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0018105"),
+)
+UBERONParcellation.perineural_vascular_plexus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/perineuralVascularPlexus",
+    definition="Is part of the nervous system. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015189)]",
+    description="The capillary bed that initially surrounds the relative avascular brain and spinal cord; the perineural vascular plexus (PNVP) is the precursor to the blood brain barrier formed by angioblasts which migrate away from somites and is recruited to surround the neural tube in response to VEGF; vascularization of the brain and spinal cord occurs via angiogenesis as sprouting vessels from the PNVP invade the neuroepithelium and grow inward toward the ventricular lumen. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015189)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015189#perineural-vascular-plexus"),
+    name="perineural vascular plexus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015189"),
+    synonyms=["PNVP"],
+)
+UBERONParcellation.perineurium = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/perineurium",
+    definition="Is an anatomical entity. Is part of the nerve fasciculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000121) ('is_a' and 'relationship')]",
+    description="A layer of thin, concentrically arranged cells with interspersed collagen that lies within the epineurium. (Nolte, J., The Human Brain 3rd edition) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000121)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000121#perineurium"),
+    name="perineurium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000121"),
 )
 UBERONParcellation.periolivary_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/periolivaryNucleus",
@@ -16512,12 +16668,58 @@ UBERONParcellation.peritrigeminal_nucleus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002879"),
     synonyms=["Pe5", "nucleus peritrigeminalis"],
 )
+UBERONParcellation.perivascular_space = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/perivascularSpace",
+    definition="Is an anatomical entity. Is part of the meningeal cluster. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014930) ('is_a' and 'relationship')]",
+    description="The space between a blood vessel and the pia mater. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014930)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014930#perivascular-space"),
+    name="perivascular space",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014930"),
+    synonyms=["perivascular region", "Virchow-Robin space"],
+)
+UBERONParcellation.periventricular_gray_matter = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/periventricularGrayMatter",
+    definition="Is a brain gray matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014933)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014933#periventricular-gray-matter"),
+    name="periventricular gray matter",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014933"),
+    synonyms=["periventricular grey matter"],
+)
+UBERONParcellation.periventricular_grey_zone = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/periventricularGreyZone",
+    definition="Is a regional part of brain. Is part of the superior colliculus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2000516) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2000516#periventricular-grey-zone"),
+    name="periventricular grey zone",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2000516"),
+)
 UBERONParcellation.periventricular_white_matter = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/periventricularWhiteMatter",
     definition="Is a white matter. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014932)]",
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014932#periventricular-white-matter"),
     name="periventricular white matter",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014932"),
+)
+UBERONParcellation.periventricular_zone_of_hypothalamus = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/periventricularZoneOfHypothalamus",
+    definition="Is part of the hypothalamus. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002271)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002271#periventricular-zone-of-hypothalamus"),
+    name="periventricular zone of hypothalamus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002271"),
+    synonyms=["hypothalamus periventricular zone", "zona periventricularis hypothalamicae"],
+)
+UBERONParcellation.petrosal_placode = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/petrosalPlacode",
+    definition="Is an epibranchial placode. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009125)]",
+    description="Epibranchial placode between geniculate and nodose. Associated with 2nd branchial cleft. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009125)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009125#petrosal-placode"),
+    name="petrosal placode",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009125"),
+    synonyms=[
+        "epibranchial placode 2",
+        "glossopharyngeal epibranchial placode",
+        "glossopharyngeal IX placode",
+        "glossopharyngeal placode",
+    ],
 )
 UBERONParcellation.pharyngeal_taste_bud = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pharyngealTasteBud",
@@ -16596,12 +16798,45 @@ UBERONParcellation.pigmented_layer_of_retina = UBERONParcellation(
 )
 UBERONParcellation.pineal_body = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pinealBody",
-    definition="'Pineal body' is a gland of diencephalon and secretory circumventricular organ. It is part of the pineal complex.",
-    description="A midline, cone like structure located in the dorso-caudal roof of the 3rd ventricle, attached by peduncles to the habenular and posterior commissures. The stalk contains nerve fibers, blood vessels, connective tissue and parenchymal cells (Paxinos, The Rat Central Nervous System, 2nd ed, pg 399).",
+    definition="Is a gland of diencephalon and secretory circumventricular organ. Is part of the pineal complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001905) ('is_a' and 'relationship')]",
+    description="A midline, cone like structure located in the dorso-caudal roof of the 3rd ventricle, attached by peduncles to the habenular and posterior commissures. The stalk contains nerve fibers, blood vessels, connective tissue and parenchymal cells (Paxinos, The Rat Central Nervous System, 2nd ed, pg 399). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001905)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108891"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001905#pineal-body-1"),
     name="pineal body",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001905"),
+    synonyms=["corpus pineale", "glandula pinealis", "pineal gland", "pineal organ"],
+)
+UBERONParcellation.pineal_complex = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pinealComplex",
+    definition="Is an anatomical entity. Is part of the epithalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015238) ('is_a' and 'relationship')]",
+    description="A cluster in the epithalamus that consists of the pineal body and any associated structures, such as the parapineal gland or the parietal organ. The complex is poorly developed in mammals. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015238)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015238#pineal-complex"),
+    name="pineal complex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0015238"),
+)
+UBERONParcellation.pineal_corpora_arenacea = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pinealCorporaArenacea",
+    definition="Is a calcified structure of brain. Is part of the pineal body. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017632) ('is_a' and 'relationship')]",
+    description="A calcified structure of brain that is part of a pineal body. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017632)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0017632#pineal-corpora-arenacea"),
+    name="pineal corpora arenacea",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0017632"),
+)
+UBERONParcellation.pineal_gland_stalk = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pinealGlandStalk",
+    definition="Is a regional part of brain. Is part of the pineal body. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0011768) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0011768#pineal-gland-stalk"),
+    name="pineal gland stalk",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0011768"),
+    synonyms=["epiphyseal stalk", "pineal stalk"],
+)
+UBERONParcellation.pineal_parenchyma = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pinealParenchyma",
+    definition="Is a parenchyma of central nervous system. Is part of the pineal body. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034907) ('is_a' and 'relationship')]",
+    description="Parenchymal tissue that forms the pineal gland. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034907)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034907#pineal-parenchyma"),
+    name="pineal parenchyma",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034907"),
 )
 UBERONParcellation.pineal_recess_of_third_ventricle = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pinealRecessOfThirdVentricle",
@@ -16698,63 +16933,54 @@ UBERONParcellation.piriform_cortex_layer3 = UBERONParcellation(
 )
 UBERONParcellation.pituitary_gland = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pituitaryGland",
-    definition="'Pituitary gland' is a gland of diencephalon and neuroendocrine gland.",
-    description="The pituitary gland is an endocrine gland that secretes hormones that regulate many other glands [GO]. An endocrine gland located ventral to the diencephalon and derived from mixed neuroectodermal and non neuroectodermal origin [ZFIN].",
+    definition="Is a gland of diencephalon and neuroendocrine gland. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000007)]",
+    description="The pituitary gland is an endocrine gland that secretes hormones that regulate many other glands. An endocrine gland located ventral to the diencephalon and derived from mixed neuroectodermal and non neuroectodermal origin. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000007)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0105172"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000007#hypophysis"),
     name="pituitary gland",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000007"),
-    synonyms=[
-        "glandula pituitaria",
-        "Hp",
-        "hypophysis",
-        "hypophysis cerebri",
-        "pituitary",
-        "pituitary body",
-        "pituitary gland",
-    ],
+    synonyms=["glandula pituitaria", "pituitary", "pituitary body"],
 )
 UBERONParcellation.pituitary_stalk = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pituitaryStalk",
-    definition="'Pituitary stalk' is a regional part of brain. It is part of the neurohypophysis and neurohypophysis.",
-    description="The apical portion of the tubular structure extending from the hypothalamus to the posterior lobe of the pituitary gland",
+    definition="Is a regional part of brain. Is part of the neurohypophysis and the neurohypophysis. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002434) ('is_a' and 'relationship')]",
+    description="The apical portion of the tubular structure extending from the hypothalamus to the posterior lobe of the pituitary gland. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002434)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0105483"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002434#infundibular-stem"),
     name="pituitary stalk",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002434"),
     synonyms=[
-        "hypophyseal Infundibulum",
         "hypophyseal stalk",
-        "hypophysial stalk",
-        "InfS",
         "infundibular stalk",
         "infundibular stem",
         "infundibular stem of neurohypophysis",
         "infundibulum",
         "infundibulum (lobus posterior) (glandula pituitaria)",
         "infundibulum hypophysis",
-        "infundibulum neurohypophyseos",
-        "infundibulum of hypothalamus",
         "infundibulum of neurohypophysis",
         "infundibulum of pituitary gland",
         "infundibulum of posterior lobe of pituitary gland",
         "neurohypophysis infundibulum",
-        "pars tuberalis (hypophysis)",
         "pituitary infundibular stalk",
-        "THP",
         "tuberal part of hypophysis",
-        "tuberal part of the hypophysis",
     ],
 )
 UBERONParcellation.planum_polare = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/planumPolare",
-    definition="'Planum polare' is a regional part of brain. It is part of the superior temporal gyrus.",
-    description="A portion of the superior temporal gyrus near the temporal pole in the human.",
+    definition="Is a regional part of brain. Is part of the superior temporal gyrus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023861) ('is_a' and 'relationship')]",
+    description="A portion of the superior temporal gyrus near the temporal pole in the human. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0023861)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108976"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0023861#planum-polare-1"),
     name="planum polare",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0023861"),
-    synonyms=["planum polare"],
+)
+UBERONParcellation.planum_temporale = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/planumTemporale",
+    definition="Is a regional part of brain. Is part of the temporal lobe. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022268) ('is_a' and 'relationship')]",
+    description="The planum temporale is the cortical area just posterior to the auditory cortex within the Sylvian fissure. It is a triangular region which forms the heart of Wernicke's area, one of the most important functional areas for language. The planum temporale shows a significant asymmetry. In 65% of all individuals the left planum temporale appears to be more developed, while the right planum temporale is more developed in only 10%. In some peoplebs brains, the planum temporale is more than five times larger on the left than on the right, making it the most asymmetrical structure in the brain. This greater size of the left planum temporale compared with the right is already present in the foetus, where it can be observed starting from the 31st week of gestation. This observation strengthens the hypothesis of a genetic predisposition for brain asymmetry. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022268)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022268#planum-temporale"),
+    name="planum temporale",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022268"),
 )
 UBERONParcellation.pleural_ganglion = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pleuralGanglion",
@@ -16764,15 +16990,23 @@ UBERONParcellation.pleural_ganglion = UBERONParcellation(
     name="pleural ganglion",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0008941"),
 )
+UBERONParcellation.pole_of_cerebral_hemisphere = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/poleOfCerebralHemisphere",
+    definition="Is a regional part of brain. Is part of the cerebral hemisphere. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009899) ('is_a' and 'relationship')]",
+    description="The anterior end of the hemisphere is named the frontal pole. The posterior end is named the occipital pole. The anterior end of the temporal lobe, the temporal pole. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009899)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009899#pole-of-cerebral-hemisphere"),
+    name="pole of cerebral hemisphere",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009899"),
+)
 UBERONParcellation.pons = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pons",
-    definition="'Pons' is a regional part of brain. It is part of the metencephalon and brainstem.",
-    description="The part of the central nervous system lying between the medulla oblongata and the mesencephalon, ventral to the cerebellum, and consisting of a pars dorsalis and a pars ventralis. (MeSH) The ventral topographic division of the hindbrain; the dorsal topographic division is the cerebellum. The middle cerebellar peduncle on the periphery of the macrodissected adult human pons ('bridge' in English) was identified by Varolio (1573, Fig. I, f. 17v; also see Clarke & O'Malley 1996, pp. 634-635, 821). Collins (1685, see Tab. 48-L, his caudex of medulla oblongata) identified the pons as defined here, and Haller (1747, see translation by Mihles, 1754, pp. 287, 296) provided the term itself. Pons Varolii (Bell, 1802) is a synonym.",
+    definition="Is a regional part of brain. Is part of the metencephalon and the brainstem. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000988) ('is_a' and 'relationship')]",
+    description="The part of the central nervous system lying between the medulla oblongata and the midbrain, ventral to the cerebellum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0000988)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109019"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0000988#pons-1"),
     name="pons",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000988"),
-    synonyms=["Metencephalon", "pons cerebri", "pons of Varolius", "pons Varolii"],
+    synonyms=["pons of Varolius", "pons Varolii"],
 )
 UBERONParcellation.pons_reticulospinal_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/ponsReticulospinalTract",
@@ -16782,27 +17016,24 @@ UBERONParcellation.pons_reticulospinal_tract = UBERONParcellation(
     name="pons reticulospinal tract",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004172"),
 )
+UBERONParcellation.pontine_cistern = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/pontineCistern",
+    definition="Is a subarachnoid cistern and hindbrain subarachnoid space. Is part of the pons. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004048) ('is_a' and 'relationship')]",
+    description="The space located on lateral aspects of the pons at the junction with the celebellum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004048)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004048#pontine-cistern"),
+    name="pontine cistern",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004048"),
+    synonyms=["cisterna pontis"],
+)
 UBERONParcellation.pontine_nuclear_group = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pontineNuclearGroup",
-    definition="'Pontine nuclear group' is a brainstem nucleus and hindbrain nucleus. It is part of the basal part of pons.",
-    description="Nuclei in the basal pons, intermingled among the descending axons from the cortex, that receive neocrotcial input and give rise to many axons that cross the midline to enter the contralateral cerebellum (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed., 2005, pg 135)",
+    definition="Is a brainstem nucleus and hindbrain nucleus. Is part of the basal part of pons. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002151) ('is_a' and 'relationship')]",
+    description="Nuclei in the basal pons, intermingled among the descending axons from the cortex, that receive neocrotcial input and give rise to many axons that cross the midline to enter the contralateral cerebellum (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed., 2005, pg 135) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002151)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109028"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002151#pontine-nuclear-complex"),
     name="pontine nuclear group",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002151"),
-    synonyms=[
-        "nuclei brachii pontis",
-        "nuclei pontis",
-        "nucleus pontis",
-        "Pn",
-        "pontine gray",
-        "pontine gray matter",
-        "pontine grey matter",
-        "pontine nuclear complex",
-        "pontine nuclear group",
-        "pontine nuclei",
-        "pontine nucleus",
-    ],
+    synonyms=["pontine gray", "pontine nuclear complex", "pontine nuclei", "pontine nucleus"],
 )
 UBERONParcellation.pontine_raphe_nucleus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pontineRapheNucleus",
@@ -16824,27 +17055,24 @@ UBERONParcellation.pontine_raphe_nucleus = UBERONParcellation(
 )
 UBERONParcellation.pontine_reticular_formation = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pontineReticularFormation",
-    definition="'Pontine reticular formation' is a nuclear complex of neuraxis and gray matter of hindbrain. It is part of the reticular formation and pontine tegmentum.",
-    description="The reticular formation is a part of the brain that is involved in actions such as awaking/sleeping cycle, and filtering incoming stimuli to discriminate irrelevant background stimuli. It is essential for governing some of the basic functions of higher organisms, and is one of the phylogenetically oldest portions of the brain. [WP,unvetted].",
+    definition="Is a nuclear complex of neuraxis and gray matter of hindbrain. Is part of the reticular formation and the pontine tegmentum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002573) ('is_a' and 'relationship')]",
+    description="The reticular formation is a part of the brain that is involved in actions such as awaking/sleeping cycle, and filtering incoming stimuli to discriminate irrelevant background stimuli. It is essential for governing some of the basic functions of higher organisms, and is one of the phylogenetically oldest portions of the brain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002573)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109030"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002573#pontine-reticular-formation-1"),
     name="pontine reticular formation",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002573"),
     synonyms=[
-        "formatio reticularis pontis",
         "pons of varolius reticular formation",
         "pons reticular formation",
         "pontine reticular nucleus",
-        "pontine reticular nucleus rostral part",
-        "pontine reticulotegmental nucleus",
         "reticular formation of pons",
         "reticular formation of pons of varolius",
     ],
 )
 UBERONParcellation.pontine_tegmentum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/pontineTegmentum",
-    definition="'Pontine tegmentum' is part of the pons.",
-    description="Dorsal portion of the pons, containing cranial nervee nuclei, ascending and descending tracts and reticular nuclei.  It is continuous with the reticular formation of the medulla (Carpenter, A Core Text of Neuroanatomy, 3rd ed, 1985, pg 133).",
+    definition="Is part of the pons. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003023)]",
+    description="Dorsal portion of the pons, containing cranial nervee nuclei, ascending and descending tracts and reticular nuclei. It is continuous with the reticular formation of the medulla (Carpenter, A Core Text of Neuroanatomy, 3rd ed, 1985, pg 133). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0003023)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109034"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0003023#pontine-tegmentum-1"),
     name="pontine tegmentum",
@@ -16852,8 +17080,6 @@ UBERONParcellation.pontine_tegmentum = UBERONParcellation(
     synonyms=[
         "dorsal pons",
         "dorsal portion of pons",
-        "pars dorsalis pontis",
-        "pars posterior pontis",
         "tegmental portion of pons",
         "tegmentum of pons",
         "tegmentum pontis",
@@ -16968,6 +17194,15 @@ UBERONParcellation.posterior_calcarine_sulcus = UBERONParcellation(
         "sulcus calcarinus posterior",
     ],
 )
+UBERONParcellation.posterior_cerebellomedullary_cistern = UBERONParcellation(
+    id="https://openminds.om-i.org/instances/UBERONParcellation/posteriorCerebellomedullaryCistern",
+    definition="Is a cerebellomedullary cistern. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005974)]",
+    description="A space between the cerebellum and the dorsal surface of the medulla. The cisterna magna (or cerebellomedullary cistern) is one of three principal openings in the subarachnoid space between the arachnoid and pia mater layers of the meninges surrounding the brain. The openings are collectively referred to as cisterns. The cisterna magna is located between the cerebellum and the dorsal surface of the medulla oblongata. Cerebrospinal fluid produced in the fourth ventricle drains into the cisterna magna via the lateral apertures and median aperture. The two other principal cisterns are the pontine cistern located between the pons and the medulla, and the interpeduncular cistern located between the cerebral peduncles. Cerebral spinal fluid can also be obtained by puncture of the cisterna magna (cistern puncture). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005974)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005974#posterior-cerebellomedullary-cistern"),
+    name="posterior cerebellomedullary cistern",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005974"),
+    synonyms=["cisterna cerebellomedullaris posterior", "cisterna magna"],
+)
 UBERONParcellation.posterior_cingulate_cortex = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/posteriorCingulateCortex",
     definition="Is a regional part of brain. Is part of the cingulate cortex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022353) ('is_a' and 'relationship')]",
@@ -16988,8 +17223,8 @@ UBERONParcellation.posterior_cingulate_gyrus = UBERONParcellation(
 )
 UBERONParcellation.posterior_column_of_fornix = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/posteriorColumnOfFornix",
-    definition="'Posterior column of fornix' is a neuron projection bundle and central nervous system cell part cluster. It is part of the fornix of brain.",
-    description="Part of fornix adjacent to the fimbria comprising flattened bands of fibers that extend from the fimbria, running underneath the corpus callosum",
+    definition="Is a neuron projection bundle and central nervous system cell part cluster. Is part of the fornix of brain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006115) ('is_a' and 'relationship')]",
+    description="Part of fornix adjacent to the fimbria comprising flattened bands of fibers that extend from the fimbria, running underneath the corpus callosum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006115)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109089"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006115#posterior-column-of-fornix-1"),
     name="posterior column of fornix",
@@ -16997,9 +17232,7 @@ UBERONParcellation.posterior_column_of_fornix = UBERONParcellation(
     synonyms=[
         "crus fornicis",
         "crus of fornix",
-        "crus posterius",
-        "fornix",
-        "posterior column of fornix",
+        "fornix, crus posterius",
         "posterior column of fornix of forebrain",
         "posterior crus of fornix",
         "posterior pillar of fornix",
