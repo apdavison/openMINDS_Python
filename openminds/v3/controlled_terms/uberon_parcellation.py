@@ -17248,6 +17248,14 @@ UBERONParcellation.posterior_commissure = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0000936"),
     synonyms=["caudal commissure", "epithalamic commissure"],
 )
+UBERONParcellation.posterior_corona_radiata = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorCoronaRadiata",
+    definition="Is a regional part of brain. Is part of the corona radiata of neuraxis. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022427) ('is_a' and 'relationship')]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022427#posterior-corona-radiata"),
+    name="posterior corona radiata",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022427"),
+    synonyms=["posterior portion of corona radiata"],
+)
 UBERONParcellation.posterior_horn_lateral_ventricle = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorHornLateralVentricle",
     definition="Is a telencephalic ventricle. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004672)]",
@@ -17271,20 +17279,13 @@ UBERONParcellation.posterior_horn_lateral_ventricle = UBERONParcellation(
 )
 UBERONParcellation.posterior_hypothalamic_region = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorHypothalamicRegion",
-    definition="'Posterior hypothalamic region' is a regional part of brain. It is part of the hypothalamus.",
-    description="The part of the hypothalamus posterior to the middle region consisting of several nuclei including the medial mamillary nucleus, lateral mamillary nucleus, and posterior hypothalamic nucleus (posterior hypothalamic area). The posterior hypothalamic area is concerned with control of sympathetic responses and is sensitive to conditions of decreasing temperature and controls the mechanisms for the conservation and increased production of heat.",
+    definition="Is a regional part of brain. Is part of the hypothalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002770) ('is_a' and 'relationship')]",
+    description="The part of the hypothalamus posterior to the middle region consisting of several nuclei including the medial mamillary nucleus, lateral mamillary nucleus, and posterior hypothalamic nucleus (posterior hypothalamic area). The posterior hypothalamic area is concerned with control of sympathetic responses and is sensitive to conditions of decreasing temperature and controls the mechanisms for the conservation and increased production of heat. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002770)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109099"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002770#posterior-hypothalamic-region-1"),
     name="posterior hypothalamic region",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002770"),
-    synonyms=[
-        "hypothalamus posterior",
-        "mammillary level of hypothalamus",
-        "mammillary region",
-        "PHR",
-        "posterior hypothalamus",
-        "regio hypothalamica posterior",
-    ],
+    synonyms=["mammillary level of hypothalamus", "mammillary region", "posterior hypothalamus"],
 )
 UBERONParcellation.posterior_lateral_line_ganglion = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorLateralLineGanglion",
@@ -17296,20 +17297,13 @@ UBERONParcellation.posterior_lateral_line_ganglion = UBERONParcellation(
 )
 UBERONParcellation.posterior_limb_of_internal_capsule = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorLimbOfInternalCapsule",
-    definition="'Posterior limb of internal capsule' is a limb of internal capsule of telencephalon.",
-    description="Portion of internal capsule lying between the globus pallidus and the thalamus (Nolte, The Human Brain, 6th ed., 2009, pg 409, modified by MM)",
+    definition="Is a limb of internal capsule of telencephalon. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014527)]",
+    description="Portion of internal capsule lying between the globus pallidus and the thalamus (Nolte, The Human Brain, 6th ed., 2009, pg 409, modified by MM) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014527)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109100"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014527#posterior-limb-of-internal-capsule-1"),
     name="posterior limb of internal capsule",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014527"),
-    synonyms=[
-        "capsula interna",
-        "crus posterius capsulae internae",
-        "pars posterior",
-        "posterior internal capsule",
-        "posterior limb",
-        "posterior limb of the internal capsule",
-    ],
+    synonyms=["capsula interna, pars posterior", "crus posterius capsulae internae"],
 )
 UBERONParcellation.posterior_lobe_of_cerebellum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorLobeOfCerebellum",
@@ -17330,13 +17324,11 @@ UBERONParcellation.posterior_lobe_of_cerebellum = UBERONParcellation(
 )
 UBERONParcellation.posterior_median_eminence = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorMedianEminence",
-    definition="'Posterior median eminence' is a regional part of brain. It is part of the median eminence of neurohypophysis.",
-    description="",
+    definition="Is a regional part of brain. Is part of the median eminence of neurohypophysis. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002652) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109104"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002652#posterior-median-eminence-1"),
     name="posterior median eminence",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002652"),
-    synonyms=["PME", "eminentia mediana posterior"],
 )
 UBERONParcellation.posterior_mesencephalic_central_artery = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorMesencephalicCentralArtery",
@@ -17356,8 +17348,8 @@ UBERONParcellation.posterior_middle_temporal_sulcus = UBERONParcellation(
 )
 UBERONParcellation.posterior_nuclear_complex_of_thalamus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorNuclearComplexOfThalamus",
-    definition="'Posterior nuclear complex of thalamus' is a nuclear complex of neuraxis and gray matter of diencephalon. It is part of the dorsal thalamus.",
-    description="Part of thalamus comprising ill defined cellular groups in the caudal thalamus at the meso-diencephalic junction.  It is not a homogeneous structure but consists of several distinct cellular groups, including the suprageniculate and limitans nuclei, the magnocellular division of the medial geniculate body, portions of the pulvinar nucleus and an area of mixed cell types intercalated between the ventroposterior nucleus and the nucleus lateral posterior (Brodal, Neurological Anatomy, 3rd ed., 1981, pg 97)",
+    definition="Is a nuclear complex of neuraxis and gray matter of diencephalon. Is part of the dorsal thalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002709) ('is_a' and 'relationship')]",
+    description="Part of thalamus comprising ill defined cellular groups in the caudal thalamus at the meso-diencephalic junction. It is not a homogeneous structure but consists of several distinct cellular groups, including the suprageniculate and limitans nuclei, the magnocellular division of the medial geniculate body, portions of the pulvinar nucleus and an area of mixed cell types intercalated between the ventroposterior nucleus and the nucleus lateral posterior (Brodal, Neurological Anatomy, 3rd ed., 1981, pg 97) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002709)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109109"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002709#posterior-nuclear-complex"),
     name="posterior nuclear complex of thalamus",
@@ -17365,12 +17357,9 @@ UBERONParcellation.posterior_nuclear_complex_of_thalamus = UBERONParcellation(
     synonyms=[
         "caudal thalamic nucleus",
         "nuclei posteriores thalami",
-        "parieto-occipital",
-        "PNC",
         "posterior complex of thalamus",
         "posterior complex of the thalamus",
         "posterior nuclear complex",
-        "posterior nuclear complex of thalamus",
         "posterior nuclear group of thalamus",
         "posterior nucleus of dorsal thalamus",
         "posterior thalamic nuclear group",
@@ -17511,6 +17500,15 @@ UBERONParcellation.posterior_periventricular_nucleus = UBERONParcellation(
         "PPe",
     ],
 )
+UBERONParcellation.posterior_recess = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorRecess",
+    definition="Is an anatomical entity. Is part of the third ventricle. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2005338) ('is_a' and 'relationship')]",
+    description="Posterior protrusion of the third ventricle. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_2005338)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:2005338#posterior-recess"),
+    name="posterior recess",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_2005338"),
+    synonyms=["posterior recess of diencephalic ventricle"],
+)
 UBERONParcellation.posterior_segment_of_paracentral_lobule = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorSegmentOfParacentralLobule",
     definition="Is a regional part of brain. Is part of the parietal lobe and the paracentral lobule. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035934) ('is_a' and 'relationship')]",
@@ -17569,20 +17567,28 @@ UBERONParcellation.posterior_temporal_fusiform_gyrus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022397"),
     synonyms=["occipitotemporal (fusiform) gyrus, posterior division"],
 )
+UBERONParcellation.posterior_thalamic_peduncle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorThalamicPeduncle",
+    definition="Is a peduncle of thalamus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022243)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022243#posterior-thalamic-peduncle"),
+    name="posterior thalamic peduncle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022243"),
+    synonyms=[
+        "occipital peduncle",
+        "occipital thalamic peduncle",
+        "pedunculus ventrocaudalis thalami",
+        "posterior peduncle",
+        "ventrocaudal thalamic peduncle",
+    ],
+)
 UBERONParcellation.posterior_thalamic_radiation = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorThalamicRadiation",
-    definition="The 'posterior thalamic radiation' is a white matter fibre bundle. It is part of the radiation of thalamus.",
-    description="",
+    definition="Is a radiation of cerebral hemisphere and radiation of thalamus. Is part of the retrolenticular part of internal capsule. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034747) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0735032"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034747#posterior-thalamic-radiation"),
     name="posterior thalamic radiation",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034747"),
-    synonyms=[
-        "pthr",
-        "radiatio posterior thalami",
-        "radiatio thalamica posterior",
-        "radiationes thalamicae posteriores",
-    ],
+    synonyms=["radiatio posterior thalami", "radiatio thalamica posterior"],
 )
 UBERONParcellation.posterior_transverse_temporal_area42 = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/posteriorTransverseTemporalArea42",
@@ -17728,8 +17734,8 @@ UBERONParcellation.postlateral_sulcus = UBERONParcellation(
 )
 UBERONParcellation.postnatal_subventricular_zone = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/postnatalSubventricularZone",
-    definition="'Postnatal subventricular zone' is a central nervous system cell part cluster and nervous system cell part layer. It is part of the forebrain.",
-    description="The subventricular zone (SVZ) is one of two sources of adult-born neurons in the mammalian brain, the other being the subgranular zone (SGZ) of the hippocampus. In most adult mammals, the SVZ is a three-layered sheath that lies along the lateral wall of the lateral ventricle and consists of type A, B, and C cells. Type A rest along the ventricle wall and are neuronal precursor cells, Type B are adjacent astrocytes, and Type C are immature precursors to the Type A neuroblasts. The neuronal precursor cells travel along the rostral migratory stream ensheathed in a tube of Type B astrocytes, until they reach the olfactory bulb. There they integrate into the existing cellular network and mature into local interneurons. While the majority become adult-born granule cells, a subset become periglomerular cells.Interestingly, the human SVZ differs from other mammals' in several ways. It consists of four layers rather than three: ependymal cells (layer I), a hypo cellular gap (layer II), a ribbon of astrocytes (layer III), and a transitional zone (layer IV). The astrocytes are capable of differentiating into many kinds of tissue including new neurons. However, there is no evidence that the proliferating neurons travel along the rostral migratory stream in a chain to populate the olfactory bulb with new interneurons, as is the case for other mammals.",
+    definition="Is a central nervous system cell part cluster and nervous system cell part layer. Is part of the forebrain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004922) ('is_a' and 'relationship')]",
+    description="A mitotically active layer of cells surrounding the brain ventricles in the adult that consists of migrating neuroblasts, astrocytes and transitory amplifying progenitor cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004922)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0111233"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004922#subventricular-zone"),
     name="postnatal subventricular zone",
@@ -17737,14 +17743,7 @@ UBERONParcellation.postnatal_subventricular_zone = UBERONParcellation(
     synonyms=[
         "adult subventricular zone",
         "brain subventricular zone",
-        "postnatal subependymal layer",
-        "postnatal subependymal plate",
-        "postnatal subependymal zone",
-        "postnatal subventricular zone",
         "SEZ",
-        "subependymal layer",
-        "subependymal plate",
-        "subependymal zone",
         "subventricular zone",
         "subventricular zone of brain",
         "SVZ",
@@ -17774,13 +17773,12 @@ UBERONParcellation.postrhinal_area_layer4 = UBERONParcellation(
 )
 UBERONParcellation.postsubiculum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/postsubiculum",
-    definition="'Postsubiculum' is a regional part of brain. It is part of the retrohippocampal region.",
-    description="Division of subicular cortex characterized by projections from the anterodorsal thalamic nucleus and to a lesser extent the anteroventral nucleus, bordered ventrally and laterally by the presubiculum and dorsally and medially by the retrosplenial granular a cortex..  The border is characterized by an abrupt change in the cyto- and chemoarchitecture",
+    definition="Is a regional part of brain. Is part of the retrohippocampal region. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035971) ('is_a' and 'relationship')]",
+    description="Division of subicular cortex characterized by projections from the anterodorsal thalamic nucleus and to a lesser extent the anteroventral nucleus, bordered ventrally and laterally by the presubiculum and dorsally and medially by the retrosplenial granular a cortex. The border is characterized by an abrupt change in the cyto- and chemoarchitecture. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035971)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109164"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035971#postsubiculum"),
     name="postsubiculum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035971"),
-    synonyms=["POST", "postsubicular cortex"],
 )
 UBERONParcellation.postsylvian_sulcus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/postsylvianSulcus",
@@ -17788,6 +17786,15 @@ UBERONParcellation.postsylvian_sulcus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0013591#postsylvian-sulcus"),
     name="postsylvian sulcus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0013591"),
+)
+UBERONParcellation.pre_botzinger_complex = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/preBotzingerComplex",
+    definition="Is part of the medulla oblongata. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006007)]",
+    description="The group of interneurons within the medulla oblongata's ventral respiratory group that are important for the generation of ventilatory (inspiratory) rhythmogenesis. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0006007)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0006007#pre-botzinger-complex"),
+    name="pre-Botzinger complex",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0006007"),
+    synonyms=["Pre-Bötzinger complex", "preBötC"],
 )
 UBERONParcellation.precentral_fissure_of_cerebellum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/precentralFissureOfCerebellum",
@@ -17817,13 +17824,13 @@ UBERONParcellation.precentral_gyrus = UBERONParcellation(
 )
 UBERONParcellation.precentral_operculum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/precentralOperculum",
-    definition="'Precentral operculum' is a regional part of brain. It is part of the operculum of brain.",
-    description="The ventrolateral lip of the precentral gyrus, which overlies the insula and is bounded by the lateral fissure (Brain Info).",
+    definition="Is a regional part of brain. Is part of the operculum of brain. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002605) ('is_a' and 'relationship')]",
+    description="The ventrolateral lip of the precentral gyrus, which overlies the insula and is bounded by the lateral fissure (Brain Info). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002605)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109194"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002605#precentral-operculum-1"),
     name="precentral operculum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002605"),
-    synonyms=["brodmann's area 6", "operculum precentrale"],
+    synonyms=["operculum precentrale"],
 )
 UBERONParcellation.precentral_sulcus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/precentralSulcus",
@@ -17863,20 +17870,12 @@ UBERONParcellation.precuneus_cortex = UBERONParcellation(
 )
 UBERONParcellation.predorsal_bundle = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/predorsalBundle",
-    definition="'Predorsal bundle' is a fasciculus of brain. It is part of the white matter of medulla oblongata.",
-    description="",
+    definition="Is a fasciculus of brain. Is part of the white matter of medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002754) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109207"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002754#predorsal-bundle-1"),
     name="predorsal bundle",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002754"),
-    synonyms=[
-        "fasciculus praedorsalis (Tschermak)",
-        "fasciculus predorsalis",
-        "pd",
-        "Predorsal bundle of Edinger",
-        "predorsal fasciculus",
-        "tectospinal fibers",
-    ],
+    synonyms=["predorsal bundle of Edinger", "predorsal fasciculus", "tectospinal fibers"],
 )
 UBERONParcellation.prefrontal_cortex = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/prefrontalCortex",
@@ -17941,8 +17940,8 @@ UBERONParcellation.premotor_cortex = UBERONParcellation(
 )
 UBERONParcellation.preoccipital_notch = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/preoccipitalNotch",
-    definition="'Preoccipital notch' is an anatomical entity. It is part of the occipital lobe.",
-    description="Small indentation on the inferior surface of the cerebral cortex at the border of the occiptal and parietal lobes.  It is considered as a landmark because the occipital lobe is located just behind the line that connects that notch with the parietoccipital sulcus (adapted from Wikipedia).",
+    definition="Is an anatomical entity. Is part of the occipital lobe. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002698) ('is_a' and 'relationship')]",
+    description="Small indentation on the inferior surface of the cerebral cortex at the border of the occiptal and parietal lobes. It is considered as a landmark because the occipital lobe is located just behind the line that connects that notch with the parietoccipital sulcus (adapted from Wikipedia). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002698)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109223"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002698#preoccipital-notch-1"),
     name="preoccipital notch",
@@ -17952,10 +17951,8 @@ UBERONParcellation.preoccipital_notch = UBERONParcellation(
         "incisura praeoccipitalis",
         "incisura preoccipitalis",
         "occipital notch",
-        "PON",
         "preoccipital incisura",
         "preoccipital incisure",
-        "preoccipital notch",
     ],
 )
 UBERONParcellation.preolivary_nucleus = UBERONParcellation(
@@ -17967,6 +17964,14 @@ UBERONParcellation.preolivary_nucleus = UBERONParcellation(
     name="preolivary nucleus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002976"),
     synonyms=["nucleus preolivaris", "preolivary nuclei"],
+)
+UBERONParcellation.preopercular_ramule = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/preopercularRamule",
+    definition="Is a ramus mandibularis externus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010795)]",
+    description="Ventral branch of the ramus mandibularis externus. This ramule have a superior and an inferior division, both innervating the preopercular line of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010795)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010795#preopercular-ramule"),
+    name="preopercular ramule",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010795"),
 )
 UBERONParcellation.preoptic_area = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/preopticArea",
@@ -18047,19 +18052,13 @@ UBERONParcellation.prepyriform_area = UBERONParcellation(
 )
 UBERONParcellation.presubiculum = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/presubiculum",
-    definition="'Presubiculum' is part of the hippocampal formation and parahippocampal gyrus.",
-    description="A modified six-layered cortex between the subiculum and the main part of the parahippocampal gyrus.",
+    definition="Is part of the hippocampal formation and the parahippocampal gyrus. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001953)]",
+    description="A modified six-layered cortex between the subiculum and the main part of the parahippocampal gyrus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001953)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109252"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001953#presubiculum-1"),
     name="presubiculum",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001953"),
-    synonyms=[
-        "Area 27 of Brodmann",
-        "praesubiculum",
-        "presubicular cortex (presubiculum)",
-        "presubiculum (Cajal)",
-        "PrS",
-    ],
+    synonyms=["presubicular cortex (presubiculum)", "presubiculum (Cajal)"],
 )
 UBERONParcellation.presylvian_sulcus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/presylvianSulcus",
@@ -18086,24 +18085,13 @@ UBERONParcellation.pretectal_nucleus = UBERONParcellation(
 )
 UBERONParcellation.pretectal_region = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/pretectalRegion",
-    definition="'Pretectal region' is a brain gray matter and nuclear complex of neuraxis.",
-    description="Region of brain lying between the midbrain tectum and the thalamus (Sefton and Dreher, in Paxinos, G The rat central nervous system, 1995, pg 859),  Situated at the level of poterior commissure and just rostral to the superior colliculus  (Brodal, Neurological Anatomy, 3rd ed, 1981, pg 542)",
+    definition="Is a brain gray matter and nuclear complex of neuraxis. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001944)]",
+    description="Nuclear complex between dorsal thalamus and optic tectum whose nuclei receive afferents primarily from the retina and the optic tectum and are involved in modulating motor behavior in response to visual input. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001944)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109258"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001944#pretectal-region-1"),
     name="pretectal region",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001944"),
-    synonyms=[
-        "area praetectalis",
-        "area pretectalis",
-        "nuclei pretectales",
-        "nucleus praetectalis",
-        "praetectum",
-        "pretectal area",
-        "pretectal nuclei",
-        "pretectal region",
-        "Pretectum",
-        "regio pretectalis",
-    ],
+    synonyms=["area pretectalis", "nuclei pretectales", "pretectal area", "pretectal nuclei", "pretectum"],
 )
 UBERONParcellation.prevertebral_ganglion = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/prevertebralGanglion",
@@ -18169,6 +18157,14 @@ UBERONParcellation.primary_motor_cortex_layer6 = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022316#primary-motor-cortex-layer-6"),
     name="primary motor cortex layer 6",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022316"),
+)
+UBERONParcellation.primary_muscle_spindle = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/primaryMuscleSpindle",
+    definition="Is a muscle spindle. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004010)]",
+    description="The sensory organ in muscle; involved in the stretch reflex and sensitive to stretch velocity. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004010)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004010#primary-muscle-spindle"),
+    name="primary muscle spindle",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004010"),
 )
 UBERONParcellation.primary_olfactory_cortex = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/primaryOlfactoryCortex",
@@ -18266,13 +18262,12 @@ UBERONParcellation.primary_somatosensory_cortex_layer6 = UBERONParcellation(
 )
 UBERONParcellation.primary_superior_olive = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/primarySuperiorOlive",
-    definition="'Primary superior olive' is a nuclear complex of neuraxis and gray matter of hindbrain. It is part of the superior olivary complex.",
-    description="Part of the superior olivary complex of nuclei in the caudal pontine tegmentum, situated within the trapezoid body in humans.  (Brodal, Neurological Anatomy, 3rd edition, 1981, pg 617).  In many species, it comprises a medial superior olivary nucleus and a lateral superior olivary nucleus.",
+    definition="Is a nuclear complex of neuraxis and gray matter of hindbrain. Is part of the superior olivary complex. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022434) ('is_a' and 'relationship')]",
+    description="Part of the superior olivary complex of nuclei in the caudal pontine tegmentum, situated within the trapezoid body in humans. (Brodal, Neurological Anatomy, 3rd edition, 1981, pg 617). In many species, it comprises a medial superior olivary nucleus and a lateral superior olivary nucleus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022434)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0111314"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022434#superior-olive"),
     name="primary superior olive",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022434"),
-    synonyms=["SOl", "superior olive"],
 )
 UBERONParcellation.primary_visual_area_layer23 = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/primaryVisualAreaLayer23",
@@ -18320,6 +18315,21 @@ UBERONParcellation.primary_visual_cortex = UBERONParcellation(
         "striate cortex",
     ],
 )
+UBERONParcellation.primitive_marginal_sinus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/primitiveMarginalSinus",
+    definition="Is a paired venous dural sinus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017638)]",
+    description="The primitive marginal sinuses (PMS) are embryonic sinuses forming the later superior sagittal sinus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0017638)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0017638#primitive-marginal-sinus"),
+    name="primitive marginal sinus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0017638"),
+)
+UBERONParcellation.primitive_superior_sagittal_sinus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/primitiveSuperiorSagittalSinus",
+    definition="Is part of the venous dural sinus. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0009968)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0009968#primitive-superior-sagittal-sinus"),
+    name="primitive superior sagittal sinus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0009968"),
+)
 UBERONParcellation.principal_anterior_division_of_supraoptic_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/principalAnteriorDivisionOfSupraopticNucleus",
     definition="'Principal anterior division of supraoptic nucleus' is a regional part of brain.",
@@ -18331,6 +18341,14 @@ UBERONParcellation.principal_anterior_division_of_supraoptic_nucleus = UBERONPar
     name="principal anterior division of supraoptic nucleus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0024078"),
     synonyms=["SONa", "principal anterior division of supraoptic nucleus"],
+)
+UBERONParcellation.principal_neuronal_circuit = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/principalNeuronalCircuit",
+    definition="Is a circuit part of central nervous system. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0026546)]",
+    description="A neuronal circuit bearing a principal projection neuron whose axon extends beyond the region where its soma is located to synapse on the dendrites of cells in other regions of the nervous system (BB). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0026546)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0026546#principal-neuronal-circuit-1"),
+    name="principal neuronal circuit",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0026546"),
 )
 UBERONParcellation.principal_part_of_ventral_posteromedial_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/principalPartOfVentralPosteromedialNucleus",
@@ -18387,6 +18405,14 @@ UBERONParcellation.proisocortex = UBERONParcellation(
     name="proisocortex",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014951"),
 )
+UBERONParcellation.proliferating_neuroepithelium = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/proliferatingNeuroepithelium",
+    definition="Is a developing neuroepithelium. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034706)]",
+    description="An epithelium that is undergoing proliferation to provide large numbers of neuronal cells. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034706)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034706#proliferating-neuroepithelium"),
+    name="proliferating neuroepithelium",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034706"),
+)
 UBERONParcellation.proprioceptive_system = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/proprioceptiveSystem",
     definition="Is a neural system. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0025533)]",
@@ -18394,6 +18420,15 @@ UBERONParcellation.proprioceptive_system = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0025533#proprioceptive-system"),
     name="proprioceptive system",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0025533"),
+)
+UBERONParcellation.prosomere = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/prosomere",
+    definition="Is a neuromere. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014775)]",
+    description="A neuromere that is part of the presumptive forebrain. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014775)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0014775#prosomere"),
+    name="prosomere",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0014775"),
+    synonyms=["forebrain neuromere"],
 )
 UBERONParcellation.pterygopalatine_ganglion = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/pterygopalatineGanglion",
@@ -18452,13 +18487,49 @@ UBERONParcellation.purkinje_cell_layer_valvula_cerebelli = UBERONParcellation(
 )
 UBERONParcellation.putamen = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/putamen",
-    definition="'Putamen' is a telencephalic nucleus. It is part of the cerebral hemisphere and caudate-putamen.",
-    description="Subcortical nucleus of telencephalon , which together with the caudate nucleus, forms the striatum.  The putamen lies lateral to the internal capsule and medial to the external medullary lamina, and is separated from the caudate nucleus by the fibers of the internal capsule for most of its length, except at its anterior portion.",
+    definition="Is a telencephalic nucleus. Is part of the cerebral hemisphere and the caudate-putamen. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001874) ('is_a' and 'relationship')]",
+    description="Subcortical nucleus of telencephalic , which together with the caudate nucleus, forms the striatum. The putamen lies lateral to the internal capsule and medial to the external medullary lamina, and is separated from the caudate nucleus by the fibers of the internal capsule for most of its length, except at its anterior portion. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001874)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0109549"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0001874#putamen-1"),
     name="putamen",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001874"),
-    synonyms=["Pu", "nucleus putamen"],
+    synonyms=["nucleus putamen"],
+)
+UBERONParcellation.pyramid_of_medulla_oblongata = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/pyramidOfMedullaOblongata",
+    definition="Is a regional part of brain. Is part of the medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005159) ('is_a' and 'relationship')]",
+    description="The anterior or ventral portion of the medulla oblongata is named the pyramid and lies between the anterior median fissure and the antero-lateral sulcus. Its upper end is slightly constricted, and between it and the pons the fibers of the abducent nerve emerge; a little below the pons it becomes enlarged and prominent, and finally tapers into the anterior funiculus of the medulla spinalis, with which, at first sight, it appears to be directly continuous. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0005159)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0005159#pyramid-of-medulla-oblongata"),
+    name="pyramid of medulla oblongata",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0005159"),
+    synonyms=[
+        "lobule VIII of Larsell",
+        "pyramis (medullae oblongatae)",
+        "pyramis bulbi",
+        "pyramis medullae oblongatae",
+    ],
+)
+UBERONParcellation.pyramidal_decussation = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/pyramidalDecussation",
+    definition="Is a neural decussation. Is part of the corticospinal tract and the white matter of medulla oblongata. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002755) ('is_a' and 'relationship')]",
+    description="Part of medulla comprising a white matter structure containing nerve fibers of the pyramidal tract crossing from one side of the brain to the other (MM) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002755)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002755#pyramidal-decussation-1"),
+    name="pyramidal decussation",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0002755"),
+    synonyms=[
+        "corticospinal decussation",
+        "decussatio pyramidum",
+        "decussatio pyramidum medullae oblongatae",
+        "decussation of corticospinal tract",
+        "decussation of pyramidal tract fibers",
+        "decussation of pyramids",
+        "decussation of pyramids of medulla",
+        "decussation of the pyramidal tract",
+        "motor decussation",
+        "motor decussation of medulla",
+        "pyramidal decussation (pourfour du petit)",
+        "pyramidal tract decussation",
+    ],
 )
 UBERONParcellation.pyramidal_layer_of_ca1 = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/pyramidalLayerOfCA1",
@@ -18514,15 +18585,199 @@ UBERONParcellation.quadrangular_lobule = UBERONParcellation(
     name="quadrangular lobule",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0036063"),
 )
+UBERONParcellation.quadrigeminal_cistern = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/quadrigeminalCistern",
+    definition="Is a subarachnoid cistern. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004052)]",
+    description="The enclosed space extending forward between the corpus callosum and the thalamus that contains the internal cerebral veins. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0004052)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0004052#quadrigeminal-cistern"),
+    name="quadrigeminal cistern",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0004052"),
+    synonyms=[
+        "ambient cistern",
+        "cistern of great cerebral vein",
+        "cisterna ambiens",
+        "cisterna quadrigeminalis",
+        "cisterna venae magnae cerebri",
+        "superior cistern",
+    ],
+)
+UBERONParcellation.radiation_of_cerebral_hemisphere = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/radiationOfCerebralHemisphere",
+    definition="Is a cerebral hemisphere white matter and white matter radiation. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022260)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022260#radiation-of-cerebral-hemisphere"),
+    name="radiation of cerebral hemisphere",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022260"),
+    synonyms=["cerebral hemisphere radiation"],
+)
+UBERONParcellation.radiation_of_corpus_callosum = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/radiationOfCorpusCallosum",
+    definition="Is a neuron projection bundle and central nervous system cell part cluster. Is part of the corpus callosum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035924) ('is_a' and 'relationship')]",
+    description="The spreading out of the fibers of the corpus callosum in the centrum semiovale of each cerebral hemisphere. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0035924)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0035924#radiation-of-corpus-callosum"),
+    name="radiation of corpus callosum",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0035924"),
+    synonyms=["corpus callosum radiation", "radiatio corporis callosi"],
+)
 UBERONParcellation.radiation_of_thalamus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/radiationOfThalamus",
-    definition="The 'radiation of thalamus' is a white matter fibre bundle. It is part of of the thalamic complex.",
-    description="",
+    definition="Is a diencephalic white matter and white matter radiation. Is part of the dorsal plus ventral thalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0034745) ('is_a' and 'relationship')]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0724984"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0034745#radiation-of-thalamus"),
     name="radiation of thalamus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0034745"),
-    synonyms=["thalamic radiation", "thalamus radiation"],
+    synonyms=["thalamus radiation"],
+)
+UBERONParcellation.ramule_palatinus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramulePalatinus",
+    definition="Is a ramus nasalis internus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010665)]",
+    description="Ramules that descends towards the buccal roof and give rise to several short branches that anastomose with palatine ramus of the facial nerve. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010665)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010665#ramule-palatinus"),
+    name="ramule palatinus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010665"),
+)
+UBERONParcellation.ramule_palatonasalis = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramulePalatonasalis",
+    definition="Is an anatomical entity. Is part of the maxillary nerve. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010671) ('is_a' and 'relationship')]",
+    description="Descends and branches to the buccal roof where it anastomoses with the palatine ramus of the facial nerve. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010671)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010671#ramule-palatonasalis"),
+    name="ramule palatonasalis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010671"),
+)
+UBERONParcellation.ramules_cutaneous = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramulesCutaneous",
+    definition="Is a nerve of head region. Is part of the maxillary nerve and the ramus nasalis internus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010668) ('is_a' and 'relationship')]",
+    description="Many branches of the maxillary ramus that terminate in the integument of the maxillary region. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010668)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010668#ramules-cutaneous"),
+    name="ramules cutaneous",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010668"),
+)
+UBERONParcellation.ramules_nasalis_lateralis = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramulesNasalisLateralis",
+    definition="Is a nerve of head region. Is part of the ophthalmic nerve. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010652) ('is_a' and 'relationship')]",
+    description="First branch gives rise to two ramules that border the naris and innervate the surrounding tissue. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010652)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010652#ramules-nasalis-lateralis"),
+    name="ramules nasalis lateralis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010652"),
+)
+UBERONParcellation.ramulus_suprabranchialis_anterior = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramulusSuprabranchialisAnterior",
+    definition="Is a middle lateral line nerve (MLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010798)]",
+    description="Ramulus that innervates the suprabranchial line of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010798)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010798#ramulus-suprabranchialis-anterior"),
+    name="ramulus suprabranchialis anterior",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010798"),
+)
+UBERONParcellation.ramulus_suprabranchialis_posterior = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramulusSuprabranchialisPosterior",
+    definition="Is a middle lateral line nerve (MLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010799)]",
+    description="Ramulus innervating the suprabranchial line of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010799)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010799#ramulus-suprabranchialis-posterior"),
+    name="ramulus suprabranchialis posterior",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010799"),
+)
+UBERONParcellation.ramus_anterior_of_cnviii = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusAnteriorOfCNVIII",
+    definition="Is part of the vestibulocochlear nerve. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010735)]",
+    description="Formed by fibers from the anterior semicircular canal and sacculus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010735)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010735#ramus-anterior-of-cn-viii"),
+    name="ramus anterior of CN VIII",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010735"),
+)
+UBERONParcellation.ramus_buccal = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusBuccal",
+    definition="Is an anterodorsal lateral line nerve (ADLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010759)]",
+    description="Ventral ramus of the ADLLN that innervates the infraorbital line of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010759)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010759#ramus-buccal"),
+    name="ramus buccal",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010759"),
+)
+UBERONParcellation.ramus_hyomandibularis = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusHyomandibularis",
+    definition="Is an anatomical entity. Is part of the facial nerve. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010720) ('is_a' and 'relationship')]",
+    description="The posttrematic branch of the facial nerve, both motor and sensory in function. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010720)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010720#ramus-hyomandibularis"),
+    name="ramus hyomandibularis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010720"),
+)
+UBERONParcellation.ramus_lateral = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusLateral",
+    definition="Is a posterior lateral line nerve (PLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010801)]",
+    description="Ventral division of the trunk of the PLLN, this prominent ramus extends over the lateral trunk and caudal musculature innervating the lateral line of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010801)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010801#ramus-lateral"),
+    name="ramus lateral",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010801"),
+)
+UBERONParcellation.ramus_mandibularis_externus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusMandibularisExternus",
+    definition="Is an anteroventral lateral line nerve (AVLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010765)]",
+    description="Runs together with motor fibers of the hyomandibular trunk of VII. The mandibularis externus of AVLLN branches into three ramules. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010765)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010765#ramus-mandibularis-externus"),
+    name="ramus mandibularis externus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010765"),
+)
+UBERONParcellation.ramus_nasalis_internus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusNasalisInternus",
+    definition="Is an ophthalmic nerve. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010661)]",
+    description="Distal part of the opthalmicus profundus gives rise to 2 ramules: palatinus and cutaneous. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010661)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010661#ramus-nasalis-internus"),
+    name="ramus nasalis internus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010661"),
+)
+UBERONParcellation.ramus_nasalis_medialis = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusNasalisMedialis",
+    definition="Is part of the ophthalmic nerve. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010653)]",
+    description="First branch gives rise to two ramules that border the naris and innervate the surrounding tissue. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010653)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010653#ramus-nasalis-medialis"),
+    name="ramus nasalis medialis",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010653"),
+)
+UBERONParcellation.ramus_palatinus = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusPalatinus",
+    definition="Is a facial nerve. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010722)]",
+    description="Sensory branch of facial nerve from palatal region. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010722)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010722#ramus-palatinus"),
+    name="ramus palatinus",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010722"),
+)
+UBERONParcellation.ramus_posterior_of_cnviii = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusPosteriorOfCNVIII",
+    definition="Is part of the vestibulocochlear nerve. [auto-generated from 'relationship' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010736)]",
+    description="Composed of two rami: a short ventral ramus innervating the cochlea (lagena and papille basilar), and a long dorsal ramus innervating the posterior semicircular canal. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010736)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010736#ramus-posterior-of-cn-viii"),
+    name="ramus posterior of CN VIII",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010736"),
+)
+UBERONParcellation.ramus_posterior_profundus_of_v3 = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusPosteriorProfundusOfV3",
+    definition="Is an anatomical entity. Is part of the mandibular nerve. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010693) ('is_a' and 'relationship')]",
+    description="In the adult anuran, this innervates the muscles levator mandibulare internus and longus. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010693)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010693#ramus-posterior-profundus-of-v3"),
+    name="ramus posterior profundus of V3",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010693"),
+)
+UBERONParcellation.ramus_recurrens = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusRecurrens",
+    definition="Is an anatomical entity. Is part of the vagus nerve. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010754) ('is_a' and 'relationship')]",
+    description="Branch of the vagus nerve that separates from the vagus well postcranially, then continues anteriorly to innervate the larynx. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010754)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010754#ramus-recurrens"),
+    name="ramus recurrens",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010754"),
+)
+UBERONParcellation.ramus_superficial_ophthalmic = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusSuperficialOphthalmic",
+    definition="Is an anterodorsal lateral line nerve (ADLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010757)]",
+    description="Dorsal branch of ADLLN that innervates supraorbital line of neuromasts. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010757)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010757#ramus-superficial-ophthalmic"),
+    name="ramus superficial ophthalmic",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010757"),
+)
+UBERONParcellation.ramus_supraotic = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/ramusSupraotic",
+    definition="Is a middle lateral line nerve (MLLN). [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010796)]",
+    description="Small ramus of the MLLN that innervates neuromasts located at the posterior margin of the otic capsule. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_3010796)]",
+    knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:3010796#ramus-supraotic"),
+    name="ramus supraotic",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_3010796"),
 )
 UBERONParcellation.red_nucleus = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/redNucleus",
