@@ -15056,7 +15056,7 @@ UBERONParcellation.ophthalmic_plexus = UBERONParcellation(
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0011194#ophthalmic-plexus"),
     name="ophthalmic plexus",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0011194"),
-    synonyms=["ophthalmic nerve plexus", "opthalmic plexus", "plexus ophthalmicus"],
+    synonyms=["ophthalmic nerve plexus", "plexus ophthalmicus"],
 )
 UBERONParcellation.optic_chiasma = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/opticChiasma",
