@@ -49,7 +49,7 @@ class CranialWindowPreparation(LinkedMetadata):
         ),
         Property(
             "dimension",
-            ["openminds.latest.sands.Circle", "openminds.latest.sands.Ellipse", "openminds.latest.sands.Rectangle"],
+            [],
             "dimension",
             description="no description available",
             instructions="Enter the dimension of the cranial window by defining its mathematical shape.",

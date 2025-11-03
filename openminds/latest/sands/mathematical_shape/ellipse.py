@@ -5,40 +5,41 @@
 # this file was auto-generated!
 
 
-from openminds.base import EmbeddedMetadata
+from openminds.base import LinkedMetadata
 from openminds.properties import Property
 
 
-class Rectangle(EmbeddedMetadata):
+class Ellipse(LinkedMetadata):
     """
     <description not available>
     """
 
-    type_ = "https://openminds.om-i.org/types/Rectangle"
+    type_ = "https://openminds.om-i.org/types/Ellipse"
     context = {"@vocab": "https://openminds.om-i.org/props/"}
     schema_version = "latest"
 
     properties = [
         Property(
-            "length",
+            "semi_major_axis",
             "openminds.latest.core.QuantitativeValue",
-            "length",
+            "semiMajorAxis",
             required=True,
             description="no description available",
-            instructions="Enter the length of this rectangle.",
+            instructions="Enter the length of the semi-minor axis of this ellipse.",
         ),
         Property(
-            "width",
+            "semi_minor_axis",
             "openminds.latest.core.QuantitativeValue",
-            "width",
+            "semiMinorAxis",
             required=True,
             description="no description available",
-            instructions="Enter the width of this rectangle.",
+            instructions="Enter the length of the semi-major axis of this ellipse.",
         ),
     ]
 
-    def __init__(self, length=None, width=None):
+    def __init__(self, id=None, semi_major_axis=None, semi_minor_axis=None):
         return super().__init__(
-            length=length,
-            width=width,
+            id=id,
+            semi_major_axis=semi_major_axis,
+            semi_minor_axis=semi_minor_axis,
         )
