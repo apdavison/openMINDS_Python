@@ -20,38 +20,26 @@ number_names = {
     "9": "nine",
 }
 
-name_map = {
-    "scope": "model_scope",  # this is because 'scope' is a keyword in fairgraph
-                             # we could rename the 'scope' keyword to 'stage'
-                             # but we would have the same problem, as there is
-                             # a property named 'stage'
-                             # Suggested resolution: rename the property "scope" in openMINDS
-                             #                       to "modelScope" or "hasScope"
-}
-
 
 def generate_python_name(json_name, allow_multiple=False):
-    if json_name in name_map:
-        python_name = name_map[json_name]
-    else:
-        python_name = re.sub("(.)([A-Z][a-z]+)", r"\1_\2", json_name.strip())
-        python_name = re.sub("([a-z0-9])([A-Z])", r"\1_\2", python_name).lower()
-        replacements = [
-            ("-", "_"),
-            (".", "_"),
-            ("'", "_prime_"),
-            ("+", "plus"),
-            ("#", "sharp"),
-            (",", "comma"),
-            ("(", ""),
-            (")", ""),
-        ]
-        for before, after in replacements:
-            python_name = python_name.replace(before, after)
-        if python_name[0] in number_names:  # Python variables can't start with a number
-            python_name = number_names[python_name[0]] + python_name[1:]
-        if not python_name.isidentifier():
-            raise NameError(f"Cannot generate a valid Python name from '{json_name}'")
+    python_name = re.sub("(.)([A-Z][a-z]+)", r"\1_\2", json_name.strip())
+    python_name = re.sub("([a-z0-9])([A-Z])", r"\1_\2", python_name).lower()
+    replacements = [
+        ("-", "_"),
+        (".", "_"),
+        ("'", "_prime_"),
+        ("+", "plus"),
+        ("#", "sharp"),
+        (",", "comma"),
+        ("(", ""),
+        (")", ""),
+    ]
+    for before, after in replacements:
+        python_name = python_name.replace(before, after)
+    if python_name[0] in number_names:  # Python variables can't start with a number
+        python_name = number_names[python_name[0]] + python_name[1:]
+    if not python_name.isidentifier():
+        raise NameError(f"Cannot generate a valid Python name from '{json_name}'")
     return python_name
 
 
