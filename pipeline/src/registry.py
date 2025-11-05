@@ -24,8 +24,8 @@ def register_class(target_class: Registry):
         if target_class.__module__.startswith("openminds"):
             parts = target_class.__module__.split(".")
             name = ".".join(parts[0:3] + [target_class.__name__])  # e.g. openminds.latest.core.Dataset
-            # taking the first 3 parts is artbitrary, should add an attribute to each class
-            # with its preferred import name
+            # taking the first 3 parts is arbitrary, we could instead set the
+            # attribute "preferred_import_path" on each class, with its preferred import name.
             # e.g. for `openminds.latest.core.research.protocol_execution.ProtocolExecution`
             #      the preferred import name is `openminds.latest.core.ProtocolExecution`
             #      because the intermediate directory structure is an implementation detail
