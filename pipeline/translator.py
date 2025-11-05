@@ -221,7 +221,7 @@ class PythonBuilder(object):
             "openminds_type": openminds_type,
             "schema_version": self.version,
             "context_vocab": self.context_vocab,
-            "properties": properties,
+            "properties": sorted(properties, key=lambda p: p["name"].lower()),
             "additional_methods": "",
             "instances": instances,
         }
