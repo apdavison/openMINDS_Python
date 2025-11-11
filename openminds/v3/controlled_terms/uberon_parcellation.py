@@ -4354,6 +4354,14 @@ UBERONParcellation.cerebral_nerve_fasciculus = UBERONParcellation(
         "telencephalic nerve fascicle",
     ],
 )
+UBERONParcellation.cerebral_nuclei = UBERONParcellation(
+    id="https://openminds.ebrains.eu/instances/UBERONParcellation/cerebralNuclei",
+    definition="Is a telencephalic nucleus. Is part of the telencephalon. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_8440012) ('is_a' and 'relationship')]",
+    description="One of three components of the cerebrum that is a composite structure of the endbrain defined on the basis of origin from the ventricular ridge of the embryonic Encephalon. It consists of the extended striatum and the extended pallidum. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_8440012)]",
+    name="cerebral nuclei",
+    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_8440012"),
+    synonyms=["CNU"],
+)
 UBERONParcellation.cerebral_peduncle = UBERONParcellation(
     id="https://openminds.ebrains.eu/instances/UBERONParcellation/cerebralPeduncle",
     definition="Is a peduncle of neuraxis and white matter of midbrain. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002623)]",
