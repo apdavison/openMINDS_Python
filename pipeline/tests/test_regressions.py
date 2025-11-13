@@ -2,7 +2,7 @@ from datetime import date
 import json
 import os
 from openminds import Collection, IRI
-from openminds.latest import core as omcore
+import openminds.v4.core as omcore
 from utils import build_fake_node
 
 
@@ -38,18 +38,24 @@ def test_issue_0003():
     )
     # on export, a single item should be wrapped in a list, where the property expects an array
     expected = {
-        "@context": {"@vocab": "https://openminds.om-i.org/props/"},
+        "@context": {
+            "@vocab": "https://openminds.om-i.org/props/",
+            "s": "https://schema.org/"
+        },
         "@type": "https://openminds.om-i.org/types/FileArchive",
         "IRI": "http://example.com/archive.zip",
         "format": {
             "@type": "https://openminds.om-i.org/types/ContentType",
             "name": "application/zip",
+            "s:schemaVersion": "v4.0",
         },
+        "s:schemaVersion": "v4.0",
         "sourceData": [
             {
                 "@type": "https://openminds.om-i.org/types/File",
                 "IRI": "http://example.com/some_file.txt",
                 "name": "some_file.txt",
+                "s:schemaVersion": "v4.0",
             }
         ],
     }
@@ -90,11 +96,15 @@ def test_issue0007():
 
     actual = person.to_jsonld(include_empty_properties=False, embed_linked_nodes=False, with_context=True)
     expected = {
-        "@context": {"@vocab": "https://openminds.om-i.org/props/"},
+        "@context": {
+            "@vocab": "https://openminds.om-i.org/props/",
+            "s": "https://schema.org/"
+        },
         "@id": "_:001",
         "@type": "https://openminds.om-i.org/types/Person",
         "familyName": "Professor",
         "givenName": "A",
+        "s:schemaVersion": "v4.0",
         "affiliation": [
             {
                 "@type": "https://openminds.om-i.org/types/Affiliation",
@@ -105,6 +115,7 @@ def test_issue0007():
                 "memberOf": {"@id": "_:003"},
             },
         ],
+
     }
     assert actual == expected
 
@@ -116,7 +127,10 @@ def test_issue0007():
         saved_data = json.load(fp)
     os.remove("issue0007.jsonld")
     expected_saved_data = {
-        "@context": {"@vocab": "https://openminds.om-i.org/props/"},
+        "@context": {
+            "@vocab": "https://openminds.om-i.org/props/",
+            "s": "https://schema.org/"
+        },
         "@graph": [
             {
                 "@id": "_:001",
@@ -133,16 +147,19 @@ def test_issue0007():
                 ],
                 "familyName": "Professor",
                 "givenName": "A",
+                "s:schemaVersion": "v4.0",
             },
             {
                 "@id": "_:002",
                 "@type": "https://openminds.om-i.org/types/Organization",
                 "fullName": "University of This Place",
+                "s:schemaVersion": "v4.0",
             },
             {
                 "@id": "_:003",
                 "@type": "https://openminds.om-i.org/types/Organization",
                 "fullName": "University of That Place",
+                "s:schemaVersion": "v4.0",
             },
         ],
     }
@@ -163,7 +180,10 @@ def test_issue0008():
     )
     actual = person.to_jsonld(include_empty_properties=False, embed_linked_nodes=False, with_context=True)
     expected = {
-        "@context": {"@vocab": "https://openminds.om-i.org/props/"},
+        "@context": {
+            "@vocab": "https://openminds.om-i.org/props/",
+            "s": "https://schema.org/"
+        },
         "@id": "_:002",
         "@type": "https://openminds.om-i.org/types/Person",
         "affiliation": [
@@ -175,6 +195,7 @@ def test_issue0008():
         ],
         "familyName": "Professor",
         "givenName": "A",
+        "s:schemaVersion": "v4.0",
     }
     assert actual == expected
 

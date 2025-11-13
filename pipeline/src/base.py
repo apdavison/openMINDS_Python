@@ -68,11 +68,14 @@ class Node(metaclass=Registry):
         """
 
         data = {"@type": self.type_}
+        if isinstance(self, LinkedMetadata):
+            data["s:schemaVersion"] = self.schema_version
         if with_context:
             if self.type_.startswith("https://openminds.ebrains.eu/"):
                 data["@context"] = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
             else:
                 data["@context"] = {"@vocab": "https://openminds.om-i.org/props/"}
+            data["@context"]["s"] = "https://schema.org/"
         if hasattr(self, "id") and self.id:
             data["@id"] = self.id
         for property in self.__class__.properties:
@@ -122,6 +125,10 @@ class Node(metaclass=Registry):
         """
         data_copy = data.copy()
         context = data_copy.pop("@context", None)
+        schema_version = data_copy.pop("s:schemaVersion", None)
+        # todo: also handle an expanded key, i.e., "https://schema.org/schemaVersion"
+        # todo: check major part of schema_version against self.schema_version
+        #       i.e. v4.1 and v4.0 would be ok, v5.0 and v4.0 would not
         type_ = data_copy.pop("@type")
         if isinstance(type_, list) and len(type_) == 1:
             type_ = type_[0]
@@ -138,7 +145,7 @@ class Node(metaclass=Registry):
             else:
                 # todo: implement or import a function that does a full JSON-LD expansion
                 #       not just this special case
-                expanded_path  = f"{cls.context['@vocab']}{property.path}"
+                expanded_path = f"{cls.context['@vocab']}{property.path}"
                 if expanded_path in data_copy:
                     value = data_copy.pop(expanded_path)
                     found = True
@@ -268,9 +275,8 @@ class Link:
         self.allowed_types = allowed_types
 
     def to_jsonld(self):
-        return {
-            "@id": self.identifier
-        }
+        return {"@id": self.identifier}
+
 
 class IRI:
     """

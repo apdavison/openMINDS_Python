@@ -96,17 +96,22 @@ def test_collection_sort_by_id():
     os.remove("test_collection_sort_by_id.jsonld")
 
     expected_saved_data = {
-        "@context": {"@vocab": "https://openminds.om-i.org/props/"},
+        "@context": {
+            "@vocab": "https://openminds.om-i.org/props/",
+            "s": "https://schema.org/",
+        },
         "@graph": [
             {
                 "@id": "_:001",
                 "@type": "https://openminds.om-i.org/types/Organization",
                 "fullName": "University of That Place",
+                "s:schemaVersion": "latest"
             },
             {
                 "@id": "_:002",
                 "@type": "https://openminds.om-i.org/types/Organization",
                 "fullName": "University of This Place",
+                "s:schemaVersion": "latest"
             },
             {
                 "@id": "_:004",
@@ -117,6 +122,7 @@ def test_collection_sort_by_id():
                 ],
                 "familyName": "Professor",
                 "givenName": "A",
+                "s:schemaVersion": "latest"
             },
         ],
     }

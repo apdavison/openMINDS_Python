@@ -93,7 +93,10 @@ class Collection:
             if node.type_.startswith("https://openminds.ebrains.eu/"):
                 data_context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
             else:
-                data_context = {"@vocab": "https://openminds.om-i.org/props/"}
+                data_context = {
+                    "@vocab": "https://openminds.om-i.org/props/"
+                }
+            data_context["s"] = "https://schema.org/"
 
             for linked_node in node.links:
                 self._add_node(linked_node)
@@ -169,12 +172,15 @@ class Collection:
                 data = json.load(fp)
             if "@graph" in data:
                 if data["@context"]["@vocab"].startswith("https://openminds.ebrains.eu/"):
-                    version = "v3"
+                    default_version = "v3"
                 else:
-                    version = "latest"
+                    default_version = "v4"
                 for item in data["@graph"]:
                     if "@type" in item:
-                        cls = lookup_type(item["@type"], version=version)
+                        version = default_version
+                        if "s:schemaVersion" in item:  # todo: expand this using the context
+                            version = item["s:schemaVersion"]
+                        cls = lookup_type(item["@type"], version=version.split(".")[0])
                         node = cls.from_jsonld(item)
                     else:
                         # allow links to metadata instances outside this collection
