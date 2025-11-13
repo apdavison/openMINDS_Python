@@ -254,3 +254,19 @@ def test_issue0056():
     assert failures["multiplicity"] == ['digital_identifier does not accept multiple values, but contains 2']
     data = dataset.to_jsonld()
     json.dumps(data)  # this should not raise an Exception
+
+
+def test_issue0073():
+    # https://github.com/openMetadataInitiative/openMINDS_Python/issues/73
+    # Infinite recursion in validate()
+    ds1 = omcore.DatasetVersion(
+        short_name="ds1",
+        is_alternative_version_of=None
+    )
+    ds2 = omcore.DatasetVersion(
+        short_name="ds2",
+        is_alternative_version_of=ds1
+    )
+    ds1.is_alternative_version_of = ds2
+
+    failures = ds1.validate()
