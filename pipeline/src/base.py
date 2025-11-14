@@ -240,7 +240,9 @@ class LinkedMetadata(Node):
 
     def save(self, file_path, indent=2):
         """
-        Save this object to a file in JSON-LD format
+        Save this object to a file in JSON-LD format.
+
+        It is recommended to use the extension ".jsonld".
         """
         with open(file_path, "w") as output_file:
             json.dump(self.to_jsonld(), output_file, indent=indent)

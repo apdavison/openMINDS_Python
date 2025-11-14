@@ -77,6 +77,26 @@ def test_round_trip_multi_file():
     assert p == np
 
 
+def test_round_trip_multi_file_group_by_schema():
+    shutil.rmtree(test_output_dir, ignore_errors=True)
+    person = build_fake_node(omcore.Person)
+    collection = Collection(person)
+    collection.save(test_output_dir, individual_files=True, include_empty_properties=False, group_by_schema=True)
+    new_collection = Collection()
+    new_collection.load(test_output_dir)
+
+    assert len(collection) == len(new_collection)
+
+    for node in new_collection:
+        if node.id == person.id:
+            new_person = person
+            break
+
+    p = person.to_jsonld(include_empty_properties=False, embed_linked_nodes=True)
+    np = new_person.to_jsonld(include_empty_properties=False, embed_linked_nodes=True)
+    assert p == np
+
+
 def test_collection_sort_by_id():
     person = omcore.Person(given_name="A", family_name="Professor", id="_:004")
     uni1 = omcore.Organization(full_name="University of This Place", id="_:002")
