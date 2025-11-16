@@ -308,7 +308,7 @@ class IRI:
     def to_jsonld(self):
         return self.value
 
-    def validate(self, ignore=None):
+    def _validate(self, ignore=None, seen=None):
         if ignore is None:
             ignore = []
         failures = defaultdict(list)
