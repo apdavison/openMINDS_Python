@@ -172,8 +172,8 @@ class Node(metaclass=Registry):
         failures = defaultdict(list)
         for property in self.properties:
             value = getattr(self, property.name, None)
-            if id(value) not in seen:
-                seen.add(id(value))
+            if (id(self), property.name) not in seen:
+                seen.add((id(self), property.name))
                 for key, values in property.validate(value, ignore=ignore, seen=seen).items():
                     failures[key] += values
         return failures
