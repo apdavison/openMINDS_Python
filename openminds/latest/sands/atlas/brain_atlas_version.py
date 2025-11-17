@@ -151,7 +151,7 @@ class BrainAtlasVersion(LinkedMetadata):
             instructions="Add the brain atlas version preceding this brain atlas version.",
         ),
         Property(
-            "is_variant_ofs",
+            "is_variant_of",
             "openminds.latest.sands.BrainAtlasVersion",
             "isVariantOf",
             multiple=True,
@@ -196,6 +196,7 @@ class BrainAtlasVersion(LinkedMetadata):
                 "openminds.latest.controlled_terms.CranialWindowReinforcementType",
                 "openminds.latest.controlled_terms.CriteriaQualityType",
                 "openminds.latest.controlled_terms.DataType",
+                "openminds.latest.controlled_terms.DependencyImpact",
                 "openminds.latest.controlled_terms.DeploymentEnvironmentType",
                 "openminds.latest.controlled_terms.DeviceType",
                 "openminds.latest.controlled_terms.DifferenceMeasure",
@@ -412,7 +413,7 @@ class BrainAtlasVersion(LinkedMetadata):
         homepage=None,
         how_to_cite=None,
         is_preceded_by=None,
-        is_variant_ofs=None,
+        is_variant_of=None,
         is_version_of=None,
         keywords=None,
         license=None,
@@ -446,7 +447,7 @@ class BrainAtlasVersion(LinkedMetadata):
             homepage=homepage,
             how_to_cite=how_to_cite,
             is_preceded_by=is_preceded_by,
-            is_variant_ofs=is_variant_ofs,
+            is_variant_of=is_variant_of,
             is_version_of=is_version_of,
             keywords=keywords,
             license=license,
@@ -8347,7 +8348,7 @@ BrainAtlasVersion.jba_v1_18__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2019)](https://doi.org/10.25493/8EGG-ZAR).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.13-Colin27"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.18-MNI152"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.18-MNI152"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v1.18",
@@ -8639,7 +8640,7 @@ BrainAtlasVersion.jba_v1_18_mni152 = BrainAtlasVersion(
     },
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2019)](https://doi.org/10.25493/8EGG-ZAR).",
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.18-Colin27"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.18-Colin27"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v1.18",
@@ -8984,7 +8985,7 @@ BrainAtlasVersion.jba_v2_2__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2020)](https://doi.org/10.25493/TAKY-64D).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.18-Colin27"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.2-MNI152"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.2-MNI152"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v2.2",
@@ -9252,7 +9253,7 @@ BrainAtlasVersion.jba_v2_2_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2020)](https://doi.org/10.25493/TAKY-64D).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v1.18-MNI152"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.2-Colin27"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.2-Colin27"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v2.2",
@@ -9596,7 +9597,7 @@ BrainAtlasVersion.jba_v2_4__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2020)](https://doi.org/10.25493/A7Y0-NX9).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.2-Colin27"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.4-MNI152"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.4-MNI152"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v2.4",
@@ -9864,7 +9865,7 @@ BrainAtlasVersion.jba_v2_4_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2020)](https://doi.org/10.25493/A7Y0-NX9).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.2-MNI152"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.4-Colin27"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.4-Colin27"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v2.4",
@@ -10213,7 +10214,7 @@ BrainAtlasVersion.jba_v2_5__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2020)](https://doi.org/10.25493/8JKE-M53).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.4-Colin27"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.5-MNI152"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.5-MNI152"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v2.5",
@@ -10488,7 +10489,7 @@ BrainAtlasVersion.jba_v2_5_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2020)](https://doi.org/10.25493/8JKE-M53).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.4-MNI152"},
-    is_variant_ofs=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.5-Colin27"}],
+    is_variant_of=[{"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.5-Colin27"}],
     is_version_of=IRI("https://openminds.om-i.org/instances/brainAtlas/JBA"),
     license={"@id": "https://openminds.om-i.org/instances/licenses/CC-BY-NC-SA-4.0"},
     major_version_identifier="v2.5",
@@ -10825,7 +10826,7 @@ BrainAtlasVersion.jba_v2_9__big_brain = BrainAtlasVersion(
     },
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2021)](https://doi.org/10.25493/VSMK-H94).",
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-MNI152"},
@@ -11247,7 +11248,7 @@ BrainAtlasVersion.jba_v2_9__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2021)](https://doi.org/10.25493/VSMK-H94).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.5-Colin27"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-MNI152"},
@@ -11666,7 +11667,7 @@ BrainAtlasVersion.jba_v2_9_fsaverage = BrainAtlasVersion(
     },
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2021)](https://doi.org/10.25493/VSMK-H94).",
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-MNI152"},
@@ -11988,7 +11989,7 @@ BrainAtlasVersion.jba_v2_9_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2021)](https://doi.org/10.25493/VSMK-H94).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.6-MNI152"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-fsaverage"},
@@ -12096,7 +12097,7 @@ BrainAtlasVersion.jba_v3_0_1__big_brain = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/2BV2-001).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-BigBrain"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-MNI152"},
@@ -12619,7 +12620,7 @@ BrainAtlasVersion.jba_v3_0_1__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/2BV2-001).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-Colin27"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-MNI152"},
@@ -13066,7 +13067,7 @@ BrainAtlasVersion.jba_v3_0_1_fsaverage = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/2BV2-001).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-fsaverage"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-MNI152"},
@@ -13575,7 +13576,7 @@ BrainAtlasVersion.jba_v3_0_1_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/2BV2-001).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-MNI152"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-fsaverage"},
@@ -13683,7 +13684,7 @@ BrainAtlasVersion.jba_v3_0_2__big_brain = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/TMQ3-0EP).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-BigBrain"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-MNI152"},
@@ -14206,7 +14207,7 @@ BrainAtlasVersion.jba_v3_0_2__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/TMQ3-0EP).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-Colin27"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-MNI152"},
@@ -14653,7 +14654,7 @@ BrainAtlasVersion.jba_v3_0_2_fsaverage = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/TMQ3-0EP).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-fsaverage"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-MNI152"},
@@ -15162,7 +15163,7 @@ BrainAtlasVersion.jba_v3_0_2_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/TMQ3-0EP).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.1-MNI152"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-fsaverage"},
@@ -15270,7 +15271,7 @@ BrainAtlasVersion.jba_v3_0_3__big_brain = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2023)](https://doi.org/10.25493/56EM-75H).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-BigBrain"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-MNI152"},
@@ -15793,7 +15794,7 @@ BrainAtlasVersion.jba_v3_0_3__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2023)](https://doi.org/10.25493/56EM-75H).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-Colin27"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-MNI152"},
@@ -16240,7 +16241,7 @@ BrainAtlasVersion.jba_v3_0_3_fsaverage = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2023)](https://doi.org/10.25493/56EM-75H).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-fsaverage"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-MNI152"},
@@ -16749,7 +16750,7 @@ BrainAtlasVersion.jba_v3_0_3_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2023)](https://doi.org/10.25493/56EM-75H).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.2-MNI152"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0.3-fsaverage"},
@@ -16817,7 +16818,7 @@ BrainAtlasVersion.jba_v3_0__big_brain = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/MGKP-Z5T).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-BigBrain"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-MNI152"},
@@ -17304,7 +17305,7 @@ BrainAtlasVersion.jba_v3_0__colin27 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/MGKP-Z5T).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-Colin27"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-fsaverage"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-MNI152"},
@@ -17739,7 +17740,7 @@ BrainAtlasVersion.jba_v3_0_fsaverage = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/MGKP-Z5T).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-fsaverage"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-MNI152"},
@@ -18126,7 +18127,7 @@ BrainAtlasVersion.jba_v3_0_mni152 = BrainAtlasVersion(
     homepage=IRI("https://julich-brain-atlas.de/"),
     how_to_cite="Please refer to the atlas by its [RRID:SCR_023277](https://scicrunch.org/resolver/SCR_023277), and cite the following publications: [Amunts and Zilles (2015)](https://doi.org/10.1016/j.neuron.2015.12.001); [Amunts et al. (2020)](https://doi.org/10.1126/science.abb4588), [Amunts et al. (2022)](https://doi.org/10.25493/MGKP-Z5T).",
     is_preceded_by={"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v2.9-MNI152"},
-    is_variant_ofs=[
+    is_variant_of=[
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-BigBrain"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-Colin27"},
         {"@id": "https://openminds.om-i.org/instances/brainAtlasVersion/JBA_v3.0-fsaverage"},
