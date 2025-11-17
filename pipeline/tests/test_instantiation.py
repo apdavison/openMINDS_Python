@@ -69,7 +69,7 @@ def test_IRI():
     for value in valid_iris:
         iri = IRI(value)
         assert iri.value == value
-        failures = iri.validate()
+        failures = iri._validate()
         if value.startswith("http"):
             assert not failures
         else:
