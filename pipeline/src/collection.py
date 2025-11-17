@@ -91,7 +91,9 @@ class Collection:
         for node in tuple(self.nodes.values()):
 
             if node.type_.startswith("https://openminds.ebrains.eu/"):
-                data_context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
+                data_context = {
+                    "@vocab": "https://openminds.ebrains.eu/vocab/"
+                }
             else:
                 data_context = {
                     "@vocab": "https://openminds.om-i.org/props/"
