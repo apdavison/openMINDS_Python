@@ -69,13 +69,13 @@ class Node(metaclass=Registry):
 
         data = {"@type": self.type_}
         if isinstance(self, LinkedMetadata):
-            data["s:schemaVersion"] = self.schema_version
+            data["schema:schemaVersion"] = self.schema_version
         if with_context:
             if self.type_.startswith("https://openminds.ebrains.eu/"):
                 data["@context"] = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
             else:
                 data["@context"] = {"@vocab": "https://openminds.om-i.org/props/"}
-            data["@context"]["s"] = "https://schema.org/"
+            data["@context"]["schema"] = "https://schema.org/"
         if hasattr(self, "id") and self.id:
             data["@id"] = self.id
         for property in self.__class__.properties:
@@ -125,7 +125,7 @@ class Node(metaclass=Registry):
         """
         data_copy = data.copy()
         context = data_copy.pop("@context", None)
-        schema_version = data_copy.pop("s:schemaVersion", None)
+        schema_version = data_copy.pop("schema:schemaVersion", None)
         # todo: also handle an expanded key, i.e., "https://schema.org/schemaVersion"
         # todo: check major part of schema_version against self.schema_version
         #       i.e. v4.1 and v4.0 would be ok, v5.0 and v4.0 would not

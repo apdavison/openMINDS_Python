@@ -98,7 +98,7 @@ class Collection:
                 data_context = {
                     "@vocab": "https://openminds.om-i.org/props/"
                 }
-            data_context["s"] = "https://schema.org/"
+            data_context["schema"] = "https://schema.org/"
 
             for linked_node in node.links:
                 self._add_node(linked_node)
@@ -180,8 +180,8 @@ class Collection:
                 for item in data["@graph"]:
                     if "@type" in item:
                         version = default_version
-                        if "s:schemaVersion" in item:  # todo: expand this using the context
-                            version = item["s:schemaVersion"]
+                        if "schema:schemaVersion" in item:  # todo: expand this using the context
+                            version = item["schema:schemaVersion"]
                         cls = lookup_type(item["@type"], version=version.split(".")[0])
                         node = cls.from_jsonld(item)
                     else:
@@ -253,4 +253,3 @@ class Collection:
                     newly_sorted.append(node_id)
             unsorted -= set(newly_sorted)
         return [self.nodes[node_id] for node_id in sorted]
-        

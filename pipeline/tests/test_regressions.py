@@ -40,22 +40,22 @@ def test_issue_0003():
     expected = {
         "@context": {
             "@vocab": "https://openminds.om-i.org/props/",
-            "s": "https://schema.org/"
+            "schema": "https://schema.org/"
         },
         "@type": "https://openminds.om-i.org/types/FileArchive",
         "IRI": "http://example.com/archive.zip",
         "format": {
             "@type": "https://openminds.om-i.org/types/ContentType",
             "name": "application/zip",
-            "s:schemaVersion": "v4.0",
+            "schema:schemaVersion": "v4.0",
         },
-        "s:schemaVersion": "v4.0",
+        "schema:schemaVersion": "v4.0",
         "sourceData": [
             {
                 "@type": "https://openminds.om-i.org/types/File",
                 "IRI": "http://example.com/some_file.txt",
                 "name": "some_file.txt",
-                "s:schemaVersion": "v4.0",
+                "schema:schemaVersion": "v4.0",
             }
         ],
     }
@@ -98,13 +98,13 @@ def test_issue0007():
     expected = {
         "@context": {
             "@vocab": "https://openminds.om-i.org/props/",
-            "s": "https://schema.org/"
+            "schema": "https://schema.org/"
         },
         "@id": "_:001",
         "@type": "https://openminds.om-i.org/types/Person",
         "familyName": "Professor",
         "givenName": "A",
-        "s:schemaVersion": "v4.0",
+        "schema:schemaVersion": "v4.0",
         "affiliation": [
             {
                 "@type": "https://openminds.om-i.org/types/Affiliation",
@@ -129,7 +129,7 @@ def test_issue0007():
     expected_saved_data = {
         "@context": {
             "@vocab": "https://openminds.om-i.org/props/",
-            "s": "https://schema.org/"
+            "schema": "https://schema.org/"
         },
         "@graph": [
             {
@@ -147,19 +147,19 @@ def test_issue0007():
                 ],
                 "familyName": "Professor",
                 "givenName": "A",
-                "s:schemaVersion": "v4.0",
+                "schema:schemaVersion": "v4.0",
             },
             {
                 "@id": "_:002",
                 "@type": "https://openminds.om-i.org/types/Organization",
                 "fullName": "University of This Place",
-                "s:schemaVersion": "v4.0",
+                "schema:schemaVersion": "v4.0",
             },
             {
                 "@id": "_:003",
                 "@type": "https://openminds.om-i.org/types/Organization",
                 "fullName": "University of That Place",
-                "s:schemaVersion": "v4.0",
+                "schema:schemaVersion": "v4.0",
             },
         ],
     }
@@ -182,7 +182,7 @@ def test_issue0008():
     expected = {
         "@context": {
             "@vocab": "https://openminds.om-i.org/props/",
-            "s": "https://schema.org/"
+            "schema": "https://schema.org/"
         },
         "@id": "_:002",
         "@type": "https://openminds.om-i.org/types/Person",
@@ -195,7 +195,7 @@ def test_issue0008():
         ],
         "familyName": "Professor",
         "givenName": "A",
-        "s:schemaVersion": "v4.0",
+        "schema:schemaVersion": "v4.0",
     }
     assert actual == expected
 

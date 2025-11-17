@@ -104,10 +104,10 @@ def test_link():
     expected = {
         "@context": {
             "@vocab": "https://openminds.om-i.org/props/",
-            "s": "https://schema.org/"
+            "schema": "https://schema.org/"
         },
         "@type": "https://openminds.om-i.org/types/DatasetVersion",
-        "s:schemaVersion": "v4.0",
+        "schema:schemaVersion": "v4.0",
         "studyTarget": [
             {
                 "@id": "https://openminds.om-i.org/instances/species/musMusculus",
