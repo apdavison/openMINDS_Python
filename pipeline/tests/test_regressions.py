@@ -282,12 +282,12 @@ def test_issue0073():
     # Infinite recursion in validate()
     ds1 = omcore.DatasetVersion(
         short_name="ds1",
-        is_variant_of=None
+        is_alternative_version_of=None
     )
     ds2 = omcore.DatasetVersion(
         short_name="ds2",
-        is_variant_of=ds1
+        is_alternative_version_of=ds1
     )
-    ds1.is_variant_of = ds2
+    ds1.is_alternative_version_of = ds2
 
     failures = ds1.validate()
