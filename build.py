@@ -5,6 +5,7 @@ import os.path
 import shutil
 import subprocess
 import sys
+from time import perf_counter
 from urllib.request import urlopen, HTTPError
 
 from jinja2 import Environment, select_autoescape, FileSystemLoader
@@ -23,6 +24,8 @@ print("*************************************************************************
 print(f"Triggering the generation of Python package for openMINDS, from the {args.branch} branch")
 print("*******************************************************************************")
 
+start_time = perf_counter()
+
 # Step 0 - read code for additional methods
 additional_methods = {}
 with open("pipeline/src/additional_methods/by_name.py.txt") as fp:
@@ -35,6 +38,7 @@ schema_loader = SchemaLoader()
 instance_loader = InstanceLoader()
 if os.path.exists("target"):
     shutil.rmtree("target")
+print(f"Cloned {args.branch} branch of central repository ({perf_counter() - start_time} s)")
 
 # Step 2 - load instances
 instances = {}
@@ -45,6 +49,7 @@ if include_instances:
             with open(instance_path) as fp:
                 instance_data = json.load(fp)
             instances[version][instance_data["@type"]].append(instance_data)
+print(f"Loaded instances ({perf_counter() - start_time} s)")
 
 python_modules = defaultdict(list)
 
@@ -85,6 +90,9 @@ for schema_version in schema_loader.get_schema_versions():
         parts = module_path.split(".")
         parent_path = ".".join(parts[:-1])
         python_modules[parent_path].append((parts[-1], class_name))
+
+print(f"Processed schemas ({perf_counter() - start_time} s)")
+
 
 # Step 5 - create additional files, e.g. __init__.py
 openminds_modules = defaultdict(set)
@@ -151,5 +159,8 @@ if pypi_metadata:
     with open("target/codemeta.json", "w") as fp:
         json.dump(codemeta, fp, indent=2)
 
+print(f"Generated additional files ({perf_counter() - start_time} s)")
+
 # Step 6 - run formatter
-subprocess.call([sys.executable, "-m", "black", "--quiet", "target"])
+subprocess.call(["ruff", "format", "--quiet", "target"])
+print(f"Formatted all files ({perf_counter() - start_time} s)")
