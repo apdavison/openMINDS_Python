@@ -161,7 +161,7 @@ class Node(metaclass=Registry):
 
         Returns a dict containing information about any validation failures.
         """
-        return self._validate(ignore=ignore)
+        return dict(self._validate(ignore=ignore))
 
     def _validate(self, ignore=None, seen=None):
         # this is implemented as an internal method so that the
