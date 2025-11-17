@@ -131,7 +131,7 @@ class Property:
                             if isinstance(item, Link):
                                 item_type = f"value contains a link to {item.allowed_types}"
                             else:
-                                item_type = f"value contains {type(item)}"
+                                item_type = f"value contains {type(item).__name__}"
                             failures["type"].append(
                                 f"{self.name}: Expected {', '.join(t.__name__ for t in self.types)}, " + item_type
                             )
@@ -166,7 +166,7 @@ class Property:
                     if isinstance(value, Link):
                         value_type = f"value contains a link to {value.allowed_types}"
                     else:
-                        value_type = f"value contains {type(value)}"
+                        value_type = f"value contains {type(value).__name__}"
                     failures["type"].append(
                         f"{self.name}: Expected {', '.join(t.__name__ for t in self.types)}, " + value_type
                     )
