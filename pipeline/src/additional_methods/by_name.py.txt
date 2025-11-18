@@ -21,12 +21,12 @@
             match (str, optional): either "equals" (exact match - default) or "contains".
             all (bool, optional): Whether to return all objects that match the name, or only the first. Defaults to False.
         """
-        namelike_properties = ("name", "lookup_label", "family_name", "full_name", "short_name", "abbreviation", "synonyms")
+        namelike_properties = ("name", "lookup_label", "family_name", "full_name", "short_name", "abbreviation")
         if cls._instance_lookup is None:
             cls._instance_lookup = {}
             for instance in cls.instances():
                 keys = []
-                for prop_name in namelike_properties[:-1]:  # handle 'synonyms' separately
+                for prop_name in namelike_properties:
                     if hasattr(instance, prop_name):
                         keys.append(getattr(instance, prop_name))
                 if hasattr(instance, "synonyms"):
@@ -45,7 +45,7 @@
                 if name in key:
                     matches.extend(instances)
         else:
-            raise ValueError("'match' must be either 'exact' or 'contains'")
+            raise ValueError("'match' must be either 'equals' or 'contains'")
         if all:
             return matches
         elif len(matches) > 0:
