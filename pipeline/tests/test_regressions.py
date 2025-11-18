@@ -300,3 +300,34 @@ def test_issue0073b(om):
     ds1.is_variant_of = ds2
 
     failures = ds1.validate()
+
+
+@pytest.mark.parametrize("om", [openminds.latest])
+def test_issue0069(om):
+    # https://github.com/openMetadataInitiative/openMINDS_Python/issues/69
+    # The License class has a classmethod "by_name()" which assumes License is a controlled term
+    # (i.e., it has properties "name" and "synonyms").
+    # However License does not have these properties, it has "short_name" and "full_name".
+
+    # Test with default arguments (single result, exact match)
+    result = om.core.License.by_name("CC-BY-4.0")
+    assert result.short_name == "CC-BY-4.0"
+
+    result = om.sands.ParcellationEntity.by_name("NODa,b")
+    assert result.abbreviation == "NODa,b"
+
+    result = om.sands.CommonCoordinateSpace.by_name("MEBRAINS population-based monkey brain template")
+    assert result.full_name == "MEBRAINS population-based monkey brain template"
+
+    assert om.controlled_terms.BiologicalOrder.by_name("rodents") == om.controlled_terms.BiologicalOrder.by_name("Rodentia") != None
+
+    # Test with "all=True"
+    results = om.sands.BrainAtlasVersion.by_name("Julich-Brain Atlas", all=True)
+    assert len(results) == 30
+    assert all(r.short_name == "Julich-Brain Atlas" for r in results)
+    assert len(set(r.id for r in results)) == len(results)
+
+    # Test with "match='contains'"
+    results = om.core.License.by_name("Creative Commons", all=True, match="contains")
+    assert len(results) == 7
+    assert all("CC" in r.short_name for r in results)
