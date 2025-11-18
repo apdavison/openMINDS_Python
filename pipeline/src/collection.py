@@ -175,11 +175,10 @@ class Collection:
         """
         if len(paths) == 1 and os.path.isdir(paths[0]):
             data_dir = paths[0]
-            json_paths = [
-                os.path.join(data_dir, item) for item in (
-                    glob("**/*.jsonld", root_dir=data_dir, recursive=True, include_hidden=False)
-                    + glob("**/*.json", root_dir=data_dir, recursive=True, include_hidden=False))
-            ]
+            json_paths = (
+                glob(f"{data_dir}/**/*.jsonld", recursive=True)
+                + glob(f"{data_dir}/**/*.json", recursive=True)
+            )
         else:
             json_paths = paths
 
