@@ -34,7 +34,7 @@ dev = [
     "setuptools",
     "wheel",
     "sphinx",
-    "black",
+    "ruff",
     "twine"
 ]
 
@@ -51,5 +51,5 @@ include = ["openminds*"]
  ]
  build-backend = "setuptools.build_meta"
 
-[tool.black]
+[tool.ruff]
 line-length = 119

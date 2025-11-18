@@ -92,7 +92,6 @@ class Collection:
         # we first re-add all child nodes to the collection.
         # This is probably not the most elegant or fast way to do this, but it is simple and robust.
         for node in tuple(self.nodes.values()):
-
             if node.type_.startswith("https://openminds.ebrains.eu/"):
                 data_context = {"@vocab": "https://openminds.ebrains.eu/vocab/"}
             else:

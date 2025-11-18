@@ -140,13 +140,12 @@ class Property:
                 if self.min_items:
                     if len(value) < self.min_items and "multiplicity" not in ignore:
                         failures["multiplicity"].append(
-                            f"{self.name}: minimum {self.min_items} items required, "
-                            f"value only contains {len(value)}"
+                            f"{self.name}: minimum {self.min_items} items required, value only contains {len(value)}"
                         )
                 if self.max_items:
                     if len(value) > self.max_items and "multiplicity" not in ignore:
                         failures["multiplicity"].append(
-                            f"{self.name}: maximum {self.max_items} items allowed, " f"value contains {len(value)}"
+                            f"{self.name}: maximum {self.max_items} items allowed, value contains {len(value)}"
                         )
                 if self.unique_items:
                     try:
