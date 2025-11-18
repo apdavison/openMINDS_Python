@@ -5483,7 +5483,7 @@ UBERONParcellation.corticobulbar_and_corticospinal_tracts = UBERONParcellation(
 UBERONParcellation.corticobulbar_tract = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/corticobulbarTract",
     definition="Is a tract of brain. Is part of the white matter of telencephalon and the corticobulbar and corticospinal tracts. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022272) ('is_a' and 'relationship')]",
-    description="The corticobulbar (or corticonuclear) tract is a white matter pathway connecting the cerebral cortex to the brainstem. The term \ [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022272)]",
+    description="The corticobulbar (or corticonuclear) tract is a white matter pathway connecting the cerebral cortex to the brainstem. The term 'bulbar' refers to the brainstem, as bulb was a historical term meaning the area currently called the brainstem. The 'bulb' is an archaic term for the medulla oblongata. In clinical usage, it includes the pons as well. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0022272)]",
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0022272#corticobulbar-tract"),
     name="corticobulbar tract",
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0022272"),
@@ -9033,7 +9033,7 @@ UBERONParcellation.geniculate_placode = UBERONParcellation(
 UBERONParcellation.genu_of_corpus_callosum = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/genuOfCorpusCallosum",
     definition="Is a regional part of brain. Is part of the corpus callosum. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015599) ('is_a' and 'relationship')]",
-    description="Part of corpus callosum comprising the \ [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015599)]",
+    description="Part of corpus callosum comprising the kneelike anterior bend (adapted from Nolte, The Human Brain, 6th ed., 2009 pg 664) [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0015599)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0104608"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0015599#genu-of-corpus-callosum"),
     name="genu of corpus callosum",
@@ -17611,18 +17611,6 @@ UBERONParcellation.paraventricular_nucleus_of_thalamus = UBERONParcellation(
     preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001920"),
     synonyms=["nuclei paraventriculares thalami", "paraventricular gray", "paraventricular thalamic nucleus"],
 )
-UBERONParcellation.paraventricular_nucleus_of_the_hypothalamus = UBERONParcellation(
-    id="https://openminds.om-i.org/instances/UBERONParcellation/paraventricularNucleusOfTheHypothalamus",
-    definition="Is a hypothalamic nucleus. Is part of the periventricular zone of hypothalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001930) ('is_a' and 'relationship')]",
-    description="Nucleus in the anterior part of the hypothalamus. One of the magnocellular hypothalamic nuclei, an elongated plate of large, deeply staining cells located close to the third ventricle in the anterior hypothalamic area; major source of oxytocin and to a lesser extent, of antidiuretic hormone, neurohormones, which are carried to the neurohypophysis along the paraventriculohypophysial tract. [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0001930)]",
-    interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0108501"),
-    knowledge_space_link=IRI(
-        "https://knowledge-space.org/wiki/UBERON:0001930#paraventricular-nucleus-of-hypothalamus-1"
-    ),
-    name="paraventricular nucleus of the hypothalamus",
-    preferred_ontology_identifier=IRI("http://purl.obolibrary.org/obo/UBERON_0001930"),
-    synonyms=["Pa", "filiform nucleus", "paraventricular hypothalamic nucleus", "paraventricular nucleus"],
-)
 UBERONParcellation.paraventricular_nucleus_of_the_hypothalamus_descending_division = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/paraventricularNucleusOfTheHypothalamusDescendingDivision",
     definition="Is a regional part of brain. Is part of the paraventricular nucleus of hypothalamus. [auto-generated from properties of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0014602) ('is_a' and 'relationship')]",
@@ -24354,7 +24342,7 @@ UBERONParcellation.superior_corona_radiata = UBERONParcellation(
 UBERONParcellation.superior_frontal_gyrus = UBERONParcellation(
     id="https://openminds.om-i.org/instances/UBERONParcellation/superiorFrontalGyrus",
     definition="Is a frontal gyrus. [auto-generated from 'is_a' property of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002661)]",
-    description="Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the superior frontal sulcus whereas the caudal boundary is the midpoint of the paracentral sulcus on the \ [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002661)]",
+    description="Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the superior frontal sulcus whereas the caudal boundary is the midpoint of the paracentral sulcus on the inflated surface. The medial and lateral boundaries are the medial aspect of the frontal lobe and the superior frontal sulcus respectively (Christine Fennema-Notestine). [definition of the [UBERON ontology term](http://purl.obolibrary.org/obo/UBERON_0002661)]",
     interlex_identifier=IRI("http://uri.interlex.org/base/ilx_0111304"),
     knowledge_space_link=IRI("https://knowledge-space.org/wiki/UBERON:0002661#superior-frontal-gyrus-1"),
     name="superior frontal gyrus",
