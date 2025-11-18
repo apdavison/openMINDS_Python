@@ -5,6 +5,7 @@ create a collection of openMINDS metadata nodes.
 The collection can be saved to and loaded from disk, in JSON-LD format.
 """
 
+from glob import glob
 import json
 import os
 from .registry import lookup_type
@@ -69,7 +70,7 @@ class Collection:
         sorted_nodes = dict(sorted(self.nodes.items()))
         self.nodes = sorted_nodes
 
-    def save(self, path, individual_files=False, include_empty_properties=False):
+    def save(self, path, individual_files=False, include_empty_properties=False, group_by_schema=False):
         """
         Save the node collection to disk in JSON-LD format.
 
@@ -78,10 +79,18 @@ class Collection:
 
         path (str):
             either a file or a directory into which the metadata will be written.
+            It is recommended to use the extension ".jsonld".
         individual_files (bool):
             if False (default), save the entire collection into a single file.
             if True, `path` must be a directory, and each node is saved into a
             separate file within that directory.
+        include_empty_properties (bool):
+            if False (default), do not include properties with value None.
+            if True, include all properties.
+        group_by_schema (bool):
+            Only applies if `individual_files` is True.
+            If False (default), save all files in a single directory.
+            If True, save into subdirectories according to the schema name.
 
         Returns
         -------
@@ -136,7 +145,12 @@ class Collection:
                 else:
                     assert node.id.startswith("_:")
                     file_identifier = node.id[2:]
-                file_path = os.path.join(path, f"{file_identifier}.jsonld")
+                if group_by_schema:
+                    dir_path = os.path.join(path, node.__class__.__name__)
+                    os.makedirs(dir_path, exist_ok=True)
+                    file_path = os.path.join(dir_path, f"{file_identifier}.jsonld")
+                else:
+                    file_path = os.path.join(path, f"{file_identifier}.jsonld")
                 with open(file_path, "w") as fp:
                     data = node.to_jsonld(embed_linked_nodes=False, include_empty_properties=include_empty_properties)
                     json.dump(data, fp, indent=2)
@@ -149,9 +163,9 @@ class Collection:
 
         `*paths` may contain either:
 
-        1) a single directory, in which case
-        all JSON-LD files all the top level of this directory will be loaded
-        (but without descending into subdirectories)
+        1) a single directory, in which case all JSON-LD files in this directory
+        and any non-hidden subdirectories will be loaded
+        (where hidden subdirectories are those whose name starts with ".").
 
         2) one or more JSON-LD files, which will all be loaded.
 
@@ -160,11 +174,9 @@ class Collection:
         """
         if len(paths) == 1 and os.path.isdir(paths[0]):
             data_dir = paths[0]
-            json_paths = [
-                os.path.join(data_dir, item)
-                for item in os.listdir(data_dir)
-                if os.path.splitext(item)[1] in (".json", ".jsonld")
-            ]
+            json_paths = glob(f"{data_dir}/**/*.jsonld", recursive=True) + glob(
+                f"{data_dir}/**/*.json", recursive=True
+            )
         else:
             json_paths = paths
 
