@@ -284,6 +284,7 @@ class Link:
             "@id": self.identifier
         }
 
+
 class IRI:
     """
     Representation of an International Resource Identifier
