@@ -120,7 +120,7 @@ for version, module_list in openminds_modules.items():
 
 env = Environment(loader=FileSystemLoader(os.path.dirname(os.path.realpath(__file__))), autoescape=select_autoescape())
 context = {
-    "version": "0.3.1",
+    "version": "0.4.0",
 }
 if args.branch == "development":
     context["version"] += ".dev"

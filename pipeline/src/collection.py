@@ -5,7 +5,9 @@ create a collection of openMINDS metadata nodes.
 The collection can be saved to and loaded from disk, in JSON-LD format.
 """
 
+from collections import Counter
 from glob import glob
+from importlib import import_module
 import json
 import os
 from .registry import lookup_type
@@ -69,6 +71,30 @@ class Collection:
     def _sort_nodes_by_id(self):
         sorted_nodes = dict(sorted(self.nodes.items()))
         self.nodes = sorted_nodes
+
+    def generate_ids(self, id_generator):
+        """
+        Generate an IRI id for all nodes in the graph that do not possess one.
+
+        Args
+        ----
+
+        id_generator (function):
+            a function that takes the node as an argument, and returns a unique IRI
+        """
+        for node_id in list(self.nodes.keys()):
+            if node_id.startswith("_:"):
+                node = self.nodes.pop(node_id)
+                node.id = id_generator(node)
+                self.nodes[node.id] = node
+
+    @property
+    def complete(self):
+        """Do all nodes have an IRI?"""
+        for node_id in self.nodes:
+            if node_id.startswith("_:"):
+                return False
+        return True
 
     def save(self, path, individual_files=False, include_empty_properties=False, group_by_schema=False):
         """
@@ -171,8 +197,18 @@ class Collection:
         2) one or more JSON-LD files, which will all be loaded.
 
         By default, openMINDS v4 will be used.
-        If the JSON-LD files use a different openMINDS version, specify it with the `version` argument.
+        If the JSON-LD files use a different openMINDS version, specify it
+        with the `version` argument, e.g.::
+
+            import openminds.latest
+
+            c = Collection()
+            c.load("/path/to/my/metadata.jsonld", version="latest")
+
         """
+
+        import_module(f"openminds.{version}")
+
         if len(paths) == 1 and os.path.isdir(paths[0]):
             data_dir = paths[0]
             json_paths = (
@@ -199,7 +235,7 @@ class Collection:
                     self.add(node)
             else:
                 if "@type" in data:
-                    cls = lookup_type(data["@type"])
+                    cls = lookup_type(data["@type"], version=version)
                     node = cls.from_jsonld(data)
                 else:
                     # allow links to metadata instances outside this collection
@@ -260,3 +296,12 @@ class Collection:
                     newly_sorted.append(node_id)
             unsorted -= set(newly_sorted)
         return [self.nodes[node_id] for node_id in sorted]
+
+    def statistics(self):
+        """
+        Return a counter containing the number of nodes of each type.
+        """
+        stats = Counter(
+            node.__class__.__name__ for node in self.nodes.values()
+        )
+        return stats
