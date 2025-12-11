@@ -20,6 +20,10 @@ parser = argparse.ArgumentParser(prog=sys.argv[0], description="Generate Python 
 parser.add_argument("--branch", help="The branch to build from ('main' or 'development')", default="main")
 args = parser.parse_args()
 
+pkg_name = "openminds"
+if arg.branch == "development":
+    pkg_name = "openminds-dev"
+
 print("*******************************************************************************")
 print(f"Triggering the generation of Python package for openMINDS, from the {args.branch} branch")
 print("*******************************************************************************")
@@ -93,12 +97,11 @@ for schema_version in schema_loader.get_schema_versions():
 
 print(f"Processed schemas ({perf_counter() - start_time} s)")
 
-
 # Step 5 - create additional files, e.g. __init__.py
 openminds_modules = defaultdict(set)
 for path in sorted(python_modules):
     classes = python_modules[path]
-    dir_path = ["target", "openminds"] + path.split(".")
+    dir_path = ["target", pkg_name] + path.split(".")
     openminds_modules[dir_path[2]].add(dir_path[3])
     init_file_path = os.path.join(*(dir_path + ["__init__.py"]))
     with open(init_file_path, "w") as fp:
@@ -114,35 +117,37 @@ for path in sorted(python_modules):
                 fp.write(f"from .{child_dir} import ({class_names})\n")
 
 for version, module_list in openminds_modules.items():
-    init_file_path = os.path.join("target", "openminds", version, "__init__.py")
+    init_file_path = os.path.join("target", pkg_name, version, "__init__.py")
     with open(init_file_path, "w") as fp:
         fp.write(f"from . import ({', '.join(sorted(module_list))})\n")
 
 env = Environment(loader=FileSystemLoader(os.path.dirname(os.path.realpath(__file__))), autoescape=select_autoescape())
 context = {
+    "pkg_name": pkg_name,
     "version": "0.4.1.dev.0",
+    "description": "Python library for interacting with published openMINDS metadata schemas"
 }
 if args.branch == "development":
-    context["version"] += ".dev"
+    context["description"] = "Python library for interacting with in-development openMINDS metadata schemas"
 
 with open("target/pyproject.toml", "w") as fp:
     contents = env.get_template("pipeline/src/pyproject_template.toml.txt").render(context)
     fp.write(contents)
-with open("target/openminds/__init__.py", "w") as fp:
+with open(f"target/{pkg_name}/__init__.py", "w") as fp:
     contents = env.get_template("pipeline/src/init_template.py.txt").render(context)
     fp.write(contents)
 
-shutil.copy("pipeline/src/base.py", "target/openminds/base.py")
-shutil.copy("pipeline/src/properties.py", "target/openminds/properties.py")
-shutil.copy("pipeline/src/registry.py", "target/openminds/registry.py")
-shutil.copy("pipeline/src/collection.py", "target/openminds/collection.py")
+shutil.copy("pipeline/src/base.py", f"target/{pkg_name}/base.py")
+shutil.copy("pipeline/src/properties.py", f"target/{pkg_name}/properties.py")
+shutil.copy("pipeline/src/registry.py", f"target/{pkg_name}/registry.py")
+shutil.copy("pipeline/src/collection.py", f"target/{pkg_name}/collection.py")
 shutil.copy("pipeline/src/README.md", "target/README.md")
 shutil.copy("./LICENSE", "target/LICENSE")
 shutil.copy("./CHANGELOG.md", "target/CHANGELOG.md")
 
 # If we have a PyPI release for the current version, complete the codemeta.json template
 try:
-    with urlopen(f"https://pypi.org/pypi/openminds/{context['version']}/json") as handle:
+    with urlopen(f"https://pypi.org/pypi/{pkg_name}/{context['version']}/json") as handle:
         pypi_metadata = json.loads(handle.read())
 except HTTPError:
     pypi_metadata = None

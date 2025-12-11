@@ -6,8 +6,8 @@
 
 {{preamble}}
 
-from openminds.base import {{ base_class }}
-from openminds.properties import Property
+from {{pkg_name}}.base import {{ base_class }}
+from {{pkg_name}}.properties import Property
 
 
 class {{ class_name }}({{ base_class }}):

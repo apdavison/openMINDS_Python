@@ -68,6 +68,7 @@ class PythonBuilder(object):
         root_path: str,
         instances: Optional[dict] = None,
         additional_methods: Optional[dict] = None,
+        pkg_name: str = "openminds"
     ):
         self.env = Environment(
             loader=FileSystemLoader(os.path.dirname(os.path.realpath(__file__))), autoescape=select_autoescape()
@@ -76,6 +77,7 @@ class PythonBuilder(object):
             schema_file_path[len(root_path) + 1 :].replace(".schema.omi.json", "").split("/")
         )
         self.version = _relative_path_without_extension[0]
+        self.pkg_name = pkg_name
         self.template_name = "src/module_template.py.txt"
         if self.version in ["v3.0", "v2.0", "v1.0"]:
             self.context_vocab = "https://openminds.ebrains.eu/vocab/"
@@ -122,7 +124,7 @@ class PythonBuilder(object):
                         openminds_module = generate_python_name(class_to_module_map[class_name])
                     else:
                         openminds_module = generate_python_name(openminds_module_from_type)
-                    types.append(f"openminds.{self._version_module}.{openminds_module}.{class_name}")
+                    types.append(f"{self.pkg_name}.{self._version_module}.{openminds_module}.{class_name}")
                 if len(types) == 1:
                     types = f'"{types[0]}"'
                 return types
@@ -134,7 +136,7 @@ class PythonBuilder(object):
                         openminds_module = generate_python_name(class_to_module_map[class_name])
                     else:
                         openminds_module = generate_python_name(openminds_module_from_type)
-                    types.append(f"openminds.{self._version_module}.{openminds_module}.{class_name}")
+                    types.append(f"{self.pkg_name}.{self._version_module}.{openminds_module}.{class_name}")
                 if len(types) == 1:
                     types = f'"{types[0]}"'
                 return types
@@ -214,6 +216,7 @@ class PythonBuilder(object):
                 if property["name"] in instance:
                     instance[pythonic_name] = instance.pop(property["name"])
         self.context = {
+            "pkg_name": self.pkg_name,
             "docstring": self._schema_payload.get("description", "<description not available>"),
             "base_class": base_class,
             "preamble": "",  # default value, may be updated below
@@ -233,7 +236,7 @@ class PythonBuilder(object):
             "date": "from datetime import date",
             "datetime": "from datetime import datetime",
             "time": "from datetime import time",
-            "IRI": "from openminds.base import IRI",
+            "IRI": f"from {pkg_name}.base import IRI",
             "[datetime, time]": "from datetime import datetime, time",
             "Real": "from numbers import Real",
         }
@@ -254,7 +257,7 @@ class PythonBuilder(object):
                 self.context["preamble"] = "\n".join(sorted(extra_imports))
 
     def build(self, embedded=None, class_to_module_map=None):
-        target_file_path = os.path.join("target", "openminds", f"{self._target_file_without_extension()}.py")
+        target_file_path = os.path.join("target", self.pkg_name, f"{self._target_file_without_extension()}.py")
         os.makedirs(os.path.dirname(target_file_path), exist_ok=True)
 
         self.translate(embedded=embedded, class_to_module_map=class_to_module_map)
