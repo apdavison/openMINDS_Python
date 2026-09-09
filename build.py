@@ -154,7 +154,7 @@ for version, module_list in openminds_modules.items():
         fp.write(f"from . import ({', '.join(sorted(module_list))})\n")
 
 context = {
-    "version": "0.6.0",
+    "version": "0.6.1",
 }
 
 with open("target/pyproject.toml", "w") as fp:
