@@ -34,7 +34,10 @@ jobs:
         pip install pytest pytest-cov
         pip install ./target
         if [ "${{ matrix.python-version }}" = "3.14" ]; then
-          pytest -v --cov=openminds --cov-report term --cov-report lcov pipeline/tests
+          # Put the in-tree build first on the path, so that coverage is recorded
+          # against target/openminds rather than the copy in site-packages, whose
+          # path changes with every Python patch release.
+          PYTHONPATH=target pytest -v --cov=openminds --cov-report term --cov-report lcov pipeline/tests
         else
           pytest -v pipeline/tests
         fi
@@ -46,3 +49,4 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         file: coverage.lcov
         parallel: false
+        fail-on-error: false
