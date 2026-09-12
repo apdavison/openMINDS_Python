@@ -763,3 +763,32 @@ def test_pr0103_by_name_ignore_accents(om):
     for query, ignore_accents, expected_name in special_letter_cases:
         match = SovereignState.by_name(query, ignore_accents=ignore_accents)
         assert (match.name if match else None) == expected_name
+
+
+@pytest.mark.parametrize("om", [openminds.latest])
+def test_pr0105_by_name_ignore_separators(om):
+    # https://github.com/openMetadataInitiative/openMINDS_Python/pull/105
+    # by_name(..., ignore_separators=True) treats hyphens and underscores as spaces,
+    # and collapses repeated/mixed whitespace, before matching
+    Technique = om.controlled_terms.Technique
+
+    # (query, ignore_separators, expected match name or None)
+    cases = [
+        ("two-photon fluorescence microscopy", False, "two-photon fluorescence microscopy"),   # exact
+        ("two photon fluorescence microscopy", True, "two-photon fluorescence microscopy"),
+        ("two_photon_fluorescence_microscopy", True, "two-photon fluorescence microscopy"),
+        ("two   photon  fluorescence-microscopy", True, "two-photon fluorescence microscopy"),
+        ("two photon fluorescence microscopy", False, None),       # defaults: hyphen still matters
+        ("CLARITY/TDE", False, "CLARITY/TDE"),  # exact
+        ("CLARITY TDE", True, "CLARITY/TDE"),
+        ("CLARITY-TDE", True, "CLARITY/TDE"),
+        ("CLARITY TDE", False, None),           # defaults: slash still matters
+    ]
+    for query, ignore_separators, expected_name in cases:
+        match = Technique.by_name(query, ignore_separators=ignore_separators)
+        assert (match.name if match else None) == expected_name
+
+    # ignore_separators also applies to match="within"
+    assert Technique.by_name("CLARITY-TDE method", match="within") is None
+    match = Technique.by_name("CLARITY-TDE method", match="within", ignore_separators=True)
+    assert match.name == "CLARITY/TDE"
